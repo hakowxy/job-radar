@@ -1,0 +1,1917 @@
+[
+{
+"title": "Business Intelligence & AI Consultant als Werkstudent",
+"company": "twomynds",
+"city": "Cologne",
+"region": "Nordrhein-Westfalen",
+"posted": "2026-10-20",
+"remote": false,
+"sources": [
+"arbeitnow"
+],
+"links": {
+"arbeitnow": "https://www.arbeitnow.com/jobs/companies/twomynds/business-intelligence-ai-consultant-als-werkstudent-cologne-304113"
+},
+"categories": [
+"bi"
+],
+"level": "student",
+"id": "b6f0f42ff847",
+"first_seen": "2026-10-20",
+"last_seen": "2026-10-20"
+},
+{
+"title": "Signal Processing & Data Engineer",
+"company": "Limatica",
+"city": "Chemnitz",
+"region": "Sachsen",
+"posted": "2026-10-20",
+"remote": false,
+"sources": [
+"arbeitnow"
+],
+"links": {
+"arbeitnow": "https://www.arbeitnow.com/jobs/companies/limatica/signal-processing-data-engineer-chemnitz-95163"
+},
+"categories": [
+"analytics_eng"
+],
+"level": "regular",
+"id": "d18df716f26b",
+"first_seen": "2026-10-20",
+"last_seen": "2026-10-20"
+},
+{
+"title": "Working Student - Data Engineer & Software Developer (Research Analytics)",
+"company": "Agilerobotsse",
+"city": "Munich, Bavaria",
+"region": "Bayern",
+"posted": "2026-10-20",
+"remote": false,
+"sources": [
+"arbeitnow"
+],
+"links": {
+"arbeitnow": "https://www.arbeitnow.com/jobs/companies/agilerobotsse/working-student-data-engineer-software-developer-research-analytics-munich-bavaria-406891"
+},
+"categories": [
+"analytics_eng"
+],
+"level": "student",
+"id": "66b3910e2e62",
+"first_seen": "2026-10-20",
+"last_seen": "2026-10-20"
+},
+{
+"title": "Senior Analytics Engineer - UK (Remote)",
+"company": "Immersivelabs",
+"city": "United Kingdom",
+"region": "",
+"posted": "2026-10-20",
+"remote": true,
+"sources": [
+"arbeitnow"
+],
+"links": {
+"arbeitnow": "https://www.arbeitnow.co.uk/jobs/companies/immersivelabs/senior-analytics-engineer-uk-remote-united-kingdom-303139"
+},
+"categories": [
+"analytics_eng"
+],
+"level": "senior",
+"id": "75989117e883",
+"first_seen": "2026-10-20",
+"last_seen": "2026-10-20"
+},
+{
+"title": "Data Engineer",
+"company": "ocadogroup",
+"city": "Hatfield",
+"region": "",
+"posted": "2026-10-20",
+"remote": false,
+"sources": [
+"arbeitnow"
+],
+"links": {
+"arbeitnow": "https://www.arbeitnow.co.uk/jobs/companies/ocadogroup/data-engineer-hatfield-359118"
+},
+"categories": [
+"analytics_eng"
+],
+"level": "regular",
+"id": "39e1fa873fb7",
+"first_seen": "2026-10-20",
+"last_seen": "2026-10-20"
+},
+{
+"title": "Data Analyst H/F - CDI (Lille)",
+"company": "wppmedia",
+"city": "Lille",
+"region": "",
+"posted": "2026-10-20",
+"remote": false,
+"sources": [
+"arbeitnow"
+],
+"links": {
+"arbeitnow": "https://www.arbeitnow.fr/jobs/companies/wppmedia/data-analyst-h-f-cdi-lille-6770"
+},
+"categories": [
+"data_analyst"
+],
+"level": "regular",
+"id": "f4941d426088",
+"first_seen": "2026-10-20",
+"last_seen": "2026-10-20"
+},
+{
+"title": "Datenanalyst:in 80-100%",
+"company": "two.jobs",
+"city": "Solothurn",
+"region": "",
+"posted": "2026-10-20",
+"remote": false,
+"sources": [
+"arbeitnow"
+],
+"links": {
+"arbeitnow": "https://www.arbeitnow.ch/jobs/companies/twojobs/datenanalystin-80-100-solothurn-291535"
+},
+"categories": [
+"data_analyst"
+],
+"level": "regular",
+"id": "8b31eea5c7fc",
+"first_seen": "2026-10-20",
+"last_seen": "2026-10-20"
+},
+{
+"title": "Meewerk Stage Continuous Improvement (Power BI & Power Automate)",
+"company": "Heras B.V.",
+"city": "Oirschot, Noord-Brabant, Nederland",
+"region": "",
+"posted": "2026-10-20",
+"remote": false,
+"sources": [
+"arbeitnow"
+],
+"links": {
+"arbeitnow": "https://www.arbeitnow.nl/jobs/companies/heras-bv/meewerk-stage-continuous-improvement-power-bi-power-automate-oirschot-248223"
+},
+"categories": [
+"bi"
+],
+"level": "regular",
+"id": "2cd92edd5ae8",
+"first_seen": "2026-10-20",
+"last_seen": "2026-10-20"
+},
+{
+"title": "Data Engineer",
+"company": "Univé",
+"city": "Zwolle, Overijssel, Nederland",
+"region": "",
+"posted": "2026-10-20",
+"remote": false,
+"sources": [
+"arbeitnow"
+],
+"links": {
+"arbeitnow": "https://www.arbeitnow.nl/jobs/companies/unive/data-engineer-zwolle-82977"
+},
+"categories": [
+"analytics_eng"
+],
+"level": "regular",
+"id": "95f37651ee9b",
+"first_seen": "2026-10-20",
+"last_seen": "2026-10-20"
+},
+{
+"title": "Marketing Analyst",
+"company": "Pergolux",
+"city": "Berlin | Global Team",
+"region": "Berlin",
+"posted": "2026-10-20",
+"remote": false,
+"sources": [
+"arbeitnow"
+],
+"links": {
+"arbeitnow": "https://www.arbeitnow.com/jobs/companies/pergolux/marketing-analyst-berlin-103166"
+},
+"categories": [
+"data_analyst"
+],
+"level": "regular",
+"id": "fd3f53ccb0f9",
+"first_seen": "2026-10-20",
+"last_seen": "2026-10-20"
+},
+{
+"title": "Senior Analytics Engineer - EMEA",
+"company": "Seeq",
+"city": "France",
+"region": "",
+"posted": "2026-10-19",
+"remote": true,
+"sources": [
+"arbeitnow"
+],
+"links": {
+"arbeitnow": "https://www.arbeitnow.fr/jobs/companies/seeq/remote-senior-analytics-engineer-emea-france-234875"
+},
+"categories": [
+"analytics_eng"
+],
+"level": "senior",
+"id": "9d64048a3537",
+"first_seen": "2026-10-20",
+"last_seen": "2026-10-20"
+},
+{
+"title": "Stage - Data Engineer - ML (H/F)",
+"company": "Withings",
+"city": "Issy-les-Moulineaux, France",
+"region": "",
+"posted": "2026-10-19",
+"remote": false,
+"sources": [
+"arbeitnow"
+],
+"links": {
+"arbeitnow": "https://www.arbeitnow.fr/jobs/companies/withings/stage-data-engineer-ml-h-f-issy-les-moulineaux-335198"
+},
+"categories": [
+"analytics_eng"
+],
+"level": "regular",
+"id": "aa3de7e26767",
+"first_seen": "2026-10-20",
+"last_seen": "2026-10-20"
+},
+{
+"title": "Data Analyst FlixTrain Operations",
+"company": "Flix",
+"city": "Berlin, Germany",
+"region": "Berlin",
+"posted": "2026-10-19",
+"remote": false,
+"sources": [
+"arbeitnow"
+],
+"links": {
+"arbeitnow": "https://www.arbeitnow.com/jobs/companies/flix/data-analyst-flixtrain-operations-berlin-54675"
+},
+"categories": [
+"data_analyst"
+],
+"level": "regular",
+"id": "aed502d8ebab",
+"first_seen": "2026-10-20",
+"last_seen": "2026-10-20"
+},
+{
+"title": "Junior BI Consultant Planung (100%) , CH, hybrid",
+"company": "HICO Group AG",
+"city": "Ermatingen",
+"region": "",
+"posted": "2026-10-19",
+"remote": true,
+"sources": [
+"arbeitnow"
+],
+"links": {
+"arbeitnow": "https://www.arbeitnow.ch/jobs/companies/hico-group-ag/junior-bi-consultant-planung-100-ch-hybrid-ermatingen-452462"
+},
+"categories": [
+"bi"
+],
+"level": "junior",
+"id": "dd1f10e06787",
+"first_seen": "2026-10-20",
+"last_seen": "2026-10-20"
+},
+{
+"title": "(Senior) BI Consultant Analytics, Qlik (100%) , CH, hybrid",
+"company": "HICO Group AG",
+"city": "Zürich",
+"region": "",
+"posted": "2026-10-19",
+"remote": true,
+"sources": [
+"arbeitnow"
+],
+"links": {
+"arbeitnow": "https://www.arbeitnow.ch/jobs/companies/hico-group-ag/senior-bi-consultant-analytics-qlik-100-ch-hybrid-zurich-499692"
+},
+"categories": [
+"bi"
+],
+"level": "senior",
+"id": "8a7fa84d6b7f",
+"first_seen": "2026-10-20",
+"last_seen": "2026-10-20"
+},
+{
+"title": "Data Engineer",
+"company": "Prijsvrij Vakanties",
+"city": "'s-Hertogenbosch, Noord-Brabant, Nederland",
+"region": "",
+"posted": "2026-10-18",
+"remote": false,
+"sources": [
+"arbeitnow"
+],
+"links": {
+"arbeitnow": "https://www.arbeitnow.nl/jobs/companies/prijsvrij-vakanties/data-engineer-s-hertogenbosch-132377"
+},
+"categories": [
+"analytics_eng"
+],
+"level": "regular",
+"id": "12adc96d6c6a",
+"first_seen": "2026-10-20",
+"last_seen": "2026-10-20"
+},
+{
+"title": "Senior Data Engineer",
+"company": "Agicap",
+"city": "Lyon 🇫🇷",
+"region": "",
+"posted": "2026-10-18",
+"remote": false,
+"sources": [
+"arbeitnow"
+],
+"links": {
+"arbeitnow": "https://www.arbeitnow.fr/jobs/companies/agicap/senior-data-engineer-lyon-16891"
+},
+"categories": [
+"analytics_eng"
+],
+"level": "senior",
+"id": "f6a505b04800",
+"first_seen": "2026-10-20",
+"last_seen": "2026-10-20"
+},
+{
+"title": "Senior Data Engineer - Real time analytics",
+"company": "Aircall",
+"city": "France Remote",
+"region": "",
+"posted": "2026-10-18",
+"remote": false,
+"sources": [
+"arbeitnow"
+],
+"links": {
+"arbeitnow": "https://www.arbeitnow.fr/jobs/companies/aircall/remote-senior-data-engineer-real-time-analytics-101618"
+},
+"categories": [
+"analytics_eng"
+],
+"level": "senior",
+"id": "e04309ea3742",
+"first_seen": "2026-10-20",
+"last_seen": "2026-10-20"
+},
+{
+"title": "Senior Data Engineer - Real time analytics",
+"company": "Aircall",
+"city": "Paris Office",
+"region": "",
+"posted": "2026-10-18",
+"remote": false,
+"sources": [
+"arbeitnow"
+],
+"links": {
+"arbeitnow": "https://www.arbeitnow.fr/jobs/companies/aircall/senior-data-engineer-real-time-analytics-paris-office-42594"
+},
+"categories": [
+"analytics_eng"
+],
+"level": "senior",
+"id": "3b9015b40166",
+"first_seen": "2026-10-20",
+"last_seen": "2026-10-20"
+},
+{
+"title": "Senior Data Engineer - Real time analytics",
+"company": "Aircall",
+"city": "London Office",
+"region": "",
+"posted": "2026-10-18",
+"remote": false,
+"sources": [
+"arbeitnow"
+],
+"links": {
+"arbeitnow": "https://www.arbeitnow.co.uk/jobs/companies/aircall/senior-data-engineer-real-time-analytics-london-office-162913"
+},
+"categories": [
+"analytics_eng"
+],
+"level": "senior",
+"id": "e93e1aea24c4",
+"first_seen": "2026-10-20",
+"last_seen": "2026-10-20"
+},
+{
+"title": "SAP BI Consultant Analytics & AI",
+"company": "Amstad Personal",
+"city": "Zürich",
+"region": "",
+"posted": "2026-10-18",
+"remote": false,
+"sources": [
+"arbeitnow"
+],
+"links": {
+"arbeitnow": "https://www.arbeitnow.ch/jobs/companies/amstad-personal/sap-bi-consultant-analytics-ai-zurich-474629"
+},
+"categories": [
+"bi"
+],
+"level": "regular",
+"id": "869d2b060528",
+"first_seen": "2026-10-20",
+"last_seen": "2026-10-20"
+},
+{
+"title": "Senior Spark Data Engineer / Big Data Engineer 50-60% (Ref.Nr.: 47975)",
+"company": "Wavestone Germany AG",
+"city": "Zürich",
+"region": "",
+"posted": "2026-10-18",
+"remote": false,
+"sources": [
+"arbeitnow"
+],
+"links": {
+"arbeitnow": "https://www.arbeitnow.ch/jobs/companies/wavestone-germany-ag/senior-spark-data-engineer-big-data-engineer-50-60-refnr-47975-zurich-472287"
+},
+"categories": [
+"analytics_eng"
+],
+"level": "senior",
+"id": "c722553ce5b7",
+"first_seen": "2026-10-20",
+"last_seen": "2026-10-20"
+},
+{
+"title": "DATA ANALYST",
+"company": "NUTRISENS",
+"city": "Chaponost",
+"region": "",
+"posted": "2026-10-18",
+"remote": false,
+"sources": [
+"arbeitnow"
+],
+"links": {
+"arbeitnow": "https://www.arbeitnow.fr/jobs/companies/nutrisens/data-analyst-chaponost-127983"
+},
+"categories": [
+"data_analyst"
+],
+"level": "regular",
+"id": "2b95b8dcbae8",
+"first_seen": "2026-10-20",
+"last_seen": "2026-10-20"
+},
+{
+"title": "Data Analyst",
+"company": "Chargeviz",
+"city": "Paris",
+"region": "",
+"posted": "2026-10-18",
+"remote": false,
+"sources": [
+"arbeitnow"
+],
+"links": {
+"arbeitnow": "https://www.arbeitnow.fr/jobs/companies/chargeviz/data-analyst-paris-67837"
+},
+"categories": [
+"data_analyst"
+],
+"level": "regular",
+"id": "96e4d9f5b891",
+"first_seen": "2026-10-20",
+"last_seen": "2026-10-20"
+},
+{
+"title": "SAP S/4HANA Group Reporting Experte / SEM-BCS – Exklusivmandat",
+"company": "Vangard AG",
+"city": "Zürich",
+"region": "",
+"posted": "2026-10-18",
+"remote": false,
+"sources": [
+"arbeitnow"
+],
+"links": {
+"arbeitnow": "https://www.arbeitnow.ch/jobs/companies/vangard-ag/sap-s-4hana-group-reporting-experte-sem-bcs-exklusivmandat-zurich-56683"
+},
+"categories": [
+"bi"
+],
+"level": "regular",
+"id": "25f28ab32d8f",
+"first_seen": "2026-10-20",
+"last_seen": "2026-10-20"
+},
+{
+"title": "Flight Test Instrumentation & Data Engineer",
+"company": "Dufour Aerospace",
+"city": "Dübendorf",
+"region": "",
+"posted": "2026-10-18",
+"remote": false,
+"sources": [
+"arbeitnow"
+],
+"links": {
+"arbeitnow": "https://www.arbeitnow.ch/jobs/companies/dufour-aerospace/flight-test-instrumentation-data-engineer-dubendorf-90130"
+},
+"categories": [
+"analytics_eng"
+],
+"level": "regular",
+"id": "c4d407f7dfde",
+"first_seen": "2026-10-20",
+"last_seen": "2026-10-20"
+},
+{
+"title": "(Senior) Data Engineer - Tracking Infrastructure",
+"company": "Statista",
+"city": "Hamburg or Berlin",
+"region": "Hamburg",
+"posted": "2026-10-18",
+"remote": false,
+"sources": [
+"arbeitnow"
+],
+"links": {
+"arbeitnow": "https://www.arbeitnow.com/jobs/companies/statista/senior-data-engineer-tracking-infrastructure-hamburg-or-berlin-24021"
+},
+"categories": [
+"analytics_eng"
+],
+"level": "senior",
+"id": "553e4adc84f1",
+"first_seen": "2026-10-20",
+"last_seen": "2026-10-20"
+},
+{
+"title": "Analytics Engineer – BI Platform",
+"company": "Deliveroo",
+"city": "London",
+"region": "",
+"posted": "2026-10-18",
+"remote": false,
+"sources": [
+"arbeitnow"
+],
+"links": {
+"arbeitnow": "https://www.arbeitnow.co.uk/jobs/companies/deliveroo/analytics-engineer-bi-platform-london-395190"
+},
+"categories": [
+"analytics_eng",
+"bi"
+],
+"level": "regular",
+"id": "a212712a11cf",
+"first_seen": "2026-10-20",
+"last_seen": "2026-10-20"
+},
+{
+"title": "Développeur BI SAP BusinessObjects H/F",
+"company": "S-quaar",
+"city": "Brest",
+"region": "",
+"posted": "2026-10-18",
+"remote": false,
+"sources": [
+"arbeitnow"
+],
+"links": {
+"arbeitnow": "https://www.arbeitnow.fr/jobs/companies/s-quaar/developpeur-bi-sap-businessobjects-h-f-brest-265711"
+},
+"categories": [
+"bi"
+],
+"level": "regular",
+"id": "e35678eea99a",
+"first_seen": "2026-10-20",
+"last_seen": "2026-10-20"
+},
+{
+"title": "(Junior) Data & BI Specialist - Fokus Automatisierung",
+"company": "p4b",
+"city": "Bern",
+"region": "",
+"posted": "2026-10-18",
+"remote": false,
+"sources": [
+"arbeitnow"
+],
+"links": {
+"arbeitnow": "https://www.arbeitnow.ch/jobs/companies/p4b/junior-data-bi-specialist-fokus-automatisierung-bern-254560"
+},
+"categories": [
+"bi"
+],
+"level": "junior",
+"id": "c4e214c71e27",
+"first_seen": "2026-10-20",
+"last_seen": "2026-10-20"
+},
+{
+"title": "Data Engineer - AI Pipelines & DataOps",
+"company": "Intersnack IT KG",
+"city": "Düsseldorf, Nordrhein-Westfalen, Germany",
+"region": "Nordrhein-Westfalen",
+"posted": "2026-10-18",
+"remote": false,
+"sources": [
+"arbeitnow"
+],
+"links": {
+"arbeitnow": "https://www.arbeitnow.com/jobs/companies/intersnack-it-kg/data-engineer-ai-pipelines-dataops-dusseldorf-8107"
+},
+"categories": [
+"analytics_eng"
+],
+"level": "regular",
+"id": "6bbd4fe85754",
+"first_seen": "2026-10-20",
+"last_seen": "2026-10-20"
+},
+{
+"title": "FinOps Data Analyst & Consultant",
+"company": "Cortex Reply",
+"city": "Munich, Berlin, Germany",
+"region": "Bayern",
+"posted": "2026-10-18",
+"remote": false,
+"sources": [
+"arbeitnow"
+],
+"links": {
+"arbeitnow": "https://www.arbeitnow.com/jobs/companies/cortex-reply/finops-data-analyst-consultant-munich-189989"
+},
+"categories": [
+"data_analyst"
+],
+"level": "regular",
+"id": "fb78adcdd936",
+"first_seen": "2026-10-20",
+"last_seen": "2026-10-20"
+},
+{
+"title": "Mitarbeiter SQL Server Administrator / Datenanalyst",
+"company": "Hall Tabakwaren e.K",
+"city": "Hilden, Nordrhein-Westfalen, Deutschland",
+"region": "",
+"posted": "2026-10-18",
+"remote": false,
+"sources": [
+"arbeitnow"
+],
+"links": {
+"arbeitnow": "https://www.arbeitnow.com/jobs/companies/hall-tabakwaren-ek/mitarbeiter-sql-server-administrator-datenanalyst-hilden-188168"
+},
+"categories": [
+"data_analyst"
+],
+"level": "regular",
+"id": "54c9fd523f2a",
+"first_seen": "2026-10-20",
+"last_seen": "2026-10-20"
+},
+{
+"title": "(Senior) Data Analyst",
+"company": "Quantum-Systems GmbH",
+"city": "Gilching, Bayern, Germany",
+"region": "",
+"posted": "2026-10-18",
+"remote": false,
+"sources": [
+"arbeitnow"
+],
+"links": {
+"arbeitnow": "https://www.arbeitnow.com/jobs/companies/quantum-systems-gmbh/senior-data-analyst-gilching-96906"
+},
+"categories": [
+"data_analyst"
+],
+"level": "senior",
+"id": "ee47c44170dc",
+"first_seen": "2026-10-20",
+"last_seen": "2026-10-20"
+},
+{
+"title": "Data Engineer",
+"company": "Zoi",
+"city": "Berlin, Berlin, Germany",
+"region": "Berlin",
+"posted": "2026-10-18",
+"remote": false,
+"sources": [
+"arbeitnow"
+],
+"links": {
+"arbeitnow": "https://www.arbeitnow.com/jobs/companies/zoi/data-engineer-berlin-453355"
+},
+"categories": [
+"analytics_eng"
+],
+"level": "regular",
+"id": "b2bf9f38ff23",
+"first_seen": "2026-10-20",
+"last_seen": "2026-10-20"
+},
+{
+"title": "Senior Oracle Data Engineer",
+"company": "virtual7 GmbH",
+"city": "Homeoffice",
+"region": "",
+"posted": "2026-10-18",
+"remote": true,
+"sources": [
+"arbeitnow"
+],
+"links": {
+"arbeitnow": "https://www.arbeitnow.com/jobs/companies/virtual7-gmbh/remote-senior-oracle-data-engineer-karlsruhe-352477"
+},
+"categories": [
+"analytics_eng"
+],
+"level": "senior",
+"id": "e162f0e99425",
+"first_seen": "2026-10-20",
+"last_seen": "2026-10-20"
+},
+{
+"title": "(Senior) Oracle Data Warehouse / BI-Developer",
+"company": "virtual7 GmbH",
+"city": "Karlsruhe, Baden-Württemberg, Deutschland",
+"region": "Baden-Württemberg",
+"posted": "2026-10-18",
+"remote": false,
+"sources": [
+"arbeitnow"
+],
+"links": {
+"arbeitnow": "https://www.arbeitnow.com/jobs/companies/virtual7-gmbh/senior-oracle-data-warehouse-bi-developer-karlsruhe-340141"
+},
+"categories": [
+"bi"
+],
+"level": "senior",
+"id": "538ab8e57707",
+"first_seen": "2026-10-20",
+"last_seen": "2026-10-20"
+},
+{
+"title": "Data Engineer Automotive",
+"company": "Hiconium AG",
+"city": "Zürich",
+"region": "",
+"posted": "2026-10-18",
+"remote": false,
+"sources": [
+"arbeitnow"
+],
+"links": {
+"arbeitnow": "https://www.arbeitnow.ch/jobs/companies/hiconium-ag/data-engineer-automotive-zurich-5960"
+},
+"categories": [
+"analytics_eng"
+],
+"level": "regular",
+"id": "8709c0731537",
+"first_seen": "2026-10-20",
+"last_seen": "2026-10-20"
+},
+{
+"title": "Business Controller Data & Business Intelligence",
+"company": "p4b",
+"city": "Bern",
+"region": "",
+"posted": "2026-10-18",
+"remote": false,
+"sources": [
+"arbeitnow"
+],
+"links": {
+"arbeitnow": "https://www.arbeitnow.ch/jobs/companies/p4b/business-controller-data-business-intelligence-bern-141402"
+},
+"categories": [
+"bi"
+],
+"level": "regular",
+"id": "dc271e646fe2",
+"first_seen": "2026-10-20",
+"last_seen": "2026-10-20"
+},
+{
+"title": "SAP BI / SAC Consultant",
+"company": "Pertemps ERP",
+"city": "Bern",
+"region": "",
+"posted": "2026-10-18",
+"remote": false,
+"sources": [
+"arbeitnow"
+],
+"links": {
+"arbeitnow": "https://www.arbeitnow.ch/jobs/companies/pertemps-erp/sap-bi-sac-consultant-bern-121591"
+},
+"categories": [
+"bi"
+],
+"level": "regular",
+"id": "3c8707122596",
+"first_seen": "2026-10-20",
+"last_seen": "2026-10-20"
+},
+{
+"title": "Senior ETL / Data Warehouse Engineer - 100%",
+"company": "Callista Group AG",
+"city": "Bern, Berne, Switzerland",
+"region": "",
+"posted": "2026-10-18",
+"remote": false,
+"sources": [
+"arbeitnow"
+],
+"links": {
+"arbeitnow": "https://www.arbeitnow.ch/jobs/companies/callista-group-ag/senior-etl-data-warehouse-engineer-100-bern-144863"
+},
+"categories": [
+"analytics_eng"
+],
+"level": "senior",
+"id": "b393077edee3",
+"first_seen": "2026-10-20",
+"last_seen": "2026-10-20"
+},
+{
+"title": "Data Engineer – Python / Airflow / Azure Databricks",
+"company": "PROSTAFF Schweiz GmbH",
+"city": "Basel",
+"region": "",
+"posted": "2026-10-18",
+"remote": false,
+"sources": [
+"arbeitnow"
+],
+"links": {
+"arbeitnow": "https://www.arbeitnow.ch/jobs/companies/prostaff-schweiz-gmbh/data-engineer-python-airflow-azure-databricks-basel-444007"
+},
+"categories": [
+"analytics_eng"
+],
+"level": "regular",
+"id": "8d473ecc4c5e",
+"first_seen": "2026-10-20",
+"last_seen": "2026-10-20"
+},
+{
+"title": "DATA ANALYST (H/F)",
+"company": "Lobellia Conseil",
+"city": "Montrouge",
+"region": "",
+"posted": "2026-10-18",
+"remote": false,
+"sources": [
+"arbeitnow"
+],
+"links": {
+"arbeitnow": "https://www.arbeitnow.fr/jobs/companies/lobellia-conseil/data-analyst-h-f-montrouge-268655"
+},
+"categories": [
+"data_analyst"
+],
+"level": "regular",
+"id": "66677ed8719d",
+"first_seen": "2026-10-20",
+"last_seen": "2026-10-20"
+},
+{
+"title": "IT Specialist als Data & Integration Manager Cloud & BI",
+"company": "p4b",
+"city": "Solothurn",
+"region": "",
+"posted": "2026-10-18",
+"remote": false,
+"sources": [
+"arbeitnow"
+],
+"links": {
+"arbeitnow": "https://www.arbeitnow.ch/jobs/companies/p4b/it-specialist-als-data-integration-manager-cloud-bi-solothurn-370329"
+},
+"categories": [
+"bi"
+],
+"level": "senior",
+"id": "9feab51179d3",
+"first_seen": "2026-10-20",
+"last_seen": "2026-10-20"
+},
+{
+"title": "Energy Data Engineer & Developer",
+"company": "enshift AG",
+"city": "Baar",
+"region": "",
+"posted": "2026-10-18",
+"remote": false,
+"sources": [
+"arbeitnow"
+],
+"links": {
+"arbeitnow": "https://www.arbeitnow.ch/jobs/companies/enshift-ag/energy-data-engineer-developer-baar-484119"
+},
+"categories": [
+"analytics_eng",
+"energy"
+],
+"level": "regular",
+"id": "cfe287e20b59",
+"first_seen": "2026-10-20",
+"last_seen": "2026-10-20"
+},
+{
+"title": "Analytics Engineer",
+"company": "Pleo",
+"city": "United Kingdom",
+"region": "",
+"posted": "2026-10-17",
+"remote": false,
+"sources": [
+"arbeitnow"
+],
+"links": {
+"arbeitnow": "https://www.arbeitnow.co.uk/jobs/companies/pleo/analytics-engineer-united-kingdom-438454"
+},
+"categories": [
+"analytics_eng"
+],
+"level": "regular",
+"id": "00028c9894b4",
+"first_seen": "2026-10-20",
+"last_seen": "2026-10-20"
+},
+{
+"title": "Data Analyst (Strategic Projects)",
+"company": "Lendable",
+"city": "London",
+"region": "",
+"posted": "2026-10-17",
+"remote": false,
+"sources": [
+"arbeitnow"
+],
+"links": {
+"arbeitnow": "https://www.arbeitnow.co.uk/jobs/companies/lendable/data-analyst-strategic-projects-london-15392"
+},
+"categories": [
+"data_analyst"
+],
+"level": "regular",
+"id": "19b3117d56d4",
+"first_seen": "2026-10-20",
+"last_seen": "2026-10-20"
+},
+{
+"title": "Senior Data Engineer",
+"company": "Xyz Reality",
+"city": "London Office",
+"region": "",
+"posted": "2026-10-17",
+"remote": false,
+"sources": [
+"arbeitnow"
+],
+"links": {
+"arbeitnow": "https://www.arbeitnow.co.uk/jobs/companies/xyz-reality/senior-data-engineer-london-213866"
+},
+"categories": [
+"analytics_eng"
+],
+"level": "senior",
+"id": "65bb3124a62f",
+"first_seen": "2026-10-20",
+"last_seen": "2026-10-20"
+},
+{
+"title": "Interim Senior BI Analyst",
+"company": "Shiftmove",
+"city": "Germany",
+"region": "",
+"posted": "2026-10-17",
+"remote": true,
+"sources": [
+"arbeitnow"
+],
+"links": {
+"arbeitnow": "https://www.arbeitnow.com/jobs/companies/shiftmove/remote-interim-senior-bi-analyst-all-genders-germany-169194"
+},
+"categories": [
+"bi"
+],
+"level": "senior",
+"id": "5db17a604147",
+"first_seen": "2026-10-20",
+"last_seen": "2026-10-20"
+},
+{
+"title": "Senior Data Engineer — Document & AI Pipelines",
+"company": "Tracium GmbH",
+"city": "Berlin",
+"region": "Berlin",
+"posted": "2026-10-17",
+"remote": true,
+"sources": [
+"arbeitnow"
+],
+"links": {
+"arbeitnow": "https://www.arbeitnow.com/jobs/companies/tracium-gmbh/senior-data-engineer-document-ai-pipelines-berlin-415387"
+},
+"categories": [
+"analytics_eng"
+],
+"level": "senior",
+"id": "5710c2f7c689",
+"first_seen": "2026-10-20",
+"last_seen": "2026-10-20"
+},
+{
+"title": "Senior Data Engineer",
+"company": "Wypoon",
+"city": "Amsterdam",
+"region": "",
+"posted": "2026-10-16",
+"remote": false,
+"sources": [
+"arbeitnow"
+],
+"links": {
+"arbeitnow": "https://www.arbeitnow.nl/jobs/companies/wypoon/senior-data-engineer-amsterdam-62897"
+},
+"categories": [
+"analytics_eng"
+],
+"level": "senior",
+"id": "a9de1fb6ef29",
+"first_seen": "2026-10-20",
+"last_seen": "2026-10-20"
+},
+{
+"title": "Data Engineer - Data Platform & Ontology",
+"company": "Statista",
+"city": "Hamburg or Berlin",
+"region": "Hamburg",
+"posted": "2026-10-16",
+"remote": false,
+"sources": [
+"arbeitnow"
+],
+"links": {
+"arbeitnow": "https://www.arbeitnow.com/jobs/companies/statista/data-engineer-data-platform-ontology-hamburg-or-berlin-119444"
+},
+"categories": [
+"analytics_eng"
+],
+"level": "regular",
+"id": "ddd1df01f9da",
+"first_seen": "2026-10-20",
+"last_seen": "2026-10-20"
+},
+{
+"title": "Senior Product Analyst",
+"company": "Good Hood GmbH / nebenan.de",
+"city": "Berlin",
+"region": "Berlin",
+"posted": "2026-10-16",
+"remote": false,
+"sources": [
+"arbeitnow"
+],
+"links": {
+"arbeitnow": "https://www.arbeitnow.com/jobs/companies/good-hood-gmbh-nebenande/senior-product-analyst-berlin-440565"
+},
+"categories": [
+"data_analyst"
+],
+"level": "senior",
+"id": "c89b46e3b381",
+"first_seen": "2026-10-20",
+"last_seen": "2026-10-20"
+},
+{
+"title": "Senior Product Data Analyst - Consumer Growth",
+"company": "SumUp",
+"city": "London, England, United Kingdom",
+"region": "",
+"posted": "2026-10-16",
+"remote": false,
+"sources": [
+"arbeitnow"
+],
+"links": {
+"arbeitnow": "https://www.arbeitnow.co.uk/jobs/companies/sumup/senior-product-data-analyst-consumer-growth-london-159694"
+},
+"categories": [
+"data_analyst"
+],
+"level": "senior",
+"id": "4fe00708ff03",
+"first_seen": "2026-10-20",
+"last_seen": "2026-10-20"
+},
+{
+"title": "Payment Specialist - Compliance Data Analyst",
+"company": "Checkout.com",
+"city": "London",
+"region": "",
+"posted": "2026-10-16",
+"remote": false,
+"sources": [
+"arbeitnow"
+],
+"links": {
+"arbeitnow": "https://www.arbeitnow.co.uk/jobs/companies/checkoutcom/payment-specialist-compliance-data-analyst-london-349523"
+},
+"categories": [
+"data_analyst"
+],
+"level": "regular",
+"id": "e6db65f447a8",
+"first_seen": "2026-10-20",
+"last_seen": "2026-10-20"
+},
+{
+"title": "Analytics Engineer",
+"company": "prolific",
+"city": "Remote",
+"region": "",
+"posted": "2026-10-16",
+"remote": false,
+"sources": [
+"arbeitnow"
+],
+"links": {
+"arbeitnow": "https://www.arbeitnow.co.uk/jobs/companies/prolific/remote-analytics-engineer-179618"
+},
+"categories": [
+"analytics_eng"
+],
+"level": "regular",
+"id": "27d6092272f7",
+"first_seen": "2026-10-20",
+"last_seen": "2026-10-20"
+},
+{
+"title": "Senior Analytics Engineer",
+"company": "SoSafe",
+"city": "United Kingdom Remote",
+"region": "",
+"posted": "2026-10-16",
+"remote": false,
+"sources": [
+"arbeitnow"
+],
+"links": {
+"arbeitnow": "https://www.arbeitnow.co.uk/jobs/companies/sosafe/remote-senior-analytics-engineer-83455"
+},
+"categories": [
+"analytics_eng"
+],
+"level": "senior",
+"id": "ecd979a0be9a",
+"first_seen": "2026-10-20",
+"last_seen": "2026-10-20"
+},
+{
+"title": "Data, Reporting & Analytics Lead, Global Business Services",
+"company": "Ivcevidensia",
+"city": "Keynsham, Bristol, England",
+"region": "",
+"posted": "2026-10-16",
+"remote": false,
+"sources": [
+"arbeitnow"
+],
+"links": {
+"arbeitnow": "https://www.arbeitnow.co.uk/jobs/companies/ivcevidensia/data-reporting-analytics-lead-global-business-services-keynsham-bristol-england-329192"
+},
+"categories": [
+"bi"
+],
+"level": "senior",
+"id": "47173345d514",
+"first_seen": "2026-10-20",
+"last_seen": "2026-10-20"
+},
+{
+"title": "Senior Product Manager - Measurement & Reporting",
+"company": "Vibe",
+"city": "Paris",
+"region": "",
+"posted": "2026-10-16",
+"remote": false,
+"sources": [
+"arbeitnow"
+],
+"links": {
+"arbeitnow": "https://www.arbeitnow.fr/jobs/companies/vibe/senior-product-manager-measurement-reporting-paris-334847"
+},
+"categories": [
+"bi"
+],
+"level": "senior",
+"id": "1f8b41d7cd8f",
+"first_seen": "2026-10-20",
+"last_seen": "2026-10-20"
+},
+{
+"title": "Growth Strategy Data Analyst - Intern /N)",
+"company": "hellofresh",
+"city": "Paris, Paris",
+"region": "",
+"posted": "2026-10-16",
+"remote": false,
+"sources": [
+"arbeitnow"
+],
+"links": {
+"arbeitnow": "https://www.arbeitnow.fr/jobs/companies/hellofresh/growth-strategy-data-analyst-intern-paris-paris-293261"
+},
+"categories": [
+"data_analyst"
+],
+"level": "student",
+"id": "9aa846ab0fb7",
+"first_seen": "2026-10-20",
+"last_seen": "2026-10-20"
+},
+{
+"title": "Senior Data Engineer",
+"company": "Moneybox",
+"city": "London Office",
+"region": "",
+"posted": "2026-10-16",
+"remote": false,
+"sources": [
+"arbeitnow"
+],
+"links": {
+"arbeitnow": "https://www.arbeitnow.co.uk/jobs/companies/moneybox/senior-data-engineer-london-office-365251"
+},
+"categories": [
+"analytics_eng"
+],
+"level": "senior",
+"id": "da469eefcb17",
+"first_seen": "2026-10-20",
+"last_seen": "2026-10-20"
+},
+{
+"title": "People Data Analyst",
+"company": "Qonto",
+"city": "Paris",
+"region": "",
+"posted": "2026-10-16",
+"remote": false,
+"sources": [
+"arbeitnow"
+],
+"links": {
+"arbeitnow": "https://www.arbeitnow.fr/jobs/companies/qonto/people-data-analyst-paris-192813"
+},
+"categories": [
+"data_analyst"
+],
+"level": "regular",
+"id": "67cbd0be0212",
+"first_seen": "2026-10-20",
+"last_seen": "2026-10-20"
+},
+{
+"title": "Senior Scientific Data Engineer",
+"company": "Tetrascience",
+"city": "Switzerland",
+"region": "",
+"posted": "2026-10-16",
+"remote": true,
+"sources": [
+"arbeitnow"
+],
+"links": {
+"arbeitnow": "https://www.arbeitnow.ch/jobs/companies/tetrascience/remote-senior-scientific-data-engineer-switzerland-5487"
+},
+"categories": [
+"analytics_eng"
+],
+"level": "senior",
+"id": "fbcefe388bfb",
+"first_seen": "2026-10-20",
+"last_seen": "2026-10-20"
+},
+{
+"title": "Analytics Engineer, Revenue, Purchase & Order",
+"company": "Vinteden",
+"city": "Amsterdam",
+"region": "",
+"posted": "2026-10-15",
+"remote": false,
+"sources": [
+"arbeitnow"
+],
+"links": {
+"arbeitnow": "https://www.arbeitnow.nl/jobs/companies/vinteden/analytics-engineer-revenue-purchase-order-amsterdam-499404"
+},
+"categories": [
+"analytics_eng"
+],
+"level": "regular",
+"id": "1288b8bb7ef1",
+"first_seen": "2026-10-20",
+"last_seen": "2026-10-20"
+},
+{
+"title": "Data Analyst (Mensch) mit dem Schwerpunkt Go-to-Market & Insights",
+"company": "Eventinc GmbH",
+"city": "Hamburg",
+"region": "Hamburg",
+"posted": "2026-10-15",
+"remote": false,
+"sources": [
+"arbeitnow"
+],
+"links": {
+"arbeitnow": "https://www.arbeitnow.com/jobs/companies/eventinc-gmbh/data-analyst-mensch-mit-dem-schwerpunkt-go-to-market-insights-hamburg-282737"
+},
+"categories": [
+"data_analyst"
+],
+"level": "regular",
+"id": "ebc0b64ab43e",
+"first_seen": "2026-10-20",
+"last_seen": "2026-10-20"
+},
+{
+"title": "Principal Data Engineer",
+"company": "Alexander Thamm GmbH",
+"city": "Munich",
+"region": "Bayern",
+"posted": "2026-10-15",
+"remote": false,
+"sources": [
+"arbeitnow"
+],
+"links": {
+"arbeitnow": "https://www.arbeitnow.com/jobs/companies/alexander-thamm-gmbh/principal-data-engineer-munich-63041"
+},
+"categories": [
+"analytics_eng"
+],
+"level": "senior",
+"id": "f113dba06b18",
+"first_seen": "2026-10-20",
+"last_seen": "2026-10-20"
+},
+{
+"title": "Analytics Engineer, Revenue, Purchase & Order",
+"company": "Vinteden",
+"city": "Berlin",
+"region": "Berlin",
+"posted": "2026-10-15",
+"remote": false,
+"sources": [
+"arbeitnow"
+],
+"links": {
+"arbeitnow": "https://www.arbeitnow.com/jobs/companies/vinteden/analytics-engineer-revenue-purchase-order-berlin-279559"
+},
+"categories": [
+"analytics_eng"
+],
+"level": "regular",
+"id": "f61d6f0692aa",
+"first_seen": "2026-10-20",
+"last_seen": "2026-10-20"
+},
+{
+"title": "Senior Data Analyst",
+"company": "Zenjob",
+"city": "Berlin",
+"region": "Berlin",
+"posted": "2026-10-15",
+"remote": false,
+"sources": [
+"arbeitnow"
+],
+"links": {
+"arbeitnow": "https://www.arbeitnow.com/jobs/companies/zenjob/senior-data-analyst-berlin-229217"
+},
+"categories": [
+"data_analyst"
+],
+"level": "senior",
+"id": "ba839233e138",
+"first_seen": "2026-10-20",
+"last_seen": "2026-10-20"
+},
+{
+"title": "Senior Scientific Data Engineer",
+"company": "Tetrascience",
+"city": "Germany",
+"region": "",
+"posted": "2026-10-15",
+"remote": true,
+"sources": [
+"arbeitnow"
+],
+"links": {
+"arbeitnow": "https://www.arbeitnow.com/jobs/companies/tetrascience/remote-senior-scientific-data-engineer-germany-163831"
+},
+"categories": [
+"analytics_eng"
+],
+"level": "senior",
+"id": "3cba5c3cdcab",
+"first_seen": "2026-10-20",
+"last_seen": "2026-10-20"
+},
+{
+"title": "Product Analyst",
+"company": "Allica Bank",
+"city": "London Office",
+"region": "",
+"posted": "2026-10-15",
+"remote": false,
+"sources": [
+"arbeitnow"
+],
+"links": {
+"arbeitnow": "https://www.arbeitnow.co.uk/jobs/companies/allica-bank/product-analyst-london-188397"
+},
+"categories": [
+"data_analyst"
+],
+"level": "regular",
+"id": "494a99890d8e",
+"first_seen": "2026-10-20",
+"last_seen": "2026-10-20"
+},
+{
+"title": "Data Engineer H/F",
+"company": "capco",
+"city": "",
+"region": "",
+"posted": "2026-10-15",
+"remote": false,
+"sources": [
+"arbeitnow"
+],
+"links": {
+"arbeitnow": "https://www.arbeitnow.fr/jobs/companies/capco/data-engineer-h-f-393580"
+},
+"categories": [
+"analytics_eng"
+],
+"level": "regular",
+"id": "e506be8fe12c",
+"first_seen": "2026-10-20",
+"last_seen": "2026-10-20"
+},
+{
+"title": "Client Data & Analytics Lead",
+"company": "Kraken",
+"city": "Paris, France",
+"region": "",
+"posted": "2026-10-15",
+"remote": false,
+"sources": [
+"arbeitnow"
+],
+"links": {
+"arbeitnow": "https://www.arbeitnow.fr/jobs/companies/kraken/client-data-analytics-lead-paris-471228"
+},
+"categories": [
+"data_analyst"
+],
+"level": "senior",
+"id": "e6f2b83150b4",
+"first_seen": "2026-10-20",
+"last_seen": "2026-10-20"
+},
+{
+"title": "Tableau Architect",
+"company": "Salesfive GmbH",
+"city": "Munich",
+"region": "Bayern",
+"posted": "2026-10-15",
+"remote": false,
+"sources": [
+"arbeitnow"
+],
+"links": {
+"arbeitnow": "https://www.arbeitnow.com/jobs/companies/salesfive-gmbh/tableau-architect-munich-255500"
+},
+"categories": [
+"bi"
+],
+"level": "regular",
+"id": "5b8c135a109e",
+"first_seen": "2026-10-20",
+"last_seen": "2026-10-20"
+},
+{
+"title": "Senior Data Analytics Engineer",
+"company": "Voize",
+"city": "Berlin",
+"region": "Berlin",
+"posted": "2026-10-15",
+"remote": false,
+"sources": [
+"arbeitnow"
+],
+"links": {
+"arbeitnow": "https://www.arbeitnow.com/jobs/companies/voize/senior-data-analytics-engineer-berlin-396860"
+},
+"categories": [
+"data_analyst",
+"analytics_eng"
+],
+"level": "senior",
+"id": "54ff51a15f18",
+"first_seen": "2026-10-20",
+"last_seen": "2026-10-20"
+},
+{
+"title": "Data Center Energy Analyst",
+"company": "Coreweaveu",
+"city": "Docklands",
+"region": "",
+"posted": "2026-10-15",
+"remote": false,
+"sources": [
+"arbeitnow"
+],
+"links": {
+"arbeitnow": "https://www.arbeitnow.co.uk/jobs/companies/coreweaveu/data-center-energy-analyst-docklands-360049"
+},
+"categories": [
+"energy"
+],
+"level": "regular",
+"id": "ae3d194095e6",
+"first_seen": "2026-10-20",
+"last_seen": "2026-10-20"
+},
+{
+"title": "Finance Data Engineer",
+"company": "capco",
+"city": "",
+"region": "",
+"posted": "2026-10-15",
+"remote": false,
+"sources": [
+"arbeitnow"
+],
+"links": {
+"arbeitnow": "https://www.arbeitnow.ch/jobs/companies/capco/finance-data-engineer-255524"
+},
+"categories": [
+"analytics_eng"
+],
+"level": "regular",
+"id": "5c4c9c7ee1df",
+"first_seen": "2026-10-20",
+"last_seen": "2026-10-20"
+},
+{
+"title": "Senior Director, Analytics & Business Intelligence",
+"company": "Nuvei",
+"city": "Amsterdam, Netherlands",
+"region": "",
+"posted": "2026-10-14",
+"remote": false,
+"sources": [
+"arbeitnow"
+],
+"links": {
+"arbeitnow": "https://www.arbeitnow.nl/jobs/companies/nuvei/senior-director-analytics-business-intelligence-amsterdam-293725"
+},
+"categories": [
+"bi"
+],
+"level": "senior",
+"id": "8bf35da683f0",
+"first_seen": "2026-10-20",
+"last_seen": "2026-10-20"
+},
+{
+"title": "Senior Data Engineer",
+"company": "Conflux",
+"city": "Utrecht, Utrecht, Nederland",
+"region": "",
+"posted": "2026-10-14",
+"remote": false,
+"sources": [
+"arbeitnow"
+],
+"links": {
+"arbeitnow": "https://www.arbeitnow.nl/jobs/companies/conflux/senior-data-engineer-utrecht-24250"
+},
+"categories": [
+"analytics_eng"
+],
+"level": "senior",
+"id": "153a8c634c48",
+"first_seen": "2026-10-20",
+"last_seen": "2026-10-20"
+},
+{
+"title": "Data Engineer",
+"company": "adesso Netherlands",
+"city": "Utrecht, Utrecht, Netherlands",
+"region": "",
+"posted": "2026-10-14",
+"remote": false,
+"sources": [
+"arbeitnow"
+],
+"links": {
+"arbeitnow": "https://www.arbeitnow.nl/jobs/companies/adesso-netherlands/data-engineer-utrecht-175174"
+},
+"categories": [
+"analytics_eng"
+],
+"level": "regular",
+"id": "df9d6dba1e81",
+"first_seen": "2026-10-20",
+"last_seen": "2026-10-20"
+},
+{
+"title": "Data Engineer",
+"company": "Centric",
+"city": "Amsterdam, Noord-Holland, Nederland",
+"region": "",
+"posted": "2026-10-14",
+"remote": false,
+"sources": [
+"arbeitnow"
+],
+"links": {
+"arbeitnow": "https://www.arbeitnow.nl/jobs/companies/centric/data-engineer-amsterdam-375099"
+},
+"categories": [
+"analytics_eng"
+],
+"level": "regular",
+"id": "c845c72c1793",
+"first_seen": "2026-10-20",
+"last_seen": "2026-10-20"
+},
+{
+"title": "Data Engineer",
+"company": "Van Mossel Automotive Group Netherlands B.V.",
+"city": "Waalwijk, Noord-Brabant, Nederland",
+"region": "",
+"posted": "2026-10-14",
+"remote": false,
+"sources": [
+"arbeitnow"
+],
+"links": {
+"arbeitnow": "https://www.arbeitnow.nl/jobs/companies/van-mossel-automotive-group-netherlands-bv/data-engineer-waalwijk-60489"
+},
+"categories": [
+"analytics_eng"
+],
+"level": "regular",
+"id": "c12f27d73691",
+"first_seen": "2026-10-20",
+"last_seen": "2026-10-20"
+},
+{
+"title": "Junior Data Engineer",
+"company": "IG&H",
+"city": "Utrecht, Utrecht, Nederland",
+"region": "",
+"posted": "2026-10-14",
+"remote": false,
+"sources": [
+"arbeitnow"
+],
+"links": {
+"arbeitnow": "https://www.arbeitnow.nl/jobs/companies/igh/junior-data-engineer-utrecht-90566"
+},
+"categories": [
+"analytics_eng"
+],
+"level": "junior",
+"id": "74cf542d2d99",
+"first_seen": "2026-10-20",
+"last_seen": "2026-10-20"
+},
+{
+"title": "Senior Data Engineer",
+"company": "IG&H",
+"city": "Utrecht, Utrecht, Nederland",
+"region": "",
+"posted": "2026-10-14",
+"remote": false,
+"sources": [
+"arbeitnow"
+],
+"links": {
+"arbeitnow": "https://www.arbeitnow.nl/jobs/companies/igh/senior-data-engineer-utrecht-93934"
+},
+"categories": [
+"analytics_eng"
+],
+"level": "senior",
+"id": "21bc47867407",
+"first_seen": "2026-10-20",
+"last_seen": "2026-10-20"
+},
+{
+"title": "Medior Data Engineer",
+"company": "IG&H",
+"city": "Utrecht, Utrecht, Nederland",
+"region": "",
+"posted": "2026-10-14",
+"remote": false,
+"sources": [
+"arbeitnow"
+],
+"links": {
+"arbeitnow": "https://www.arbeitnow.nl/jobs/companies/igh/medior-data-engineer-utrecht-236003"
+},
+"categories": [
+"analytics_eng"
+],
+"level": "regular",
+"id": "5e823da8854a",
+"first_seen": "2026-10-20",
+"last_seen": "2026-10-20"
+},
+{
+"title": "Commercial Data Analytics Intern (H/F)",
+"company": "Teampicnic",
+"city": "Paris, Paris",
+"region": "",
+"posted": "2026-10-14",
+"remote": false,
+"sources": [
+"arbeitnow"
+],
+"links": {
+"arbeitnow": "https://www.arbeitnow.fr/jobs/companies/teampicnic/commercial-data-analytics-intern-h-f-paris-paris-186457"
+},
+"categories": [
+"data_analyst"
+],
+"level": "student",
+"id": "276116f63dd4",
+"first_seen": "2026-10-20",
+"last_seen": "2026-10-20"
+},
+{
+"title": "Data & Analytics Manager",
+"company": "Enpal",
+"city": "Berlin",
+"region": "Berlin",
+"posted": "2026-10-14",
+"remote": false,
+"sources": [
+"arbeitnow"
+],
+"links": {
+"arbeitnow": "https://www.arbeitnow.com/jobs/companies/enpal/data-analytics-manager-berlin-30230"
+},
+"categories": [
+"data_analyst"
+],
+"level": "senior",
+"id": "ec8ee65f1cc2",
+"first_seen": "2026-10-20",
+"last_seen": "2026-10-20"
+},
+{
+"title": "BI & Data Analytics Team Lead",
+"company": "Enpal",
+"city": "Berlin",
+"region": "Berlin",
+"posted": "2026-10-14",
+"remote": false,
+"sources": [
+"arbeitnow"
+],
+"links": {
+"arbeitnow": "https://www.arbeitnow.com/jobs/companies/enpal/bi-data-analytics-team-lead-berlin-375121"
+},
+"categories": [
+"bi",
+"data_analyst"
+],
+"level": "senior",
+"id": "545bd795b192",
+"first_seen": "2026-10-20",
+"last_seen": "2026-10-20"
+},
+{
+"title": "Senior Data Analyst (12-month contract)",
+"company": "Hipagesgroup",
+"city": "Sydney, Australia",
+"region": "",
+"posted": "2026-10-14",
+"remote": false,
+"sources": [
+"arbeitnow"
+],
+"links": {
+"arbeitnow": "https://www.arbeitnow.co.uk/jobs/companies/hipagesgroup/senior-data-analyst-12-month-contract-sydney-australia-249525"
+},
+"categories": [
+"data_analyst"
+],
+"level": "senior",
+"id": "64674344c1d6",
+"first_seen": "2026-10-20",
+"last_seen": "2026-10-20"
+},
+{
+"title": "Lead Data Engineer",
+"company": "Ravio",
+"city": "London",
+"region": "",
+"posted": "2026-10-14",
+"remote": false,
+"sources": [
+"arbeitnow"
+],
+"links": {
+"arbeitnow": "https://www.arbeitnow.co.uk/jobs/companies/ravio/lead-data-engineer-london-292706"
+},
+"categories": [
+"analytics_eng"
+],
+"level": "senior",
+"id": "f1986d111cfb",
+"first_seen": "2026-10-20",
+"last_seen": "2026-10-20"
+},
+{
+"title": "Business Intelligence Analyst",
+"company": "Cenosco",
+"city": "The Hague office",
+"region": "",
+"posted": "2026-10-13",
+"remote": false,
+"sources": [
+"arbeitnow"
+],
+"links": {
+"arbeitnow": "https://www.arbeitnow.nl/jobs/companies/cenosco/business-intelligence-analyst-the-hague-483704"
+},
+"categories": [
+"bi"
+],
+"level": "regular",
+"id": "3ce84c41e714",
+"first_seen": "2026-10-20",
+"last_seen": "2026-10-20"
+},
+{
+"title": "Senior Data Engineer",
+"company": "Kpler",
+"city": "Germany",
+"region": "",
+"posted": "2026-10-13",
+"remote": false,
+"sources": [
+"arbeitnow"
+],
+"links": {
+"arbeitnow": "https://www.arbeitnow.com/jobs/companies/kpler/senior-data-engineer-germany-418300"
+},
+"categories": [
+"analytics_eng"
+],
+"level": "senior",
+"id": "88af0478fd6a",
+"first_seen": "2026-10-20",
+"last_seen": "2026-10-20"
+}
+]
