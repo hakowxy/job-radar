@@ -134,12 +134,39 @@ CITY_REGION = {
 }
 
 
+GERMANY = {"germany", "deutschland"}
+EXTRA_CITIES = {
+    "bavaria": "Bayern", "bayern": "Bayern", "hesse": "Hessen", "hessen": "Hessen", "saxony": "Sachsen",
+    "garching": "Bayern", "unterföhring": "Bayern", "walldorf": "Baden-Württemberg", "eschborn": "Hessen",
+    "offenbach": "Hessen", "neuss": "Nordrhein-Westfalen", "gütersloh": "Nordrhein-Westfalen",
+    "paderborn": "Nordrhein-Westfalen", "wuppertal": "Nordrhein-Westfalen", "krefeld": "Nordrhein-Westfalen",
+    "gelsenkirchen": "Nordrhein-Westfalen", "mönchengladbach": "Nordrhein-Westfalen", "leverkusen": "Nordrhein-Westfalen",
+    "siegen": "Nordrhein-Westfalen", "heilbronn": "Baden-Württemberg", "pforzheim": "Baden-Württemberg",
+    "tübingen": "Baden-Württemberg", "konstanz": "Baden-Württemberg", "reutlingen": "Baden-Württemberg",
+    "ludwigshafen": "Rheinland-Pfalz", "kaiserslautern": "Rheinland-Pfalz", "trier": "Rheinland-Pfalz",
+    "bamberg": "Bayern", "bayreuth": "Bayern", "passau": "Bayern", "rosenheim": "Bayern", "fürth": "Bayern",
+    "landshut": "Bayern", "flensburg": "Schleswig-Holstein", "schwerin": "Mecklenburg-Vorpommern",
+    "greifswald": "Mecklenburg-Vorpommern", "cottbus": "Brandenburg", "weimar": "Thüringen", "zwickau": "Sachsen",
+    "hildesheim": "Niedersachsen", "lüneburg": "Niedersachsen", "salzgitter": "Niedersachsen", "wilhelmshaven": "Niedersachsen",
+}
+CITY_REGION.update(EXTRA_CITIES)
+
+
+def region_for(location: str) -> str | None:
+    """返回联邦州；看起来在德国但认不出城市时返回 ""；不在德国时返回 None。"""
+    tokens = norm(location).split()
+    for t in tokens:
+        if t in CITY_REGION:
+            return CITY_REGION[t]
+    return "" if GERMANY & set(tokens) else None
+
+
 def make_job(source, title, company, city, region, posted, url, remote=None, extra=None) -> dict:
     return {
         "title": clean_title(title),
         "company": (company or "").strip() or "—",
         "city": (city or "").strip(),
-        "region": (region or "").strip() or CITY_REGION.get(norm(city).split(" ")[0] if city else "", ""),
+        "region": (region or "").strip() or (region_for(city or "") or ""),
         "posted": posted,
         "remote": remote,
         "sources": [source],
@@ -148,24 +175,69 @@ def make_job(source, title, company, city, region, posted, url, remote=None, ext
     }
 
 
+def pick(d: dict, *keys):
+    """接口版本之间字段名会变：按顺序取第一个有值的字段。"""
+    for k in keys:
+        v = d.get(k)
+        if v not in (None, "", [], {}):
+            return v
+    return None
+
+
 # ─────────────────────────── 来源 1：联邦劳动局 ───────────────────────────
 
 BA_BASE = "https://rest.arbeitsagentur.de/jobboerse/jobsuche-service"
-BA_PATHS = ["/pc/v4/jobs", "/pc/v6/jobs", "/pc/v4/app/jobs"]   # 接口版本会变，依次尝试
+BA_PATHS = ["/pc/v6/jobs", "/pc/v4/app/jobs", "/pc/v4/jobs"]   # 接口版本会变，依次尝试
 _ba_path = None
+_ba_logged = False
 
 
-def ba_get(params: dict) -> dict:
-    global _ba_path
+def ba_items(data) -> list | None:
+    """在返回的 JSON 里找到职位列表；格式认不出来时返回 None。"""
+    if isinstance(data, list):
+        return data
+    if not isinstance(data, dict):
+        return None
+    for k in ("stellenangebote", "ergebnisse", "stellen", "jobs", "content", "results"):
+        if isinstance(data.get(k), list):
+            return data[k]
+    for v in data.values():   # 嵌套一层，例如 {"_embedded": {"jobs": [...]}}
+        if isinstance(v, dict):
+            for v2 in v.values():
+                if isinstance(v2, list) and (not v2 or isinstance(v2[0], dict)):
+                    return v2
+    return None
+
+
+def ba_get(params: dict) -> list:
+    global _ba_path, _ba_logged
     paths = [_ba_path] if _ba_path else BA_PATHS
     errors = []
     for path in paths:
         try:
             data = http_json(BA_BASE + path, params, headers={"X-API-Key": "jobboerse-jobsuche"})
-            _ba_path = path
-            return data
         except urllib.error.HTTPError as e:
             errors.append(f"{path}: HTTP {e.code}")
+            continue
+        items = ba_items(data)
+        if not _ba_logged:   # 把真实格式打印到 Actions 日志里，方便排查
+            keys = list(data)[:15] if isinstance(data, dict) else type(data).__name__
+            sample = sorted(items[0])[:30] if items else None
+            print(f"    [BA {path}] top-level keys: {keys}; items: {None if items is None else len(items)}; item keys: {sample}")
+            if items is None or (not items and isinstance(data, dict) and not data.get("maxErgebnisse")):
+                print(f"    [BA {path}] raw: {json.dumps(data, ensure_ascii=False)[:600]}")
+        if items is None:
+            errors.append(f"{path}: 返回格式无法识别")
+            continue
+        if not items and not _ba_path and path != paths[-1]:
+            # 第一次请求就是空的：可能只是这个版本不对，再试下一个
+            errors.append(f"{path}: 0 条")
+            continue
+        _ba_logged = True
+        _ba_path = path
+        return items
+    if errors and all(e.endswith("0 条") for e in errors):
+        return []
     raise RuntimeError("; ".join(errors))
 
 
@@ -180,21 +252,30 @@ def fetch_ba(query: str) -> list[dict]:
 
     jobs = []
     for page in range(1, SEARCH["max_pages"] + 1):
-        data = ba_get(params | {"page": page})
-        items = data.get("stellenangebote") or []
+        items = ba_get(params | {"page": page})
         for it in items:
-            refnr = it.get("refnr") or it.get("referenznummer")
-            if not refnr:
+            refnr = pick(it, "refnr", "referenznummer", "refNr")
+            employer = pick(it, "arbeitgeber", "arbeitgeberName", "firma")
+            if isinstance(employer, dict):
+                employer = pick(employer, "name", "anzeigeName")
+            ort = pick(it, "arbeitsort", "arbeitsorte", "ort") or {}
+            if isinstance(ort, list):
+                ort = ort[0] if ort else {}
+            if isinstance(ort, str):
+                ort = {"ort": ort}
+            url = (f"https://www.arbeitsagentur.de/jobsuche/jobdetail/{urllib.parse.quote(str(refnr))}"
+                   if refnr else pick(it, "externeUrl"))
+            if not url:
                 continue
-            ort = it.get("arbeitsort") or {}
             jobs.append(make_job(
                 "arbeitsagentur",
-                it.get("titel") or it.get("stellenangebotsTitel") or it.get("beruf") or "",
-                it.get("arbeitgeber"),
-                ort.get("ort"),
-                ort.get("region"),
-                (it.get("aktuelleVeroeffentlichungsdatum") or "")[:10] or None,
-                f"https://www.arbeitsagentur.de/jobsuche/jobdetail/{urllib.parse.quote(refnr)}",
+                pick(it, "titel", "stellenangebotsTitel", "stellentitel", "titelDerStelle", "beruf") or "",
+                employer,
+                pick(ort, "ort", "stadt"),
+                pick(ort, "region", "bundesland"),
+                str(pick(it, "aktuelleVeroeffentlichungsdatum", "veroeffentlichungsdatum",
+                         "datumErsteVeroeffentlichung", "eintrittsdatum") or "")[:10] or None,
+                url,
             ))
         if len(items) < params["size"]:
             break
@@ -205,25 +286,29 @@ def fetch_ba(query: str) -> list[dict]:
 # ─────────────────────────── 来源 2：Arbeitnow ───────────────────────────
 
 def fetch_arbeitnow() -> list[dict]:
-    """Arbeitnow 不支持关键词搜索：按时间倒序翻页，旧于 days 天就停，再在本地分类过滤。"""
+    """Arbeitnow 不支持关键词搜索：按时间倒序翻页，旧于 days 天就停，再在本地分类过滤。
+    它也有德国以外的职位，所以只保留能认出是德国城市（或写了 Germany）的。"""
     cutoff = TODAY - timedelta(days=SEARCH["days"])
     jobs = []
     for page in range(1, SEARCH["max_pages"] * 4 + 1):
         data = http_json("https://www.arbeitnow.com/api/job-board-api", {"page": page})
         items = data.get("data") or []
-        too_old = False
+        too_old = 0
         for it in items:
             created = it.get("created_at")
             posted = datetime.fromtimestamp(created, timezone.utc).date() if isinstance(created, (int, float)) else None
             if posted and posted < cutoff:
-                too_old = True
+                too_old += 1
+                continue
+            region = region_for(it.get("location") or "")
+            if region is None:
                 continue
             jobs.append(make_job(
-                "arbeitnow", it.get("title"), it.get("company_name"), it.get("location"), "",
+                "arbeitnow", it.get("title"), it.get("company_name"), it.get("location"), region,
                 posted.isoformat() if posted else None, it.get("url"),
                 remote=True if it.get("remote") else None,
             ))
-        if not items or too_old or not (data.get("links") or {}).get("next", True):
+        if not items or too_old > len(items) / 2 or not (data.get("links") or {}).get("next", True):
             break
         time.sleep(0.5)
     return jobs
