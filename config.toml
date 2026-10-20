@@ -54,3 +54,9 @@ match = ["energiedaten*", "energy data", "energiewirtschaft*", "energy analyst",
 daily_issue = true
 categories = ["bi", "data_analyst", "analytics_eng", "energy"]   # 只汇报这几类
 max_items = 40
+
+# 邮件里只放符合下面条件的职位（网页上可以随时点选，不受这里影响）
+jd_lang = []                      # [] = 不限；["en"] = 只要英文 JD；["de"] = 只要德文 JD
+exclude_german_required = false   # true = 要求德语的职位不发邮件
+levels = []                       # [] = 不限；可选 "student" "entry" "associate" "senior" "lead" "unknown"
+# max_experience_years = 3        # 去掉开头的 # 就生效：要求经验超过 3 年的不发邮件

@@ -25,31 +25,67 @@
   </section>
 
   <section class="filters" aria-label="筛选">
-    <div class="field levels">
-      <span class="field-label" id="lbl-level">级别</span>
-      <div id="levels" class="seg" role="group" aria-labelledby="lbl-level"></div>
+    <div class="frow">
+      <div class="field levels">
+        <span class="field-label" id="lbl-level">级别（可多选，不选 = 全部）</span>
+        <div id="levels" class="chips" role="group" aria-labelledby="lbl-level"></div>
+      </div>
     </div>
-    <label class="field">
-      <span class="field-label">地区</span>
-      <select id="region"></select>
-    </label>
-    <label class="field">
-      <span class="field-label">发布于</span>
-      <select id="posted">
-        <option value="0">不限</option>
-        <option value="1">最近 1 天</option>
-        <option value="3">最近 3 天</option>
-        <option value="7">最近 7 天</option>
-      </select>
-    </label>
-    <label class="field check">
-      <input type="checkbox" id="remote">
-      <span>只看远程 / 混合</span>
-    </label>
-    <label class="field grow">
-      <span class="field-label">搜索</span>
-      <input type="search" id="q" placeholder="公司、职位名、城市">
-    </label>
+
+    <div class="frow">
+      <div class="field">
+        <span class="field-label" id="lbl-lang">JD 语言</span>
+        <div id="lang" class="seg" role="group" aria-labelledby="lbl-lang"></div>
+      </div>
+      <label class="field">
+        <span class="field-label">德语要求</span>
+        <select id="german">
+          <option value="any">不限</option>
+          <option value="plus">不要求德语，或德语只是加分</option>
+          <option value="none">完全不需要德语</option>
+        </select>
+      </label>
+      <label class="field">
+        <span class="field-label">要求的工作经验</span>
+        <select id="exp">
+          <option value="any">不限</option>
+          <option value="0">无需经验</option>
+          <option value="1">最多 1 年</option>
+          <option value="2">最多 2 年</option>
+          <option value="3">最多 3 年</option>
+          <option value="5">最多 5 年</option>
+        </select>
+      </label>
+      <label class="field check" id="exp-unknown-wrap">
+        <input type="checkbox" id="exp-unknown">
+        <span>也显示 JD 没写经验要求的</span>
+      </label>
+    </div>
+
+    <div class="frow">
+      <label class="field">
+        <span class="field-label">地区</span>
+        <select id="region"></select>
+      </label>
+      <label class="field">
+        <span class="field-label">发布于</span>
+        <select id="posted">
+          <option value="0">不限</option>
+          <option value="1">最近 1 天</option>
+          <option value="3">最近 3 天</option>
+          <option value="7">最近 7 天</option>
+        </select>
+      </label>
+      <label class="field check">
+        <input type="checkbox" id="remote">
+        <span>只看远程 / 混合</span>
+      </label>
+      <label class="field grow">
+        <span class="field-label">搜索</span>
+        <input type="search" id="q" placeholder="公司、职位名、城市">
+      </label>
+    </div>
+    <p class="presets">快捷选择：<button type="button" data-preset="english">只要英文岗位</button><button type="button" data-preset="both">德语英语都可以</button><button type="button" data-preset="starter">适合入门（≤2 年经验）</button></p>
   </section>
 
   <nav class="tabs" id="tabs" role="tablist" aria-label="列表"></nav>
@@ -62,7 +98,7 @@
 <footer>
   <h2>数据来源</h2>
   <table id="sources" class="sources"></table>
-  <p class="foot-note">收藏、已投递、隐藏的记录只保存在当前这个浏览器里。职位每天由 GitHub Actions 自动更新，来源均为官方开放接口。</p>
+  <p class="foot-note">JD 语言、德语要求、经验年限和级别都是程序从职位描述里自动判断的，可能有误，投递前请看原文。收藏、已投递、隐藏的记录只保存在当前这个浏览器里。职位每天由 GitHub Actions 自动更新，来源均为官方开放接口。</p>
 </footer>
 
 <script src="app.js"></script>

@@ -14,6 +14,7 @@
 """
 from __future__ import annotations
 
+import base64
 import hashlib
 import json
 import os
@@ -26,6 +27,9 @@ import urllib.parse
 import urllib.request
 from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from enrich import analyze  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
@@ -97,11 +101,6 @@ def keyword_regex(keywords: list[str]) -> re.Pattern:
 
 CAT_RE = {c["id"]: keyword_regex(c["match"]) for c in CATEGORIES}
 EXCLUDE_RE = keyword_regex([k + "*" for k in SEARCH.get("exclude", [])]) if SEARCH.get("exclude") else None
-LEVELS = [
-    ("student", keyword_regex(["werkstudent*", "working student", "praktik*", "intern", "internship", "studentische*", "thesis", "abschlussarbeit*"])),
-    ("junior", keyword_regex(["junior", "trainee", "berufseinsteiger*", "einsteiger*", "graduate", "entry level", "absolvent*"])),
-    ("senior", keyword_regex(["senior", "lead", "principal", "head of", "teamleit*", "leiter*", "leitung", "manager"])),
-]
 REMOTE_RE = keyword_regex(["remote", "homeoffice", "home office", "mobiles arbeiten", "hybrid"])
 
 
@@ -113,7 +112,6 @@ def classify(job: dict) -> dict | None:
     if not cats:
         return None
     job["categories"] = cats
-    job["level"] = next((lvl for lvl, rx in LEVELS if rx.search(title)), "regular")
     if job.get("remote") is None:
         job["remote"] = bool(REMOTE_RE.search(title))
     return job
@@ -172,8 +170,10 @@ def region_for(location: str) -> str | None:
     return "" if GERMANY & set(tokens) else None
 
 
-def make_job(source, title, company, city, region, posted, url, remote=None, extra=None) -> dict:
+def make_job(source, title, company, city, region, posted, url, remote=None, extra=None, text=None) -> dict:
     return {
+        "_raw_title": title or "",   # 以 _ 开头的字段只在本次运行中使用，不会保存
+        "_text": text,
         "title": clean_title(title),
         "company": (company or "").strip() or "—",
         "city": (city or "").strip(),
@@ -303,11 +303,65 @@ def fetch_ba(query: str) -> list[dict]:
                          "veroeffentlichungsdatum", "eintrittsdatum") or "")[:10] or None,
                 url,
                 remote=True if it.get("homeofficemoeglich") else None,
+                extra={"ba_ref": str(refnr)} if refnr else None,
             ))
         if len(items) < params["size"]:
             break
         time.sleep(0.5)
     return jobs
+
+
+# 职位详情（JD 正文）：列表接口里没有，需要逐个请求。路径会随接口版本变化，依次尝试
+BA_DETAIL_PATHS = [
+    ("/pc/v4/jobdetails/{b64}", "b64"), ("/pc/v6/jobdetails/{b64}", "b64"), ("/pc/v6/jobdetails/{ref}", "ref"),
+    ("/pc/v4/app/jobdetails/{b64}", "b64"), ("/pc/v3/jobdetails/{b64}", "b64"), ("/pc/v6/jobs/{ref}", "ref"),
+]
+_detail = {"path": None, "tried": False, "errors": [], "ok": 0, "failed": 0}
+
+
+def longest_text(obj) -> str:
+    """在详情 JSON 里找最长的那段文字，基本就是职位描述。"""
+    best = ""
+    if isinstance(obj, dict):
+        for v in obj.values():
+            cand = longest_text(v)
+            best = cand if len(cand) > len(best) else best
+    elif isinstance(obj, list):
+        for v in obj:
+            cand = longest_text(v)
+            best = cand if len(cand) > len(best) else best
+    elif isinstance(obj, str) and not obj.startswith("http"):
+        best = obj
+    return best
+
+
+def ba_detail_text(ref: str) -> str | None:
+    def url_for(tpl, kind):
+        val = base64.b64encode(ref.encode()).decode() if kind == "b64" else urllib.parse.quote(ref, safe="")
+        return BA_DETAIL_PATHS_BASE + tpl.format(b64=val, ref=val)
+
+    candidates = [_detail["path"]] if _detail["path"] else ([] if _detail["tried"] else BA_DETAIL_PATHS)
+    for tpl, kind in candidates:
+        try:
+            data = http_json(url_for(tpl, kind), headers={"X-API-Key": "jobboerse-jobsuche"}, retries=2)
+        except Exception as e:
+            if not _detail["path"]:
+                _detail["errors"].append(f"{tpl}: {getattr(e, 'code', type(e).__name__)}")
+            continue
+        text = longest_text(data)
+        if not _detail["path"]:
+            _detail["path"] = (tpl, kind)
+            annotate("notice", f"[BA detail] using {tpl}; keys: {list(data)[:20] if isinstance(data, dict) else type(data).__name__}; text length {len(text)}")
+        _detail["ok"] += 1
+        return text if len(text) > 150 else None
+    if not _detail["tried"] and not _detail["path"]:
+        annotate("warning", "[BA detail] no endpoint worked: " + "; ".join(_detail["errors"])[:900])
+    _detail["tried"] = True
+    _detail["failed"] += 1
+    return None
+
+
+BA_DETAIL_PATHS_BASE = BA_BASE
 
 
 # ─────────────────────────── 来源 2：Arbeitnow ───────────────────────────
@@ -334,6 +388,7 @@ def fetch_arbeitnow() -> list[dict]:
                 "arbeitnow", it.get("title"), it.get("company_name"), it.get("location"), region,
                 posted.isoformat() if posted else None, it.get("url"),
                 remote=True if it.get("remote") else None,
+                text=it.get("description"),
             ))
         if not items or too_old > len(items) / 2 or not (data.get("links") or {}).get("next", True):
             break
@@ -362,6 +417,7 @@ def fetch_adzuna(query: str) -> list[dict]:
                 area[1] if len(area) > 1 else "",
                 (it.get("created") or "")[:10] or None, it.get("redirect_url"),
                 extra={"salary": [it.get("salary_min"), it.get("salary_max")]} if it.get("salary_min") else None,
+                text=it.get("description"),
             ))
         if len(items) < 50:
             break
@@ -412,6 +468,10 @@ def merge(store: dict, fetched: list[dict]) -> tuple[dict, list[str]]:
                     cur["sources"].append(s)
                     cur["links"][s] = job["links"][s]
             cur["categories"] = sorted(set(cur["categories"]) | set(job["categories"]))
+            if not cur.get("_text") and job.get("_text"):
+                cur["_text"] = job["_text"]
+            if job.get("ba_ref") and not cur.get("ba_ref"):
+                cur["ba_ref"] = job["ba_ref"]
             cur["remote"] = cur["remote"] or job["remote"]
             if not cur["region"] and job["region"]:
                 cur["region"] = job["region"]
@@ -424,6 +484,11 @@ def merge(store: dict, fetched: list[dict]) -> tuple[dict, list[str]]:
             old = store[jid]
             job["first_seen"] = old["first_seen"]
             job["posted"] = job["posted"] or old.get("posted")
+            for k in ENRICH_FIELDS + ("enriched",):
+                if k in old and k not in job:
+                    job[k] = old[k]
+            if not old.get("has_jd") and job.get("_text"):
+                job.pop("enriched", None)   # 这次拿到了 JD 正文，重新分析
         else:
             job["first_seen"] = today
             new_ids.append(jid)
@@ -433,6 +498,51 @@ def merge(store: dict, fetched: list[dict]) -> tuple[dict, list[str]]:
     cutoff = (TODAY - timedelta(days=SEARCH.get("keep_days", 3))).isoformat()
     store = {k: v for k, v in store.items() if v["last_seen"] >= cutoff}
     return store, new_ids
+
+
+ENRICH_VERSION = 1
+ENRICH_FIELDS = ("jd_lang", "jd_lang_basis", "german", "exp_min", "level", "has_jd")
+
+
+def enrich_jobs(store: dict, max_details: int = 400) -> dict:
+    """为还没分析过的职位判断 JD 语言、德语要求、经验年限、级别。"""
+    done = with_jd = details = 0
+    for job in store.values():
+        if job.get("enriched") == ENRICH_VERSION:
+            continue
+        text = job.get("_text")
+        ref = job.get("ba_ref") or (job["links"].get("arbeitsagentur", "").rsplit("/", 1)[-1] or None)
+        if not text and ref and "arbeitsagentur" in job["sources"] and details < max_details and not (
+                _detail["tried"] and not _detail["path"]):
+            text = ba_detail_text(urllib.parse.unquote(ref))
+            details += 1
+            time.sleep(0.3)
+        job.update(analyze(job.get("_raw_title") or job["title"], text))
+        job["enriched"] = ENRICH_VERSION
+        done += 1
+        with_jd += bool(text)
+    for job in store.values():
+        for k in [k for k in job if k.startswith("_")]:
+            del job[k]
+    line = f"analysed {done} jobs, {with_jd} with JD text; BA details ok {_detail['ok']}, failed {_detail['failed']}"
+    print("  " + line)
+    annotate("notice", line)
+    return {"analysed": done, "with_jd": with_jd, "ba_detail_endpoint": _detail["path"][0] if _detail["path"] else None}
+
+
+def notify_match(job: dict, notify: dict) -> bool:
+    langs = notify.get("jd_lang")
+    if langs and job.get("jd_lang") not in langs:
+        return False
+    if notify.get("exclude_german_required") and job.get("german") == "required":
+        return False
+    max_exp = notify.get("max_experience_years")
+    if max_exp is not None and job.get("exp_min") is not None and job["exp_min"] > max_exp:
+        return False
+    levels = notify.get("levels")
+    if levels and job.get("level") not in levels:
+        return False
+    return True
 
 
 def write_digest(store: dict, new_ids: list[str]) -> None:
@@ -447,6 +557,8 @@ def write_digest(store: dict, new_ids: list[str]) -> None:
     picked = []
     for i in new_ids:
         job = store[i]
+        if not notify_match(job, notify):
+            continue
         cat = next((c for c in order if c in job["categories"]), None)
         if cat:
             picked.append((cat, job))
@@ -464,7 +576,11 @@ def write_digest(store: dict, new_ids: list[str]) -> None:
         for j in group[: limit - shown]:
             link = next(iter(j["links"].values()))
             place = j["city"] + ("，远程/混合" if j["remote"] else "")
-            lines.append(f"- [{j['title']}]({link}) — {j['company']}，{place}")
+            facts = [{"en": "英文 JD", "de": "德文 JD"}.get(j.get("jd_lang"), ""),
+                     {"required": "需要德语", "plus": "德语加分", "not_needed": "不需德语"}.get(j.get("german"), ""),
+                     f"经验 {j['exp_min']}+ 年" if j.get("exp_min") else ("无需经验" if j.get("exp_min") == 0 else "")]
+            facts = "，".join(f for f in facts if f)
+            lines.append(f"- [{j['title']}]({link}) — {j['company']}，{place}" + (f"（{facts}）" if facts else ""))
             shown += 1
     if len(picked) > shown:
         lines.append(f"\n还有 {len(picked) - shown} 个没有列出，打开网页查看全部。")
@@ -483,6 +599,7 @@ def main() -> None:
         sys.exit("所有来源都失败了，保留旧数据，不更新。")
 
     store, new_ids = merge(store, fetched)
+    enrich_stats = enrich_jobs(store)
     jobs = sorted(store.values(), key=lambda j: (j["first_seen"], j["posted"] or ""), reverse=True)
     jobs_path.write_text(json.dumps(jobs, ensure_ascii=False, indent=0), encoding="utf-8")
 
@@ -494,6 +611,7 @@ def main() -> None:
         "sources": status,
         "categories": [{"id": c["id"], "label": c["label"]} for c in CATEGORIES],
         "search": {"days": SEARCH["days"], "where": SEARCH.get("where") or "Deutschland"},
+        "enrich": enrich_stats,
     }
     (DATA / "meta.json").write_text(json.dumps(meta, ensure_ascii=False, indent=1), encoding="utf-8")
     write_digest(store, new_ids)

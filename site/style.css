@@ -60,9 +60,18 @@ button, input, select { font: inherit; color: inherit; }
 .cat:hover { border-color: var(--signal); }
 
 .filters {
-  display: flex; flex-wrap: wrap; gap: 12px 18px; align-items: flex-end;
-  padding: 14px 16px; background: var(--surface); border: 1px solid var(--rule); border-radius: 10px; margin-bottom: 16px;
+  padding: 4px 16px 12px; background: var(--surface); border: 1px solid var(--rule); border-radius: 10px; margin-bottom: 16px;
 }
+.frow { display: flex; flex-wrap: wrap; gap: 12px 18px; align-items: flex-end; padding: 12px 0; border-bottom: 1px solid var(--rule); }
+.frow:last-of-type { border-bottom: 0; }
+.chips { display: flex; flex-wrap: wrap; gap: 6px; }
+.chips button { border: 1px solid var(--rule); background: var(--bg); border-radius: 6px; padding: 5px 11px; cursor: pointer; font-size: 13.5px; white-space: nowrap; }
+.chips button .n { color: var(--muted); font-size: 12px; margin-left: 5px; }
+.chips button[aria-pressed="true"] { background: var(--ink); color: var(--surface); border-color: var(--ink); }
+.chips button[aria-pressed="true"] .n { color: inherit; opacity: .75; }
+.presets { margin: 4px 0 0; font-size: 13px; color: var(--muted); display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
+.presets button { border: 1px dashed var(--signal); color: var(--signal); background: none; border-radius: 6px; padding: 3px 10px; cursor: pointer; font-size: 13px; }
+.presets button:hover { background: var(--signal-soft); }
 .field { display: flex; flex-direction: column; gap: 4px; font-size: 14px; }
 .field.grow { flex: 1 1 200px; }
 .field.check { flex-direction: row; align-items: center; gap: 8px; padding-bottom: 7px; cursor: pointer; }
@@ -103,6 +112,9 @@ input[type="checkbox"] { width: 17px; height: 17px; accent-color: var(--signal);
 .tag { padding: 0 7px; border-radius: 4px; background: var(--bg); color: var(--muted); line-height: 1.7; }
 .tag.new { background: var(--signal-soft); color: var(--signal); font-weight: 700; }
 .tag.remote { background: var(--applied-soft); color: var(--applied); }
+.tag.en { background: var(--signal-soft); color: var(--signal); }
+.tag.warn { background: var(--saved-soft); color: var(--saved); }
+.tag.lvl { background: none; border: 1px solid var(--rule); }
 .tag a { color: inherit; }
 .side { grid-column: 2; grid-row: 1 / span 3; display: flex; flex-direction: column; align-items: flex-end; gap: 8px; }
 .age { font-size: 13px; color: var(--muted); white-space: nowrap; }
@@ -139,6 +151,7 @@ footer h2 { font-size: 14px; color: var(--ink); margin: 0 0 8px; }
   .field.levels { flex-basis: 100%; }
   .seg { display: flex; flex-wrap: wrap; border: 0; gap: 6px; }
   .seg button, .seg button:first-child { border: 1px solid var(--rule); border-radius: 6px; }
+  .frow .field:not(.check) { flex: 1 1 100%; }
   .job { grid-template-columns: 1fr; }
   .side { grid-column: 1; grid-row: auto; flex-direction: row; justify-content: space-between; align-items: center; margin-top: 6px; }
   .sources td:nth-child(4) { display: none; }

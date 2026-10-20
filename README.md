@@ -42,13 +42,20 @@ LinkedIn、StepStone、Indeed、XING 的用户协议禁止自动抓取，所以�
 - **岗位类型**：每个 `[[category]]` 就是网页上的一个按钮。`queries` 是拿去搜索的词，`match` 是职位名里必须出现的词（用来过滤掉不相关的结果）。
 - **地点**：`where = "München"` 加上 `radius_km = 50` 只看慕尼黑周边；留空就是全德国。
 - **排除**：`exclude` 里的词出现在职位名中就丢掉。
-- **邮件**：`[notify]` 里设置哪些类型要发邮件。
+- **邮件**：`[notify]` 里设置哪些类型要发邮件，也可以只发英文 JD、不要求德语、或经验要求不超过 N 年的职位。
 
 ## 网页上能做什么
 
 - 点岗位类型按钮（可以多选），再按级别、联邦州、发布时间、远程、关键词筛选
 - "新职位"标签页只显示你上次打开之后新出现的职位；在"全部"里会有一条线标出"以下是你上次已经看过的"
+- **JD 语言**：英文 JD / 德文 JD / 都可以
+- **德语要求**：完全不需要德语 / 德语只是加分 / 不限
+- **工作经验**：无需经验、最多 1 / 2 / 3 / 5 年，可选择是否显示没写经验要求的职位
+- **级别**（可多选）：实习 / Werkstudent、Entry level、Associate、Senior、Lead
+- 快捷按钮："只要英文岗位"、"德语英语都可以"、"适合入门"
 - 每个职位可以标记 **收藏 / 投递了 / 隐藏**
+
+JD 语言、德语要求、经验和级别是程序从职位描述里自动判断的：统计德语和英语常用词判断语言，识别 "fluent German"、"Deutsch verhandlungssicher"、"German is a plus"、"3+ years of experience"、"erste Berufserfahrung" 这类说法。标题里写了 Junior / Senior 就按标题，没写就按经验年限推断（0–1 年 Entry，2–4 年 Associate，5 年以上 Senior）。判断可能有误，投递前请看原文。
 
 收藏、投递等标记只保存在当前浏览器里，换设备不会同步。你的筛选条件也会被记住。
 
@@ -67,6 +74,7 @@ python -m http.server -d dist      # 打开 http://localhost:8000
 ```
 config.toml              你要找什么工作
 scraper/fetch_jobs.py    抓取、去重、分类、生成摘要（只用标准库）
+scraper/enrich.py        从 JD 判断语言、德语要求、经验年限、级别
 site/                    网页
 data/jobs.json           当前在招职位（每天自动更新并提交）
 data/meta.json           每个来源的运行状态

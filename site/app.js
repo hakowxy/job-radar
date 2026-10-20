@@ -9,13 +9,18 @@
     set(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch (e) { /* storage unavailable */ } },
   };
 
-  const LEVELS = [["all", "全部"], ["student", "Werkstudent / 实习"], ["junior", "Junior"], ["regular", "未标注"], ["senior", "Senior / Lead"]];
+  const LEVELS = [["student", "实习 / Werkstudent"], ["entry", "Entry level"], ["associate", "Associate"], ["senior", "Senior"], ["lead", "Lead / 管理"], ["unknown", "未标明"]];
+  const LEVEL_NAMES = Object.fromEntries(LEVELS);
+  const LANGS = [["any", "都可以"], ["en", "英文 JD"], ["de", "德文 JD"]];
+  const GERMAN_TAG = { required: ["需要德语", "warn"], plus: ["德语加分", ""], not_needed: ["不需德语", "en"] };
   const SOURCE_NAMES = { arbeitsagentur: "劳动局", arbeitnow: "Arbeitnow", adzuna: "Adzuna" };
   const TABS = [["new", "新职位"], ["all", "全部"], ["saved", "收藏"], ["applied", "已投递"], ["hidden", "已隐藏"]];
   const PAGE = 50;
 
   let JOBS = [], META = null, shown = PAGE;
-  const prefs = Object.assign({ cats: [], level: "all", region: "", posted: "0", remote: false, q: "", tab: "new" }, store.get("jr.prefs", {}));
+  const DEFAULTS = { cats: [], levels: [], lang: "any", german: "any", exp: "any", expUnknown: true, region: "", posted: "0", remote: false, q: "", tab: "new" };
+  const prefs = Object.assign({}, DEFAULTS, store.get("jr.prefs", {}));
+  delete prefs.level;   // 旧版本的单选级别
   const marks = store.get("jr.marks", {});   // id -> "saved" | "applied" | "hidden"
   let prevDay = "";                          // jobs first seen after this day count as new
 
@@ -39,7 +44,7 @@
   const ageText = (n) => (n === null ? "" : n <= 0 ? "今天发布" : `${n} 天前发布`);
 
   /* ---------- filtering ---------- */
-  function passes(j, { ignoreCats = false, ignoreTab = false } = {}) {
+  function passes(j, { ignoreCats = false, ignoreTab = false, ignoreLevels = false } = {}) {
     const mark = marks[j.id];
     if (!ignoreTab) {
       if (prefs.tab === "hidden") { if (mark !== "hidden") return false; }
@@ -49,7 +54,14 @@
       if (prefs.tab === "new" && !isNew(j)) return false;
     } else if (mark === "hidden") return false;
     if (!ignoreCats && prefs.cats.length && !j.categories.some((c) => prefs.cats.includes(c))) return false;
-    if (prefs.level !== "all" && j.level !== prefs.level) return false;
+    if (!ignoreLevels && prefs.levels.length && !prefs.levels.includes(j.level || "unknown")) return false;
+    if (prefs.lang !== "any" && j.jd_lang !== prefs.lang) return false;
+    if (prefs.german === "none" && j.german !== "not_needed") return false;
+    if (prefs.german === "plus" && !["not_needed", "plus"].includes(j.german)) return false;
+    if (prefs.exp !== "any") {
+      if (j.exp_min === null || j.exp_min === undefined) { if (!prefs.expUnknown) return false; }
+      else if (j.exp_min > +prefs.exp) return false;
+    }
     if (prefs.region && j.region !== prefs.region) return false;
     if (prefs.remote && !j.remote) return false;
     if (+prefs.posted) {
@@ -72,7 +84,12 @@
   }
 
   function renderLevels() {
-    $("levels").innerHTML = LEVELS.map(([k, v]) => `<button type="button" data-level="${k}" aria-pressed="${prefs.level === k}">${v}</button>`).join("");
+    $("levels").innerHTML = LEVELS.map(([k, v]) => {
+      const n = JOBS.filter((j) => (j.level || "unknown") === k && passes(j, { ignoreLevels: true })).length;
+      return `<button type="button" data-level="${k}" aria-pressed="${prefs.levels.includes(k)}">${v}<span class="n">${n}</span></button>`;
+    }).join("");
+    $("lang").innerHTML = LANGS.map(([k, v]) => `<button type="button" data-lang="${k}" aria-pressed="${prefs.lang === k}">${v}</button>`).join("");
+    $("exp-unknown-wrap").hidden = prefs.exp === "any";
   }
 
   function renderRegions() {
@@ -101,6 +118,11 @@
     const tags = [];
     if (isNew(j)) tags.push(`<span class="tag new">新</span>`);
     if (j.remote) tags.push(`<span class="tag remote">远程 / 混合</span>`);
+    if (j.jd_lang) tags.push(`<span class="tag${j.jd_lang === "en" ? " en" : ""}" title="${j.jd_lang_basis === "title" ? "根据职位名判断" : "根据 JD 正文判断"}">${j.jd_lang === "en" ? "英文 JD" : "德文 JD"}</span>`);
+    if (GERMAN_TAG[j.german]) tags.push(`<span class="tag ${GERMAN_TAG[j.german][1]}">${GERMAN_TAG[j.german][0]}</span>`);
+    if (j.exp_min === 0) tags.push(`<span class="tag">无需经验</span>`);
+    else if (j.exp_min) tags.push(`<span class="tag">经验 ${j.exp_min}+ 年</span>`);
+    if (j.level && j.level !== "unknown") tags.push(`<span class="tag lvl">${esc(LEVEL_NAMES[j.level] || j.level)}</span>`);
     const catLabels = Object.fromEntries(META.categories.map((c) => [c.id, c.label]));
     j.categories.forEach((c) => tags.push(`<span class="tag">${esc(catLabels[c] || c)}</span>`));
     if (j.salary && j.salary[0]) tags.push(`<span class="tag">€${Math.round(j.salary[0] / 1000)}k–${Math.round((j.salary[1] || j.salary[0]) / 1000)}k</span>`);
@@ -134,7 +156,8 @@
     $("more").hidden = rows.length <= shown;
     $("more").textContent = `显示更多（还有 ${rows.length - shown} 个）`;
 
-    const hasFilter = prefs.cats.length || prefs.level !== "all" || prefs.region || prefs.remote || +prefs.posted || prefs.q;
+    const hasFilter = prefs.cats.length || prefs.levels.length || prefs.lang !== "any" || prefs.german !== "any" || prefs.exp !== "any" ||
+      prefs.region || prefs.remote || +prefs.posted || prefs.q;
     let msg = `${rows.length} 个职位`;
     if (!rows.length) {
       msg = prefs.tab === "new" ? "自上次查看以来没有符合条件的新职位。" :
@@ -186,7 +209,23 @@
   });
   $("levels").addEventListener("click", (e) => {
     const b = e.target.closest("[data-level]"); if (!b) return;
-    prefs.level = b.dataset.level; update();
+    const k = b.dataset.level;
+    prefs.levels = prefs.levels.includes(k) ? prefs.levels.filter((x) => x !== k) : [...prefs.levels, k];
+    update();
+  });
+  $("lang").addEventListener("click", (e) => {
+    const b = e.target.closest("[data-lang]"); if (!b) return;
+    prefs.lang = b.dataset.lang; update();
+  });
+  $("german").addEventListener("change", (e) => { prefs.german = e.target.value; update(); });
+  $("exp").addEventListener("change", (e) => { prefs.exp = e.target.value; update(); });
+  $("exp-unknown").addEventListener("change", (e) => { prefs.expUnknown = e.target.checked; update(); });
+  document.querySelector(".presets").addEventListener("click", (e) => {
+    const b = e.target.closest("[data-preset]"); if (!b) return;
+    if (b.dataset.preset === "english") Object.assign(prefs, { lang: "en", german: "plus" });
+    if (b.dataset.preset === "both") Object.assign(prefs, { lang: "any", german: "any" });
+    if (b.dataset.preset === "starter") Object.assign(prefs, { exp: "2", expUnknown: true, levels: prefs.levels.filter((l) => !["senior", "lead"].includes(l)) });
+    syncInputs(); update();
   });
   $("tabs").addEventListener("click", (e) => {
     const b = e.target.closest("[data-tab]"); if (!b) return;
@@ -200,7 +239,7 @@
   $("more").addEventListener("click", () => { shown += PAGE; renderList(); });
   $("summary").addEventListener("click", (e) => {
     if (e.target.id !== "reset") return;
-    Object.assign(prefs, { cats: [], level: "all", region: "", posted: "0", remote: false, q: "" });
+    Object.assign(prefs, { ...DEFAULTS, tab: prefs.tab });
     syncInputs(); update();
   });
   $("list").addEventListener("click", (e) => {
@@ -215,6 +254,9 @@
 
   function syncInputs() {
     $("posted").value = prefs.posted;
+    $("german").value = prefs.german;
+    $("exp").value = prefs.exp;
+    $("exp-unknown").checked = prefs.expUnknown;
     $("remote").checked = prefs.remote;
     $("q").value = prefs.q;
     renderRegions();
