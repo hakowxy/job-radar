@@ -1,8 +1,8 @@
 {
- "run_at": "2026-10-20T14:47:21Z",
+ "run_at": "2026-10-20T14:58:18Z",
  "today": "2026-10-20",
- "new_today": 62,
- "total": 77,
+ "new_today": 1,
+ "total": 78,
  "sources": [
   {
    "id": "arbeitsagentur",
@@ -10,16 +10,16 @@
    "ok": true,
    "fetched": 283,
    "kept": 104,
-   "seconds": 8.9,
+   "seconds": 9.2,
    "note": "endpoint /pc/v6/jobs"
   },
   {
    "id": "arbeitnow",
    "label": "Arbeitnow",
    "ok": true,
-   "fetched": 801,
-   "kept": 15,
-   "seconds": 23.2,
+   "fetched": 803,
+   "kept": 13,
+   "seconds": 30.1,
    "note": ""
   },
   {
@@ -53,5 +53,10 @@
  "search": {
   "days": 7,
   "where": "Deutschland"
+ },
+ "enrich": {
+  "analysed": 78,
+  "with_jd": 75,
+  "ba_detail_endpoint": "/pc/v4/jobdetails/{b64}"
  }
 }

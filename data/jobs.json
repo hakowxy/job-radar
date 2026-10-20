@@ -15,10 +15,16 @@
 "categories": [
 "bi"
 ],
-"level": "student",
 "id": "b6f0f42ff847",
 "first_seen": "2026-10-20",
-"last_seen": "2026-10-20"
+"level": "student",
+"last_seen": "2026-10-20",
+"jd_lang": "de",
+"jd_lang_basis": "jd",
+"german": "plus",
+"exp_min": 0,
+"has_jd": true,
+"enriched": 1
 },
 {
 "title": "Working Student - Data Engineer & Software Developer (Research Analytics)",
@@ -36,10 +42,16 @@
 "categories": [
 "analytics_eng"
 ],
-"level": "student",
 "id": "66b3910e2e62",
 "first_seen": "2026-10-20",
-"last_seen": "2026-10-20"
+"level": "student",
+"last_seen": "2026-10-20",
+"jd_lang": "en",
+"jd_lang_basis": "jd",
+"german": "required",
+"exp_min": null,
+"has_jd": true,
+"enriched": 1
 },
 {
 "title": "Marketing Analyst",
@@ -57,10 +69,16 @@
 "categories": [
 "data_analyst"
 ],
-"level": "regular",
 "id": "fd3f53ccb0f9",
 "first_seen": "2026-10-20",
-"last_seen": "2026-10-20"
+"level": "associate",
+"last_seen": "2026-10-20",
+"jd_lang": "en",
+"jd_lang_basis": "jd",
+"german": "not_needed",
+"exp_min": 3,
+"has_jd": true,
+"enriched": 1
 },
 {
 "title": "Data Analyst FlixTrain Operations",
@@ -77,13 +95,20 @@
 "arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12951-c8451df1-c7d1-461e--S",
 "arbeitnow": "https://www.arbeitnow.com/jobs/companies/flix/data-analyst-flixtrain-operations-berlin-54675"
 },
+"ba_ref": "12951-c8451df1-c7d1-461e--S",
 "categories": [
 "data_analyst"
 ],
-"level": "regular",
 "id": "aed502d8ebab",
 "first_seen": "2026-10-20",
-"last_seen": "2026-10-20"
+"level": "associate",
+"last_seen": "2026-10-20",
+"jd_lang": "de",
+"jd_lang_basis": "jd",
+"german": "required",
+"exp_min": 2,
+"has_jd": true,
+"enriched": 1
 },
 {
 "title": "Data Engineer / Analytics Engineer",
@@ -98,13 +123,20 @@
 "links": {
 "arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/13635-b31fd295_JB5277511-S"
 },
+"ba_ref": "13635-b31fd295_JB5277511-S",
 "categories": [
 "analytics_eng"
 ],
-"level": "regular",
 "id": "033d24d5a40c",
 "first_seen": "2026-10-20",
-"last_seen": "2026-10-20"
+"level": "associate",
+"last_seen": "2026-10-20",
+"jd_lang": "de",
+"jd_lang_basis": "jd",
+"german": "required",
+"exp_min": 2,
+"has_jd": true,
+"enriched": 1
 },
 {
 "title": "(SENIOR) BUSINESS ANALYST* BI & ANALYTICS, HS48 Zentrale",
@@ -119,13 +151,20 @@
 "links": {
 "arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2360690-S"
 },
+"ba_ref": "12811-2360690-S",
 "categories": [
 "bi"
 ],
-"level": "senior",
 "id": "c84fad69b7bf",
 "first_seen": "2026-10-20",
-"last_seen": "2026-10-20"
+"level": "senior",
+"last_seen": "2026-10-20",
+"jd_lang": "de",
+"jd_lang_basis": "jd",
+"german": "required",
+"exp_min": 3,
+"has_jd": true,
+"enriched": 1
 },
 {
 "title": "Data-Analyst - Retail & Sales Analytics",
@@ -140,13 +179,20 @@
 "links": {
 "arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/13635-8114c96d_JB5277416-S"
 },
+"ba_ref": "13635-8114c96d_JB5277416-S",
 "categories": [
 "data_analyst"
 ],
-"level": "regular",
 "id": "cdadf707ca7c",
 "first_seen": "2026-10-20",
-"last_seen": "2026-10-20"
+"level": "associate",
+"last_seen": "2026-10-20",
+"jd_lang": "de",
+"jd_lang_basis": "jd",
+"german": "required",
+"exp_min": 3,
+"has_jd": true,
+"enriched": 1
 },
 {
 "title": "IT-Spezialist Data Engineer",
@@ -161,13 +207,20 @@
 "links": {
 "arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/18024-10Q9A00000X08-S"
 },
+"ba_ref": "18024-10Q9A00000X08-S",
 "categories": [
 "analytics_eng"
 ],
-"level": "regular",
 "id": "6377cd7d7432",
 "first_seen": "2026-10-20",
-"last_seen": "2026-10-20"
+"level": "associate",
+"last_seen": "2026-10-20",
+"jd_lang": "de",
+"jd_lang_basis": "jd",
+"german": "required",
+"exp_min": 3,
+"has_jd": true,
+"enriched": 1
 },
 {
 "title": "Datenanalyst / Data Scientist - Vorhersagen für Solar- und Windstrom",
@@ -182,13 +235,20 @@
 "links": {
 "arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12908-060655535-S"
 },
+"ba_ref": "12908-060655535-S",
 "categories": [
 "data_analyst"
 ],
-"level": "regular",
 "id": "9fa59c20b892",
 "first_seen": "2026-10-20",
-"last_seen": "2026-10-20"
+"level": "unknown",
+"last_seen": "2026-10-20",
+"jd_lang": "de",
+"jd_lang_basis": "jd",
+"german": "required",
+"exp_min": null,
+"has_jd": true,
+"enriched": 1
 },
 {
 "title": "IT Business Analyst* Regulatory Reporting",
@@ -203,13 +263,20 @@
 "links": {
 "arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/13644-313606-S"
 },
+"ba_ref": "13644-313606-S",
 "categories": [
 "bi"
 ],
-"level": "regular",
 "id": "d031d7dd7aee",
 "first_seen": "2026-10-20",
-"last_seen": "2026-10-20"
+"level": "unknown",
+"last_seen": "2026-10-20",
+"jd_lang": "de",
+"jd_lang_basis": "jd",
+"german": "required",
+"exp_min": null,
+"has_jd": true,
+"enriched": 1
 },
 {
 "title": "HR Data Analyst",
@@ -224,13 +291,20 @@
 "links": {
 "arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003878611-S"
 },
+"ba_ref": "10001-1003878611-S",
 "categories": [
 "data_analyst"
 ],
-"level": "regular",
 "id": "4be6282f9417",
 "first_seen": "2026-10-20",
-"last_seen": "2026-10-20"
+"level": "unknown",
+"last_seen": "2026-10-20",
+"jd_lang": "de",
+"jd_lang_basis": "jd",
+"german": "required",
+"exp_min": null,
+"has_jd": true,
+"enriched": 1
 },
 {
 "title": "682/B - Datenanalyst",
@@ -245,13 +319,20 @@
 "links": {
 "arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/20079-5491WG8R-S"
 },
+"ba_ref": "20079-5491WG8R-S",
 "categories": [
 "data_analyst"
 ],
-"level": "regular",
 "id": "4061522be11f",
 "first_seen": "2026-10-20",
-"last_seen": "2026-10-20"
+"level": "associate",
+"last_seen": "2026-10-20",
+"jd_lang": "de",
+"jd_lang_basis": "jd",
+"german": "required",
+"exp_min": 2,
+"has_jd": true,
+"enriched": 1
 },
 {
 "title": "BI Developer",
@@ -266,13 +347,20 @@
 "links": {
 "arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12982-SM-SAM44065891-S"
 },
+"ba_ref": "12982-SM-SAM44065891-S",
 "categories": [
 "bi"
 ],
-"level": "regular",
 "id": "b3a1d7c99ea7",
 "first_seen": "2026-10-20",
-"last_seen": "2026-10-20"
+"level": "entry",
+"last_seen": "2026-10-20",
+"jd_lang": "de",
+"jd_lang_basis": "jd",
+"german": "required",
+"exp_min": 1,
+"has_jd": true,
+"enriched": 1
 },
 {
 "title": "Business Intelligence Manager",
@@ -287,13 +375,20 @@
 "links": {
 "arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/11858-SDE-124738-STA-S"
 },
+"ba_ref": "11858-SDE-124738-STA-S",
 "categories": [
 "bi"
 ],
-"level": "senior",
 "id": "9c823be65194",
 "first_seen": "2026-10-20",
-"last_seen": "2026-10-20"
+"level": "associate",
+"last_seen": "2026-10-20",
+"jd_lang": "de",
+"jd_lang_basis": "jd",
+"german": "required",
+"exp_min": 3,
+"has_jd": true,
+"enriched": 1
 },
 {
 "title": "Data Engineer / BI-Architekt*in",
@@ -308,14 +403,21 @@
 "links": {
 "arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12688-REG-43773-RJA-S"
 },
+"ba_ref": "12688-REG-43773-RJA-S",
 "categories": [
 "bi",
 "analytics_eng"
 ],
-"level": "regular",
 "id": "9b89228b548e",
 "first_seen": "2026-10-20",
-"last_seen": "2026-10-20"
+"level": "associate",
+"last_seen": "2026-10-20",
+"jd_lang": "de",
+"jd_lang_basis": "jd",
+"german": "required",
+"exp_min": 3,
+"has_jd": true,
+"enriched": 1
 },
 {
 "title": "Datenanalyst",
@@ -330,13 +432,20 @@
 "links": {
 "arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/13884-348143-S"
 },
+"ba_ref": "13884-348143-S",
 "categories": [
 "data_analyst"
 ],
-"level": "regular",
 "id": "d799e3a28721",
 "first_seen": "2026-10-20",
-"last_seen": "2026-10-20"
+"level": "associate",
+"last_seen": "2026-10-20",
+"jd_lang": "de",
+"jd_lang_basis": "jd",
+"german": "required",
+"exp_min": 2,
+"has_jd": true,
+"enriched": 1
 },
 {
 "title": "Controller - Finanzcontrolling / Reporting / Power BI",
@@ -351,13 +460,20 @@
 "links": {
 "arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4970252433-S"
 },
+"ba_ref": "12288-4970252433-S",
 "categories": [
 "bi"
 ],
-"level": "regular",
 "id": "b42f17c7f83b",
 "first_seen": "2026-10-20",
-"last_seen": "2026-10-20"
+"level": "unknown",
+"last_seen": "2026-10-20",
+"jd_lang": "de",
+"jd_lang_basis": "jd",
+"german": "required",
+"exp_min": null,
+"has_jd": true,
+"enriched": 1
 },
 {
 "title": "HR Analyst / Mitarbeiter HR Reporting",
@@ -372,13 +488,20 @@
 "links": {
 "arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003878935-S"
 },
+"ba_ref": "10001-1003878935-S",
 "categories": [
 "bi"
 ],
-"level": "regular",
 "id": "50f3cd018f90",
 "first_seen": "2026-10-20",
-"last_seen": "2026-10-20"
+"level": "unknown",
+"last_seen": "2026-10-20",
+"jd_lang": "de",
+"jd_lang_basis": "jd",
+"german": "required",
+"exp_min": null,
+"has_jd": true,
+"enriched": 1
 },
 {
 "title": "(Senior) Data Engineer - Tracking Infrastructure",
@@ -396,10 +519,16 @@
 "categories": [
 "analytics_eng"
 ],
-"level": "senior",
 "id": "553e4adc84f1",
 "first_seen": "2026-10-20",
-"last_seen": "2026-10-20"
+"level": "senior",
+"last_seen": "2026-10-20",
+"jd_lang": "en",
+"jd_lang_basis": "jd",
+"german": "not_needed",
+"exp_min": null,
+"has_jd": true,
+"enriched": 1
 },
 {
 "title": "Data Engineer - AI Pipelines & DataOps",
@@ -417,10 +546,16 @@
 "categories": [
 "analytics_eng"
 ],
-"level": "regular",
 "id": "6bbd4fe85754",
 "first_seen": "2026-10-20",
-"last_seen": "2026-10-20"
+"level": "unknown",
+"last_seen": "2026-10-20",
+"jd_lang": "en",
+"jd_lang_basis": "jd",
+"german": "plus",
+"exp_min": null,
+"has_jd": true,
+"enriched": 1
 },
 {
 "title": "FinOps Data Analyst & Consultant",
@@ -438,10 +573,16 @@
 "categories": [
 "data_analyst"
 ],
-"level": "regular",
 "id": "fb78adcdd936",
 "first_seen": "2026-10-20",
-"last_seen": "2026-10-20"
+"level": "unknown",
+"last_seen": "2026-10-20",
+"jd_lang": "en",
+"jd_lang_basis": "jd",
+"german": "required",
+"exp_min": null,
+"has_jd": true,
+"enriched": 1
 },
 {
 "title": "Mitarbeiter SQL Server Administrator / Datenanalyst",
@@ -459,10 +600,16 @@
 "categories": [
 "data_analyst"
 ],
-"level": "regular",
 "id": "54c9fd523f2a",
 "first_seen": "2026-10-20",
-"last_seen": "2026-10-20"
+"level": "entry",
+"last_seen": "2026-10-20",
+"jd_lang": "de",
+"jd_lang_basis": "jd",
+"german": "required",
+"exp_min": 0,
+"has_jd": true,
+"enriched": 1
 },
 {
 "title": "(Senior) Data Analyst",
@@ -480,10 +627,16 @@
 "categories": [
 "data_analyst"
 ],
-"level": "senior",
 "id": "ee47c44170dc",
 "first_seen": "2026-10-20",
-"last_seen": "2026-10-20"
+"level": "senior",
+"last_seen": "2026-10-20",
+"jd_lang": "en",
+"jd_lang_basis": "jd",
+"german": "not_needed",
+"exp_min": null,
+"has_jd": true,
+"enriched": 1
 },
 {
 "title": "Data Engineer",
@@ -501,10 +654,16 @@
 "categories": [
 "analytics_eng"
 ],
-"level": "regular",
 "id": "b2bf9f38ff23",
 "first_seen": "2026-10-20",
-"last_seen": "2026-10-20"
+"level": "associate",
+"last_seen": "2026-10-20",
+"jd_lang": "en",
+"jd_lang_basis": "jd",
+"german": "plus",
+"exp_min": 3,
+"has_jd": true,
+"enriched": 1
 },
 {
 "title": "(Senior) Oracle Data Warehouse / BI-Developer",
@@ -522,10 +681,16 @@
 "categories": [
 "bi"
 ],
-"level": "senior",
 "id": "538ab8e57707",
 "first_seen": "2026-10-20",
-"last_seen": "2026-10-20"
+"level": "senior",
+"last_seen": "2026-10-20",
+"jd_lang": "de",
+"jd_lang_basis": "jd",
+"german": "required",
+"exp_min": 3,
+"has_jd": true,
+"enriched": 1
 },
 {
 "title": "Interim Senior BI Analyst",
@@ -546,7 +711,13 @@
 "level": "senior",
 "id": "5db17a604147",
 "first_seen": "2026-10-20",
-"last_seen": "2026-10-20"
+"last_seen": "2026-10-20",
+"jd_lang": null,
+"jd_lang_basis": null,
+"german": "unknown",
+"exp_min": null,
+"has_jd": false,
+"enriched": 1
 },
 {
 "title": "Senior Data Engineer — Document & AI Pipelines",
@@ -567,7 +738,13 @@
 "level": "senior",
 "id": "5710c2f7c689",
 "first_seen": "2026-10-20",
-"last_seen": "2026-10-20"
+"last_seen": "2026-10-20",
+"jd_lang": null,
+"jd_lang_basis": null,
+"german": "unknown",
+"exp_min": null,
+"has_jd": false,
+"enriched": 1
 },
 {
 "title": "Controller mit Schwerpunkt Krankenhauscontrolling - Business Intelligence Specialist",
@@ -582,13 +759,20 @@
 "links": {
 "arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12336-a26f793j0456539-S"
 },
+"ba_ref": "12336-a26f793j0456539-S",
 "categories": [
 "bi"
 ],
-"level": "regular",
 "id": "122cd1a3d970",
 "first_seen": "2026-10-20",
-"last_seen": "2026-10-20"
+"level": "associate",
+"last_seen": "2026-10-20",
+"jd_lang": "de",
+"jd_lang_basis": "jd",
+"german": "required",
+"exp_min": 3,
+"has_jd": true,
+"enriched": 1
 },
 {
 "title": "NTT DATA Deutschland SE: SAP Data & Analytics (Senior) Managing Consultant",
@@ -603,13 +787,20 @@
 "links": {
 "arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/19913-3070521792188001-S"
 },
+"ba_ref": "19913-3070521792188001-S",
 "categories": [
 "data_analyst"
 ],
-"level": "senior",
 "id": "1ce97a442d37",
 "first_seen": "2026-10-20",
-"last_seen": "2026-10-20"
+"level": "senior",
+"last_seen": "2026-10-20",
+"jd_lang": "de",
+"jd_lang_basis": "jd",
+"german": "required",
+"exp_min": 3,
+"has_jd": true,
+"enriched": 1
 },
 {
 "title": "Senior SAP Data & Analytics Consultant",
@@ -624,13 +815,20 @@
 "links": {
 "arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/20478-2359206-S"
 },
+"ba_ref": "20478-2359206-S",
 "categories": [
 "data_analyst"
 ],
-"level": "senior",
 "id": "4f936f7f68e8",
 "first_seen": "2026-10-20",
-"last_seen": "2026-10-20"
+"level": "senior",
+"last_seen": "2026-10-20",
+"jd_lang": "de",
+"jd_lang_basis": "jd",
+"german": "required",
+"exp_min": null,
+"has_jd": true,
+"enriched": 1
 },
 {
 "title": "NTT DATA Deutschland SE: SAP Data & Analytics (Senior) Consultant",
@@ -645,13 +843,20 @@
 "links": {
 "arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/19913-3070741792188001-S"
 },
+"ba_ref": "19913-3070741792188001-S",
 "categories": [
 "data_analyst"
 ],
-"level": "senior",
 "id": "8f6a4c810b60",
 "first_seen": "2026-10-20",
-"last_seen": "2026-10-20"
+"level": "senior",
+"last_seen": "2026-10-20",
+"jd_lang": "de",
+"jd_lang_basis": "jd",
+"german": "required",
+"exp_min": 3,
+"has_jd": true,
+"enriched": 1
 },
 {
 "title": "IBH connect GmbH: Data Engineer SOC in Dresden",
@@ -666,13 +871,20 @@
 "links": {
 "arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/11956-2910471792188001-S"
 },
+"ba_ref": "11956-2910471792188001-S",
 "categories": [
 "analytics_eng"
 ],
-"level": "regular",
 "id": "7243e0795023",
 "first_seen": "2026-10-20",
-"last_seen": "2026-10-20"
+"level": "unknown",
+"last_seen": "2026-10-20",
+"jd_lang": "de",
+"jd_lang_basis": "jd",
+"german": "required",
+"exp_min": null,
+"has_jd": true,
+"enriched": 1
 },
 {
 "title": "Senior Machine Learning Scientist / Data Engineer - Logistics Algorithms",
@@ -687,13 +899,47 @@
 "links": {
 "arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/18251-33945-S"
 },
+"ba_ref": "18251-33945-S",
 "categories": [
 "analytics_eng"
 ],
-"level": "senior",
 "id": "6da18983d6ab",
 "first_seen": "2026-10-20",
-"last_seen": "2026-10-20"
+"level": "senior",
+"last_seen": "2026-10-20",
+"jd_lang": "en",
+"jd_lang_basis": "jd",
+"german": "not_needed",
+"exp_min": 6,
+"has_jd": true,
+"enriched": 1
+},
+{
+"title": "Head of Data & Analytics",
+"company": "Scento",
+"city": "Berlin",
+"region": "Berlin",
+"posted": "2026-10-17",
+"remote": false,
+"sources": [
+"arbeitnow"
+],
+"links": {
+"arbeitnow": "https://www.arbeitnow.com/jobs/companies/scento/head-of-data-analytics-berlin-195783"
+},
+"categories": [
+"data_analyst"
+],
+"id": "ca174c58be81",
+"first_seen": "2026-10-20",
+"last_seen": "2026-10-20",
+"jd_lang": "de",
+"jd_lang_basis": "jd",
+"german": "required",
+"exp_min": 3,
+"level": "lead",
+"has_jd": true,
+"enriched": 1
 },
 {
 "title": "Data Engineer - Data Platform & Ontology",
@@ -711,10 +957,16 @@
 "categories": [
 "analytics_eng"
 ],
-"level": "regular",
+"level": "unknown",
 "id": "ddd1df01f9da",
 "first_seen": "2026-10-20",
-"last_seen": "2026-10-20"
+"last_seen": "2026-10-20",
+"jd_lang": null,
+"jd_lang_basis": null,
+"german": "unknown",
+"exp_min": null,
+"has_jd": false,
+"enriched": 1
 },
 {
 "title": "Data Engineer – Data & Analytics Northern Europe",
@@ -729,14 +981,21 @@
 "links": {
 "arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/13635-74c543a4_JB5274949-S"
 },
+"ba_ref": "13635-74c543a4_JB5274949-S",
 "categories": [
 "analytics_eng",
 "data_analyst"
 ],
-"level": "regular",
 "id": "cffb5361f7c0",
 "first_seen": "2026-10-20",
-"last_seen": "2026-10-20"
+"level": "associate",
+"last_seen": "2026-10-20",
+"jd_lang": "de",
+"jd_lang_basis": "jd",
+"german": "required",
+"exp_min": 3,
+"has_jd": true,
+"enriched": 1
 },
 {
 "title": "Dozent / Lehrkraft für KI, Python & Data Analytics",
@@ -751,13 +1010,20 @@
 "links": {
 "arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003870455-S"
 },
+"ba_ref": "10001-1003870455-S",
 "categories": [
 "data_analyst"
 ],
-"level": "regular",
 "id": "14dffd7e09c9",
 "first_seen": "2026-10-20",
-"last_seen": "2026-10-20"
+"level": "unknown",
+"last_seen": "2026-10-20",
+"jd_lang": "de",
+"jd_lang_basis": "jd",
+"german": "required",
+"exp_min": null,
+"has_jd": true,
+"enriched": 1
 },
 {
 "title": "Data Analyst",
@@ -772,13 +1038,20 @@
 "links": {
 "arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15939-BB-635629-7878-4691-S"
 },
+"ba_ref": "15939-BB-635629-7878-4691-S",
 "categories": [
 "data_analyst"
 ],
-"level": "regular",
 "id": "88c6e8af1151",
 "first_seen": "2026-10-20",
-"last_seen": "2026-10-20"
+"level": "unknown",
+"last_seen": "2026-10-20",
+"jd_lang": "de",
+"jd_lang_basis": "jd",
+"german": "required",
+"exp_min": null,
+"has_jd": true,
+"enriched": 1
 },
 {
 "title": "(Junior) Business Intelligence Analyst",
@@ -793,13 +1066,20 @@
 "links": {
 "arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/13635-04cef9aa_JB5274999-S"
 },
+"ba_ref": "13635-04cef9aa_JB5274999-S",
 "categories": [
 "bi"
 ],
-"level": "junior",
 "id": "27126ed5afa2",
 "first_seen": "2026-10-20",
-"last_seen": "2026-10-20"
+"level": "entry",
+"last_seen": "2026-10-20",
+"jd_lang": "de",
+"jd_lang_basis": "jd",
+"german": "required",
+"exp_min": 1,
+"has_jd": true,
+"enriched": 1
 },
 {
 "title": "Data Analyst - Marketing & Growth",
@@ -814,13 +1094,20 @@
 "links": {
 "arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12908-064658383-S"
 },
+"ba_ref": "12908-064658383-S",
 "categories": [
 "data_analyst"
 ],
-"level": "regular",
 "id": "ebd68ced3ef3",
 "first_seen": "2026-10-20",
-"last_seen": "2026-10-20"
+"level": "unknown",
+"last_seen": "2026-10-20",
+"jd_lang": "de",
+"jd_lang_basis": "jd",
+"german": "required",
+"exp_min": null,
+"has_jd": true,
+"enriched": 1
 },
 {
 "title": "(Senior) Consultant Data Warehouse Design | Senior Data Analyst",
@@ -835,13 +1122,20 @@
 "links": {
 "arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/13635-0f9b45cf_JB5273614-S"
 },
+"ba_ref": "13635-0f9b45cf_JB5273614-S",
 "categories": [
 "data_analyst"
 ],
-"level": "senior",
 "id": "79fc80082db5",
 "first_seen": "2026-10-20",
-"last_seen": "2026-10-20"
+"level": "senior",
+"last_seen": "2026-10-20",
+"jd_lang": "de",
+"jd_lang_basis": "jd",
+"german": "required",
+"exp_min": 5,
+"has_jd": true,
+"enriched": 1
 },
 {
 "title": "Data Engineer",
@@ -856,13 +1150,20 @@
 "links": {
 "arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/11949-17393280-S"
 },
+"ba_ref": "11949-17393280-S",
 "categories": [
 "analytics_eng"
 ],
-"level": "regular",
 "id": "5953ccd84ce0",
 "first_seen": "2026-10-20",
-"last_seen": "2026-10-20"
+"level": "associate",
+"last_seen": "2026-10-20",
+"jd_lang": "de",
+"jd_lang_basis": "jd",
+"german": "required",
+"exp_min": 4,
+"has_jd": true,
+"enriched": 1
 },
 {
 "title": "Data Engineer",
@@ -877,13 +1178,20 @@
 "links": {
 "arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4967312016-S"
 },
+"ba_ref": "12288-4967312016-S",
 "categories": [
 "analytics_eng"
 ],
-"level": "regular",
 "id": "6543bf867ecc",
 "first_seen": "2026-10-20",
-"last_seen": "2026-10-20"
+"level": "unknown",
+"last_seen": "2026-10-20",
+"jd_lang": "de",
+"jd_lang_basis": "jd",
+"german": "required",
+"exp_min": null,
+"has_jd": true,
+"enriched": 1
 },
 {
 "title": "Business Analyst im Regulatorischen Reporting",
@@ -898,13 +1206,20 @@
 "links": {
 "arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/20345-EWp3eyBc-S"
 },
+"ba_ref": "20345-EWp3eyBc-S",
 "categories": [
 "bi"
 ],
-"level": "regular",
 "id": "82d7b5eec154",
 "first_seen": "2026-10-20",
-"last_seen": "2026-10-20"
+"level": "unknown",
+"last_seen": "2026-10-20",
+"jd_lang": "de",
+"jd_lang_basis": "jd",
+"german": "required",
+"exp_min": null,
+"has_jd": true,
+"enriched": 1
 },
 {
 "title": "Senior Data Engineer - Animal Health Clinical Development",
@@ -919,13 +1234,20 @@
 "links": {
 "arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/20177-44507914-1014-S"
 },
+"ba_ref": "20177-44507914-1014-S",
 "categories": [
 "analytics_eng"
 ],
-"level": "senior",
 "id": "15e2d46411c5",
 "first_seen": "2026-10-20",
-"last_seen": "2026-10-20"
+"level": "senior",
+"last_seen": "2026-10-20",
+"jd_lang": "en",
+"jd_lang_basis": "jd",
+"german": "not_needed",
+"exp_min": 3,
+"has_jd": true,
+"enriched": 1
 },
 {
 "title": "Spezialist Digitales Marketing - Reporting, Data Analytics & AI",
@@ -940,14 +1262,21 @@
 "links": {
 "arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/19220-d5257fffe233539f-S"
 },
+"ba_ref": "19220-d5257fffe233539f-S",
 "categories": [
 "bi",
 "data_analyst"
 ],
-"level": "regular",
 "id": "f06453175c8d",
 "first_seen": "2026-10-20",
-"last_seen": "2026-10-20"
+"level": "entry",
+"last_seen": "2026-10-20",
+"jd_lang": "de",
+"jd_lang_basis": "jd",
+"german": "required",
+"exp_min": 0,
+"has_jd": true,
+"enriched": 1
 },
 {
 "title": "Spezialist/Business Analyst Schwerpunkt BI",
@@ -962,13 +1291,20 @@
 "links": {
 "arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/13635-365baa53_JB5273401-S"
 },
+"ba_ref": "13635-365baa53_JB5273401-S",
 "categories": [
 "bi"
 ],
-"level": "regular",
 "id": "729a7b2af0b1",
 "first_seen": "2026-10-20",
-"last_seen": "2026-10-20"
+"level": "unknown",
+"last_seen": "2026-10-20",
+"jd_lang": "de",
+"jd_lang_basis": "jd",
+"german": "required",
+"exp_min": null,
+"has_jd": true,
+"enriched": 1
 },
 {
 "title": "Business Intelligence Experts",
@@ -983,13 +1319,20 @@
 "links": {
 "arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4965997880-S"
 },
+"ba_ref": "12288-4965997880-S",
 "categories": [
 "bi"
 ],
-"level": "regular",
 "id": "fc45a793a0de",
 "first_seen": "2026-10-20",
-"last_seen": "2026-10-20"
+"level": "unknown",
+"last_seen": "2026-10-20",
+"jd_lang": "de",
+"jd_lang_basis": "jd",
+"german": "required",
+"exp_min": null,
+"has_jd": true,
+"enriched": 1
 },
 {
 "title": "(Senior) Entwickler Business Intelligence",
@@ -1004,13 +1347,20 @@
 "links": {
 "arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/13635-b6920cd3_JB5273620-S"
 },
+"ba_ref": "13635-b6920cd3_JB5273620-S",
 "categories": [
 "bi"
 ],
-"level": "senior",
 "id": "a51b0e12a5e5",
 "first_seen": "2026-10-20",
-"last_seen": "2026-10-20"
+"level": "senior",
+"last_seen": "2026-10-20",
+"jd_lang": "de",
+"jd_lang_basis": "jd",
+"german": "required",
+"exp_min": 3,
+"has_jd": true,
+"enriched": 1
 },
 {
 "title": "(Senior) Consultant Business Intelligence",
@@ -1025,13 +1375,20 @@
 "links": {
 "arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/13635-cc61cb92_JB5273504-S"
 },
+"ba_ref": "13635-cc61cb92_JB5273504-S",
 "categories": [
 "bi"
 ],
-"level": "senior",
 "id": "943d22069540",
 "first_seen": "2026-10-20",
-"last_seen": "2026-10-20"
+"level": "senior",
+"last_seen": "2026-10-20",
+"jd_lang": "de",
+"jd_lang_basis": "jd",
+"german": "required",
+"exp_min": 3,
+"has_jd": true,
+"enriched": 1
 },
 {
 "title": "Controller Schwerpunkt Business Intelligence, Regional Club",
@@ -1046,13 +1403,20 @@
 "links": {
 "arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2357972-S"
 },
+"ba_ref": "12811-2357972-S",
 "categories": [
 "bi"
 ],
-"level": "regular",
 "id": "229c2c28e648",
 "first_seen": "2026-10-20",
-"last_seen": "2026-10-20"
+"level": "associate",
+"last_seen": "2026-10-20",
+"jd_lang": "de",
+"jd_lang_basis": "jd",
+"german": "required",
+"exp_min": 3,
+"has_jd": true,
+"enriched": 1
 },
 {
 "title": "accompio GmbH: Werkstudent Data Analytics / Business Intelligence - Wuppertal",
@@ -1067,14 +1431,21 @@
 "links": {
 "arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/11956-3069421792015201-S"
 },
+"ba_ref": "11956-3069421792015201-S",
 "categories": [
 "bi",
 "data_analyst"
 ],
-"level": "student",
 "id": "d741f630bec8",
 "first_seen": "2026-10-20",
-"last_seen": "2026-10-20"
+"level": "student",
+"last_seen": "2026-10-20",
+"jd_lang": "de",
+"jd_lang_basis": "jd",
+"german": "required",
+"exp_min": null,
+"has_jd": true,
+"enriched": 1
 },
 {
 "title": "Referent Business Analyst & Business Intelligence (w|m|d)",
@@ -1089,13 +1460,20 @@
 "links": {
 "arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/18349-47442_16_JB5273115-S"
 },
+"ba_ref": "18349-47442_16_JB5273115-S",
 "categories": [
 "bi"
 ],
-"level": "regular",
 "id": "f519977dfcfe",
 "first_seen": "2026-10-20",
-"last_seen": "2026-10-20"
+"level": "associate",
+"last_seen": "2026-10-20",
+"jd_lang": "de",
+"jd_lang_basis": "jd",
+"german": "required",
+"exp_min": 3,
+"has_jd": true,
+"enriched": 1
 },
 {
 "title": "Domain Architect for Data & Analytics",
@@ -1110,13 +1488,20 @@
 "links": {
 "arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/16947-976934316-S"
 },
+"ba_ref": "16947-976934316-S",
 "categories": [
 "data_analyst"
 ],
-"level": "regular",
 "id": "fc8db7672358",
 "first_seen": "2026-10-20",
-"last_seen": "2026-10-20"
+"level": "senior",
+"last_seen": "2026-10-20",
+"jd_lang": "en",
+"jd_lang_basis": "jd",
+"german": "required",
+"exp_min": 5,
+"has_jd": true,
+"enriched": 1
 },
 {
 "title": "Data Analyst Robotik / IoT",
@@ -1131,13 +1516,20 @@
 "links": {
 "arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/13644-313330-S"
 },
+"ba_ref": "13644-313330-S",
 "categories": [
 "data_analyst"
 ],
-"level": "regular",
 "id": "a14bbb30c93a",
 "first_seen": "2026-10-20",
-"last_seen": "2026-10-20"
+"level": "unknown",
+"last_seen": "2026-10-20",
+"jd_lang": "de",
+"jd_lang_basis": "jd",
+"german": "required",
+"exp_min": null,
+"has_jd": true,
+"enriched": 1
 },
 {
 "title": "Data Engineer - Big Data Platform,Hirschau,München",
@@ -1152,13 +1544,20 @@
 "links": {
 "arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2358270-S"
 },
+"ba_ref": "12811-2358270-S",
 "categories": [
 "analytics_eng"
 ],
-"level": "regular",
 "id": "09bf0d45d89e",
 "first_seen": "2026-10-20",
-"last_seen": "2026-10-20"
+"level": "associate",
+"last_seen": "2026-10-20",
+"jd_lang": "de",
+"jd_lang_basis": "jd",
+"german": "plus",
+"exp_min": 3,
+"has_jd": true,
+"enriched": 1
 },
 {
 "title": "Data Engineer Cloud/Big Data",
@@ -1173,13 +1572,20 @@
 "links": {
 "arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/13644-313451-S"
 },
+"ba_ref": "13644-313451-S",
 "categories": [
 "analytics_eng"
 ],
-"level": "regular",
 "id": "8aed6b61a5af",
 "first_seen": "2026-10-20",
-"last_seen": "2026-10-20"
+"level": "unknown",
+"last_seen": "2026-10-20",
+"jd_lang": "de",
+"jd_lang_basis": "jd",
+"german": "required",
+"exp_min": null,
+"has_jd": true,
+"enriched": 1
 },
 {
 "title": "Referent Bankcontrolling & Reporting",
@@ -1194,13 +1600,20 @@
 "links": {
 "arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003862844-S"
 },
+"ba_ref": "10001-1003862844-S",
 "categories": [
 "bi"
 ],
-"level": "regular",
 "id": "0398bf7ef504",
 "first_seen": "2026-10-20",
-"last_seen": "2026-10-20"
+"level": "unknown",
+"last_seen": "2026-10-20",
+"jd_lang": "de",
+"jd_lang_basis": "jd",
+"german": "required",
+"exp_min": null,
+"has_jd": true,
+"enriched": 1
 },
 {
 "title": "Signal Processing & Data Engineer",
@@ -1217,13 +1630,20 @@
 "arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003857849-S",
 "arbeitnow": "https://www.arbeitnow.com/jobs/companies/limatica/signal-processing-data-engineer-chemnitz-95163"
 },
+"ba_ref": "10001-1003857849-S",
 "categories": [
 "analytics_eng"
 ],
-"level": "regular",
 "id": "d18df716f26b",
 "first_seen": "2026-10-20",
-"last_seen": "2026-10-20"
+"level": "unknown",
+"last_seen": "2026-10-20",
+"jd_lang": "en",
+"jd_lang_basis": "jd",
+"german": "required",
+"exp_min": null,
+"has_jd": true,
+"enriched": 1
 },
 {
 "title": "Analytics Engineer Tchibo MOBIL / Mobilfunk",
@@ -1238,13 +1658,20 @@
 "links": {
 "arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/11937-34983_59604-1-S"
 },
+"ba_ref": "11937-34983_59604-1-S",
 "categories": [
 "analytics_eng"
 ],
-"level": "regular",
 "id": "47fa08bfdd48",
 "first_seen": "2026-10-20",
-"last_seen": "2026-10-20"
+"level": "unknown",
+"last_seen": "2026-10-20",
+"jd_lang": "de",
+"jd_lang_basis": "jd",
+"german": "required",
+"exp_min": null,
+"has_jd": true,
+"enriched": 1
 },
 {
 "title": "Data Engineer Software",
@@ -1259,13 +1686,20 @@
 "links": {
 "arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12608-1382495-28042-2-S"
 },
+"ba_ref": "12608-1382495-28042-2-S",
 "categories": [
 "analytics_eng"
 ],
-"level": "regular",
 "id": "868bc72e207e",
 "first_seen": "2026-10-20",
-"last_seen": "2026-10-20"
+"level": "unknown",
+"last_seen": "2026-10-20",
+"jd_lang": "de",
+"jd_lang_basis": "jd",
+"german": "required",
+"exp_min": null,
+"has_jd": true,
+"enriched": 1
 },
 {
 "title": "Business Intelligence Spezialist / Data Analyst im Controlling (VZ/TZ) Standort Rheine",
@@ -1280,14 +1714,21 @@
 "links": {
 "arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/17373-1030540-S"
 },
+"ba_ref": "17373-1030540-S",
 "categories": [
 "bi",
 "data_analyst"
 ],
-"level": "regular",
 "id": "551818dca5f7",
 "first_seen": "2026-10-20",
-"last_seen": "2026-10-20"
+"level": "associate",
+"last_seen": "2026-10-20",
+"jd_lang": "de",
+"jd_lang_basis": "jd",
+"german": "required",
+"exp_min": 3,
+"has_jd": true,
+"enriched": 1
 },
 {
 "title": "Data-Warehouse- und BI-Spezialist*in für Studium und Lehre ID: UV-0078-dezIII-ref-2026",
@@ -1302,13 +1743,20 @@
 "links": {
 "arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1208286493-S"
 },
+"ba_ref": "10000-1208286493-S",
 "categories": [
 "bi"
 ],
-"level": "regular",
 "id": "1be868500f4b",
 "first_seen": "2026-10-20",
-"last_seen": "2026-10-20"
+"level": "entry",
+"last_seen": "2026-10-20",
+"jd_lang": "de",
+"jd_lang_basis": "jd",
+"german": "required",
+"exp_min": 0,
+"has_jd": true,
+"enriched": 1
 },
 {
 "title": "IT Business Intelligence Professional",
@@ -1323,13 +1771,20 @@
 "links": {
 "arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/19108-976682752-S"
 },
+"ba_ref": "19108-976682752-S",
 "categories": [
 "bi"
 ],
-"level": "regular",
 "id": "71c0a8380549",
 "first_seen": "2026-10-20",
-"last_seen": "2026-10-20"
+"level": "associate",
+"last_seen": "2026-10-20",
+"jd_lang": "de",
+"jd_lang_basis": "jd",
+"german": "required",
+"exp_min": 3,
+"has_jd": true,
+"enriched": 1
 },
 {
 "title": "Referent Business Analyst & Business Intelligence (w|m|d), ADAC Zentrale",
@@ -1344,13 +1799,20 @@
 "links": {
 "arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2357058-S"
 },
+"ba_ref": "12811-2357058-S",
 "categories": [
 "bi"
 ],
-"level": "regular",
 "id": "9ed4e3b50cf8",
 "first_seen": "2026-10-20",
-"last_seen": "2026-10-20"
+"level": "associate",
+"last_seen": "2026-10-20",
+"jd_lang": "de",
+"jd_lang_basis": "jd",
+"german": "required",
+"exp_min": 3,
+"has_jd": true,
+"enriched": 1
 },
 {
 "title": "Senior Data Engineer",
@@ -1365,13 +1827,20 @@
 "links": {
 "arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4964543918-S"
 },
+"ba_ref": "12288-4964543918-S",
 "categories": [
 "analytics_eng"
 ],
-"level": "senior",
 "id": "88d86bec9781",
 "first_seen": "2026-10-20",
-"last_seen": "2026-10-20"
+"level": "senior",
+"last_seen": "2026-10-20",
+"jd_lang": "de",
+"jd_lang_basis": "jd",
+"german": "required",
+"exp_min": 4,
+"has_jd": true,
+"enriched": 1
 },
 {
 "title": "Lead Data & Analytics Engineer",
@@ -1386,14 +1855,21 @@
 "links": {
 "arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003850803-S"
 },
+"ba_ref": "10001-1003850803-S",
 "categories": [
 "analytics_eng",
 "data_analyst"
 ],
-"level": "senior",
 "id": "747a73536f34",
 "first_seen": "2026-10-20",
-"last_seen": "2026-10-20"
+"level": "lead",
+"last_seen": "2026-10-20",
+"jd_lang": "de",
+"jd_lang_basis": "jd",
+"german": "plus",
+"exp_min": 5,
+"has_jd": true,
+"enriched": 1
 },
 {
 "title": "(Senior) Data Engineer",
@@ -1408,13 +1884,20 @@
 "links": {
 "arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/19533-976460273-S"
 },
+"ba_ref": "19533-976460273-S",
 "categories": [
 "analytics_eng"
 ],
-"level": "senior",
 "id": "0f19ab77bd11",
 "first_seen": "2026-10-20",
-"last_seen": "2026-10-20"
+"level": "senior",
+"last_seen": "2026-10-20",
+"jd_lang": "de",
+"jd_lang_basis": "jd",
+"german": "required",
+"exp_min": 3,
+"has_jd": true,
+"enriched": 1
 },
 {
 "title": "SENIOR DATA ENGINEER/ARCHITECT",
@@ -1429,13 +1912,20 @@
 "links": {
 "arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1208277853-S"
 },
+"ba_ref": "10000-1208277853-S",
 "categories": [
 "analytics_eng"
 ],
-"level": "senior",
 "id": "737a3c638807",
 "first_seen": "2026-10-20",
-"last_seen": "2026-10-20"
+"level": "senior",
+"last_seen": "2026-10-20",
+"jd_lang": "de",
+"jd_lang_basis": "jd",
+"german": "plus",
+"exp_min": 5,
+"has_jd": true,
+"enriched": 1
 },
 {
 "title": "Analyst Vertriebsperformance & BI Reporting",
@@ -1450,13 +1940,20 @@
 "links": {
 "arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003850161-S"
 },
+"ba_ref": "10001-1003850161-S",
 "categories": [
 "bi"
 ],
-"level": "regular",
 "id": "23e310caf6e7",
 "first_seen": "2026-10-20",
-"last_seen": "2026-10-20"
+"level": "entry",
+"last_seen": "2026-10-20",
+"jd_lang": "de",
+"jd_lang_basis": "jd",
+"german": "required",
+"exp_min": 0,
+"has_jd": true,
+"enriched": 1
 },
 {
 "title": "Data Analyst Marktlogistik",
@@ -1471,13 +1968,20 @@
 "links": {
 "arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12787-271911131026-S"
 },
+"ba_ref": "12787-271911131026-S",
 "categories": [
 "data_analyst"
 ],
-"level": "regular",
 "id": "3ad1b5909e80",
 "first_seen": "2026-10-20",
-"last_seen": "2026-10-20"
+"level": "unknown",
+"last_seen": "2026-10-20",
+"jd_lang": "de",
+"jd_lang_basis": "jd",
+"german": "required",
+"exp_min": null,
+"has_jd": true,
+"enriched": 1
 },
 {
 "title": "Data Analyst eCommerce",
@@ -1492,13 +1996,20 @@
 "links": {
 "arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/13649-13374912AB-S"
 },
+"ba_ref": "13649-13374912AB-S",
 "categories": [
 "data_analyst"
 ],
-"level": "regular",
 "id": "c6a32f01d634",
 "first_seen": "2026-10-20",
-"last_seen": "2026-10-20"
+"level": "entry",
+"last_seen": "2026-10-20",
+"jd_lang": "de",
+"jd_lang_basis": "jd",
+"german": "required",
+"exp_min": 0,
+"has_jd": true,
+"enriched": 1
 },
 {
 "title": "Data Analyst Healthcare in Hamburg, Hamburg (City Nord)",
@@ -1513,13 +2024,20 @@
 "links": {
 "arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2356147-S"
 },
+"ba_ref": "12811-2356147-S",
 "categories": [
 "data_analyst"
 ],
-"level": "regular",
 "id": "199df35b16dd",
 "first_seen": "2026-10-20",
-"last_seen": "2026-10-20"
+"level": "entry",
+"last_seen": "2026-10-20",
+"jd_lang": "de",
+"jd_lang_basis": "jd",
+"german": "required",
+"exp_min": 0,
+"has_jd": true,
+"enriched": 1
 },
 {
 "title": "Data Engineer",
@@ -1534,13 +2052,20 @@
 "links": {
 "arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/11949-17387579-S"
 },
+"ba_ref": "11949-17387579-S",
 "categories": [
 "analytics_eng"
 ],
-"level": "regular",
 "id": "134e75bb1c51",
 "first_seen": "2026-10-20",
-"last_seen": "2026-10-20"
+"level": "associate",
+"last_seen": "2026-10-20",
+"jd_lang": "de",
+"jd_lang_basis": "jd",
+"german": "required",
+"exp_min": 3,
+"has_jd": true,
+"enriched": 1
 },
 {
 "title": "Data Engineer SAS Base",
@@ -1555,13 +2080,20 @@
 "links": {
 "arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4963186422-S"
 },
+"ba_ref": "12288-4963186422-S",
 "categories": [
 "analytics_eng"
 ],
-"level": "regular",
 "id": "596f937ac245",
 "first_seen": "2026-10-20",
-"last_seen": "2026-10-20"
+"level": "unknown",
+"last_seen": "2026-10-20",
+"jd_lang": "de",
+"jd_lang_basis": "jd",
+"german": "required",
+"exp_min": null,
+"has_jd": true,
+"enriched": 1
 },
 {
 "title": "Data Engineer Celonis",
@@ -1576,13 +2108,20 @@
 "links": {
 "arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12336-a26f1192j0456072-S"
 },
+"ba_ref": "12336-a26f1192j0456072-S",
 "categories": [
 "analytics_eng"
 ],
-"level": "regular",
 "id": "a0c7dd6b4067",
 "first_seen": "2026-10-20",
-"last_seen": "2026-10-20"
+"level": "unknown",
+"last_seen": "2026-10-20",
+"jd_lang": "de",
+"jd_lang_basis": "jd",
+"german": "required",
+"exp_min": null,
+"has_jd": true,
+"enriched": 1
 },
 {
 "title": "Kaufmännischer Mitarbeiter Energiedatenmanagement",
@@ -1597,13 +2136,20 @@
 "links": {
 "arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003850071-S"
 },
+"ba_ref": "10001-1003850071-S",
 "categories": [
 "energy"
 ],
-"level": "regular",
 "id": "c02bfd57cb82",
 "first_seen": "2026-10-20",
-"last_seen": "2026-10-20"
+"level": "unknown",
+"last_seen": "2026-10-20",
+"jd_lang": "de",
+"jd_lang_basis": "jd",
+"german": "required",
+"exp_min": null,
+"has_jd": true,
+"enriched": 1
 },
 {
 "title": "Head of BI, Data Governance & Digital Transformation",
@@ -1618,12 +2164,19 @@
 "links": {
 "arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003850843-S"
 },
+"ba_ref": "10001-1003850843-S",
 "categories": [
 "bi"
 ],
-"level": "senior",
 "id": "9d23b113f4d7",
 "first_seen": "2026-10-20",
-"last_seen": "2026-10-20"
+"level": "lead",
+"last_seen": "2026-10-20",
+"jd_lang": "de",
+"jd_lang_basis": "jd",
+"german": "plus",
+"exp_min": 7,
+"has_jd": true,
+"enriched": 1
 }
 ]
