@@ -198,6 +198,13 @@ def pick(d: dict, *keys):
 # ─────────────────────────── 来源 1：联邦劳动局 ───────────────────────────
 
 BA_BASE = "https://rest.arbeitsagentur.de/jobboerse/jobsuche-service"
+BA_REGIONS = {   # v6 接口里联邦州是枚举值
+    "BADEN_WUERTTEMBERG": "Baden-Württemberg", "BAYERN": "Bayern", "BERLIN": "Berlin", "BRANDENBURG": "Brandenburg",
+    "BREMEN": "Bremen", "HAMBURG": "Hamburg", "HESSEN": "Hessen", "MECKLENBURG_VORPOMMERN": "Mecklenburg-Vorpommern",
+    "NIEDERSACHSEN": "Niedersachsen", "NORDRHEIN_WESTFALEN": "Nordrhein-Westfalen", "RHEINLAND_PFALZ": "Rheinland-Pfalz",
+    "SAARLAND": "Saarland", "SACHSEN": "Sachsen", "SACHSEN_ANHALT": "Sachsen-Anhalt",
+    "SCHLESWIG_HOLSTEIN": "Schleswig-Holstein", "THUERINGEN": "Thüringen",
+}
 BA_PATHS = ["/pc/v6/jobs", "/pc/v4/app/jobs", "/pc/v4/jobs"]   # 接口版本会变，依次尝试
 _ba_path = None
 _ba_logged = False
@@ -217,6 +224,8 @@ def ba_items(data) -> list | None:
             for v2 in v.values():
                 if isinstance(v2, list) and (not v2 or isinstance(v2[0], dict)):
                     return v2
+    if "maxErgebnisse" in data or "page" in data:   # 没有结果时，列表字段可能整个不出现
+        return []
     return None
 
 
@@ -235,10 +244,8 @@ def ba_get(params: dict) -> list:
             keys = list(data)[:15] if isinstance(data, dict) else type(data).__name__
             sample = sorted(items[0]) if items else None
             line = f"[BA {path}] top-level keys: {keys}; items: {None if items is None else len(items)}; item keys: {sample}"
-            if items:
-                line += f"; first item: {json.dumps(items[0], ensure_ascii=False)[:2500]}"
-            elif items is None or not items:
-                line += f"; raw: {json.dumps(data, ensure_ascii=False)[:500]}"
+            if items is None:   # 格式变了：把原始内容留在日志里，方便排查
+                line += f"; raw: {json.dumps(data, ensure_ascii=False)[:1500]}"
             print("    " + line)
             annotate("notice", line)
         if items is None:
@@ -273,13 +280,17 @@ def fetch_ba(query: str) -> list[dict]:
             employer = pick(it, "arbeitgeber", "arbeitgeberName", "firma")
             if isinstance(employer, dict):
                 employer = pick(employer, "name", "anzeigeName")
-            ort = pick(it, "arbeitsort", "arbeitsorte", "ort") or {}
+            ort = pick(it, "arbeitsort", "stellenlokationen", "arbeitsorte", "ort") or {}
             if isinstance(ort, list):
                 ort = ort[0] if ort else {}
             if isinstance(ort, str):
                 ort = {"ort": ort}
+            if isinstance(ort.get("adresse"), dict):   # v6: {"adresse": {"ort": ..., "region": "BAYERN"}}
+                ort = ort["adresse"]
+            region = pick(ort, "region", "bundesland")
+            region = BA_REGIONS.get(str(region), region if region and "_" not in str(region) else "")
             url = (f"https://www.arbeitsagentur.de/jobsuche/jobdetail/{urllib.parse.quote(str(refnr))}"
-                   if refnr else pick(it, "externeUrl"))
+                   if refnr else pick(it, "externeUrl", "externeURL"))
             if not url:
                 continue
             jobs.append(make_job(
@@ -287,10 +298,11 @@ def fetch_ba(query: str) -> list[dict]:
                 pick(it, "titel", "stellenangebotsTitel", "stellentitel", "titelDerStelle", "beruf") or "",
                 employer,
                 pick(ort, "ort", "stadt"),
-                pick(ort, "region", "bundesland"),
-                str(pick(it, "aktuelleVeroeffentlichungsdatum", "veroeffentlichungsdatum",
-                         "datumErsteVeroeffentlichung", "eintrittsdatum") or "")[:10] or None,
+                region,
+                str(pick(it, "aktuelleVeroeffentlichungsdatum", "datumErsteVeroeffentlichung",
+                         "veroeffentlichungsdatum", "eintrittsdatum") or "")[:10] or None,
                 url,
+                remote=True if it.get("homeofficemoeglich") else None,
             ))
         if len(items) < params["size"]:
             break
