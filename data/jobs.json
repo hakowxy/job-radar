@@ -21,27 +21,6 @@
 "last_seen": "2026-10-20"
 },
 {
-"title": "Signal Processing & Data Engineer",
-"company": "Limatica",
-"city": "Chemnitz",
-"region": "Sachsen",
-"posted": "2026-10-20",
-"remote": false,
-"sources": [
-"arbeitnow"
-],
-"links": {
-"arbeitnow": "https://www.arbeitnow.com/jobs/companies/limatica/signal-processing-data-engineer-chemnitz-95163"
-},
-"categories": [
-"analytics_eng"
-],
-"level": "regular",
-"id": "d18df716f26b",
-"first_seen": "2026-10-20",
-"last_seen": "2026-10-20"
-},
-{
 "title": "Working Student - Data Engineer & Software Developer (Research Analytics)",
 "company": "Agilerobotsse",
 "city": "Munich, Bavaria",
@@ -86,14 +65,16 @@
 {
 "title": "Data Analyst FlixTrain Operations",
 "company": "Flix",
-"city": "Berlin, Germany",
+"city": "Berlin",
 "region": "Berlin",
-"posted": "2026-10-19",
+"posted": "2026-10-20",
 "remote": false,
 "sources": [
+"arbeitsagentur",
 "arbeitnow"
 ],
 "links": {
+"arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12951-c8451df1-c7d1-461e--S",
 "arbeitnow": "https://www.arbeitnow.com/jobs/companies/flix/data-analyst-flixtrain-operations-berlin-54675"
 },
 "categories": [
@@ -101,6 +82,301 @@
 ],
 "level": "regular",
 "id": "aed502d8ebab",
+"first_seen": "2026-10-20",
+"last_seen": "2026-10-20"
+},
+{
+"title": "Data Engineer / Analytics Engineer",
+"company": "BV Bestseller Verlag GmbH",
+"city": "Bochum",
+"region": "Nordrhein-Westfalen",
+"posted": "2026-10-20",
+"remote": false,
+"sources": [
+"arbeitsagentur"
+],
+"links": {
+"arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/13635-b31fd295_JB5277511-S"
+},
+"categories": [
+"analytics_eng"
+],
+"level": "regular",
+"id": "033d24d5a40c",
+"first_seen": "2026-10-20",
+"last_seen": "2026-10-20"
+},
+{
+"title": "(SENIOR) BUSINESS ANALYST* BI & ANALYTICS, HS48 Zentrale",
+"company": "NEW YORKER",
+"city": "Braunschweig",
+"region": "Niedersachsen",
+"posted": "2026-10-20",
+"remote": false,
+"sources": [
+"arbeitsagentur"
+],
+"links": {
+"arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2360690-S"
+},
+"categories": [
+"bi"
+],
+"level": "senior",
+"id": "c84fad69b7bf",
+"first_seen": "2026-10-20",
+"last_seen": "2026-10-20"
+},
+{
+"title": "Data-Analyst - Retail & Sales Analytics",
+"company": "Inovisco Mobile Media GmbH",
+"city": "Köln",
+"region": "Nordrhein-Westfalen",
+"posted": "2026-10-20",
+"remote": false,
+"sources": [
+"arbeitsagentur"
+],
+"links": {
+"arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/13635-8114c96d_JB5277416-S"
+},
+"categories": [
+"data_analyst"
+],
+"level": "regular",
+"id": "cdadf707ca7c",
+"first_seen": "2026-10-20",
+"last_seen": "2026-10-20"
+},
+{
+"title": "IT-Spezialist Data Engineer",
+"company": "Volksbank Mittweida eG",
+"city": "Mittweida",
+"region": "Sachsen",
+"posted": "2026-10-20",
+"remote": true,
+"sources": [
+"arbeitsagentur"
+],
+"links": {
+"arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/18024-10Q9A00000X08-S"
+},
+"categories": [
+"analytics_eng"
+],
+"level": "regular",
+"id": "6377cd7d7432",
+"first_seen": "2026-10-20",
+"last_seen": "2026-10-20"
+},
+{
+"title": "Datenanalyst / Data Scientist - Vorhersagen für Solar- und Windstrom",
+"company": "energy & meteo systems GmbH",
+"city": "Oldenburg (Oldb)",
+"region": "Niedersachsen",
+"posted": "2026-10-20",
+"remote": false,
+"sources": [
+"arbeitsagentur"
+],
+"links": {
+"arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12908-060655535-S"
+},
+"categories": [
+"data_analyst"
+],
+"level": "regular",
+"id": "9fa59c20b892",
+"first_seen": "2026-10-20",
+"last_seen": "2026-10-20"
+},
+{
+"title": "IT Business Analyst* Regulatory Reporting",
+"company": "Berenberg",
+"city": "Hamburg",
+"region": "Hamburg",
+"posted": "2026-10-20",
+"remote": false,
+"sources": [
+"arbeitsagentur"
+],
+"links": {
+"arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/13644-313606-S"
+},
+"categories": [
+"bi"
+],
+"level": "regular",
+"id": "d031d7dd7aee",
+"first_seen": "2026-10-20",
+"last_seen": "2026-10-20"
+},
+{
+"title": "HR Data Analyst",
+"company": "ASML Berlin AG",
+"city": "Berlin",
+"region": "Berlin",
+"posted": "2026-10-19",
+"remote": false,
+"sources": [
+"arbeitsagentur"
+],
+"links": {
+"arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003878611-S"
+},
+"categories": [
+"data_analyst"
+],
+"level": "regular",
+"id": "4be6282f9417",
+"first_seen": "2026-10-20",
+"last_seen": "2026-10-20"
+},
+{
+"title": "682/B - Datenanalyst",
+"company": "Finanz Informatik GmbH & Co. KG",
+"city": "Frankfurt am Main",
+"region": "Hessen",
+"posted": "2026-10-19",
+"remote": false,
+"sources": [
+"arbeitsagentur"
+],
+"links": {
+"arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/20079-5491WG8R-S"
+},
+"categories": [
+"data_analyst"
+],
+"level": "regular",
+"id": "4061522be11f",
+"first_seen": "2026-10-20",
+"last_seen": "2026-10-20"
+},
+{
+"title": "BI Developer",
+"company": "Deutsche Prüfservice GmbH",
+"city": "Erkrath",
+"region": "Nordrhein-Westfalen",
+"posted": "2026-10-19",
+"remote": false,
+"sources": [
+"arbeitsagentur"
+],
+"links": {
+"arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12982-SM-SAM44065891-S"
+},
+"categories": [
+"bi"
+],
+"level": "regular",
+"id": "b3a1d7c99ea7",
+"first_seen": "2026-10-20",
+"last_seen": "2026-10-20"
+},
+{
+"title": "Business Intelligence Manager",
+"company": "ORLEN Deutschland GmbH",
+"city": "Elmshorn",
+"region": "Schleswig-Holstein",
+"posted": "2026-10-19",
+"remote": true,
+"sources": [
+"arbeitsagentur"
+],
+"links": {
+"arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/11858-SDE-124738-STA-S"
+},
+"categories": [
+"bi"
+],
+"level": "senior",
+"id": "9c823be65194",
+"first_seen": "2026-10-20",
+"last_seen": "2026-10-20"
+},
+{
+"title": "Data Engineer / BI-Architekt*in",
+"company": "Stuttgarter Wohnungs- und Städtebaugesellschaft mbH",
+"city": "Stuttgart",
+"region": "Baden-Württemberg",
+"posted": "2026-10-19",
+"remote": true,
+"sources": [
+"arbeitsagentur"
+],
+"links": {
+"arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12688-REG-43773-RJA-S"
+},
+"categories": [
+"bi",
+"analytics_eng"
+],
+"level": "regular",
+"id": "9b89228b548e",
+"first_seen": "2026-10-20",
+"last_seen": "2026-10-20"
+},
+{
+"title": "Datenanalyst",
+"company": "Finanz Informatik GmbH & Co. KG",
+"city": "Münster, Westfalen",
+"region": "Nordrhein-Westfalen",
+"posted": "2026-10-19",
+"remote": false,
+"sources": [
+"arbeitsagentur"
+],
+"links": {
+"arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/13884-348143-S"
+},
+"categories": [
+"data_analyst"
+],
+"level": "regular",
+"id": "d799e3a28721",
+"first_seen": "2026-10-20",
+"last_seen": "2026-10-20"
+},
+{
+"title": "Controller - Finanzcontrolling / Reporting / Power BI",
+"company": "Kramer GmbH",
+"city": "Umkirch",
+"region": "Baden-Württemberg",
+"posted": "2026-10-19",
+"remote": false,
+"sources": [
+"arbeitsagentur"
+],
+"links": {
+"arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4970252433-S"
+},
+"categories": [
+"bi"
+],
+"level": "regular",
+"id": "b42f17c7f83b",
+"first_seen": "2026-10-20",
+"last_seen": "2026-10-20"
+},
+{
+"title": "HR Analyst / Mitarbeiter HR Reporting",
+"company": "KiK Textilien und Non-Food GmbH",
+"city": "Bönen",
+"region": "Nordrhein-Westfalen",
+"posted": "2026-10-19",
+"remote": true,
+"sources": [
+"arbeitsagentur"
+],
+"links": {
+"arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003878935-S"
+},
+"categories": [
+"bi"
+],
+"level": "regular",
+"id": "50f3cd018f90",
 "first_seen": "2026-10-20",
 "last_seen": "2026-10-20"
 },
@@ -294,6 +570,132 @@
 "last_seen": "2026-10-20"
 },
 {
+"title": "Controller mit Schwerpunkt Krankenhauscontrolling - Business Intelligence Specialist",
+"company": "Klinikum der Landeshauptstadt Stuttgart gKAöR",
+"city": "Stuttgart",
+"region": "Baden-Württemberg",
+"posted": "2026-10-17",
+"remote": false,
+"sources": [
+"arbeitsagentur"
+],
+"links": {
+"arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12336-a26f793j0456539-S"
+},
+"categories": [
+"bi"
+],
+"level": "regular",
+"id": "122cd1a3d970",
+"first_seen": "2026-10-20",
+"last_seen": "2026-10-20"
+},
+{
+"title": "NTT DATA Deutschland SE: SAP Data & Analytics (Senior) Managing Consultant",
+"company": "NTT DATA Deutschland SE",
+"city": "Erfurt",
+"region": "Thüringen",
+"posted": "2026-10-17",
+"remote": true,
+"sources": [
+"arbeitsagentur"
+],
+"links": {
+"arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/19913-3070521792188001-S"
+},
+"categories": [
+"data_analyst"
+],
+"level": "senior",
+"id": "1ce97a442d37",
+"first_seen": "2026-10-20",
+"last_seen": "2026-10-20"
+},
+{
+"title": "Senior SAP Data & Analytics Consultant",
+"company": "Deutsche Telekom MMS GmbH",
+"city": "Rostock",
+"region": "Mecklenburg-Vorpommern",
+"posted": "2026-10-17",
+"remote": false,
+"sources": [
+"arbeitsagentur"
+],
+"links": {
+"arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/20478-2359206-S"
+},
+"categories": [
+"data_analyst"
+],
+"level": "senior",
+"id": "4f936f7f68e8",
+"first_seen": "2026-10-20",
+"last_seen": "2026-10-20"
+},
+{
+"title": "NTT DATA Deutschland SE: SAP Data & Analytics (Senior) Consultant",
+"company": "NTT DATA Deutschland SE",
+"city": "Stuttgart",
+"region": "Baden-Württemberg",
+"posted": "2026-10-17",
+"remote": true,
+"sources": [
+"arbeitsagentur"
+],
+"links": {
+"arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/19913-3070741792188001-S"
+},
+"categories": [
+"data_analyst"
+],
+"level": "senior",
+"id": "8f6a4c810b60",
+"first_seen": "2026-10-20",
+"last_seen": "2026-10-20"
+},
+{
+"title": "IBH connect GmbH: Data Engineer SOC in Dresden",
+"company": "IBH connect GmbH",
+"city": "Dresden",
+"region": "Sachsen",
+"posted": "2026-10-17",
+"remote": true,
+"sources": [
+"arbeitsagentur"
+],
+"links": {
+"arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/11956-2910471792188001-S"
+},
+"categories": [
+"analytics_eng"
+],
+"level": "regular",
+"id": "7243e0795023",
+"first_seen": "2026-10-20",
+"last_seen": "2026-10-20"
+},
+{
+"title": "Senior Machine Learning Scientist / Data Engineer - Logistics Algorithms",
+"company": "Zalando SE",
+"city": "Berlin",
+"region": "Berlin",
+"posted": "2026-10-17",
+"remote": false,
+"sources": [
+"arbeitsagentur"
+],
+"links": {
+"arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/18251-33945-S"
+},
+"categories": [
+"analytics_eng"
+],
+"level": "senior",
+"id": "6da18983d6ab",
+"first_seen": "2026-10-20",
+"last_seen": "2026-10-20"
+},
+{
 "title": "Data Engineer - Data Platform & Ontology",
 "company": "Statista",
 "city": "Hamburg or Berlin",
@@ -311,6 +713,916 @@
 ],
 "level": "regular",
 "id": "ddd1df01f9da",
+"first_seen": "2026-10-20",
+"last_seen": "2026-10-20"
+},
+{
+"title": "Data Engineer – Data & Analytics Northern Europe",
+"company": "Redion",
+"city": "München",
+"region": "Bayern",
+"posted": "2026-10-16",
+"remote": false,
+"sources": [
+"arbeitsagentur"
+],
+"links": {
+"arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/13635-74c543a4_JB5274949-S"
+},
+"categories": [
+"analytics_eng",
+"data_analyst"
+],
+"level": "regular",
+"id": "cffb5361f7c0",
+"first_seen": "2026-10-20",
+"last_seen": "2026-10-20"
+},
+{
+"title": "Dozent / Lehrkraft für KI, Python & Data Analytics",
+"company": "Zusammen mit der Ukraine e.V.",
+"city": "Fellbach, Württemberg",
+"region": "Baden-Württemberg",
+"posted": "2026-10-16",
+"remote": true,
+"sources": [
+"arbeitsagentur"
+],
+"links": {
+"arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003870455-S"
+},
+"categories": [
+"data_analyst"
+],
+"level": "regular",
+"id": "14dffd7e09c9",
+"first_seen": "2026-10-20",
+"last_seen": "2026-10-20"
+},
+{
+"title": "Data Analyst",
+"company": "Rheinmetall AG",
+"city": "Hamburg",
+"region": "Hamburg",
+"posted": "2026-10-16",
+"remote": false,
+"sources": [
+"arbeitsagentur"
+],
+"links": {
+"arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15939-BB-635629-7878-4691-S"
+},
+"categories": [
+"data_analyst"
+],
+"level": "regular",
+"id": "88c6e8af1151",
+"first_seen": "2026-10-20",
+"last_seen": "2026-10-20"
+},
+{
+"title": "(Junior) Business Intelligence Analyst",
+"company": "medermis clinics GmbH",
+"city": "München",
+"region": "Bayern",
+"posted": "2026-10-16",
+"remote": false,
+"sources": [
+"arbeitsagentur"
+],
+"links": {
+"arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/13635-04cef9aa_JB5274999-S"
+},
+"categories": [
+"bi"
+],
+"level": "junior",
+"id": "27126ed5afa2",
+"first_seen": "2026-10-20",
+"last_seen": "2026-10-20"
+},
+{
+"title": "Data Analyst - Marketing & Growth",
+"company": "ING Deutschland",
+"city": "Frankfurt am Main",
+"region": "Hessen",
+"posted": "2026-10-16",
+"remote": false,
+"sources": [
+"arbeitsagentur"
+],
+"links": {
+"arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12908-064658383-S"
+},
+"categories": [
+"data_analyst"
+],
+"level": "regular",
+"id": "ebd68ced3ef3",
+"first_seen": "2026-10-20",
+"last_seen": "2026-10-20"
+},
+{
+"title": "(Senior) Consultant Data Warehouse Design | Senior Data Analyst",
+"company": "MID GmbH",
+"city": "Nürnberg, Mittelfranken",
+"region": "Bayern",
+"posted": "2026-10-16",
+"remote": false,
+"sources": [
+"arbeitsagentur"
+],
+"links": {
+"arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/13635-0f9b45cf_JB5273614-S"
+},
+"categories": [
+"data_analyst"
+],
+"level": "senior",
+"id": "79fc80082db5",
+"first_seen": "2026-10-20",
+"last_seen": "2026-10-20"
+},
+{
+"title": "Data Engineer",
+"company": "Deloitte Services Wirtschaftsprüfungs GmbH",
+"city": "Wien,Innere Stadt",
+"region": "WIEN",
+"posted": "2026-10-16",
+"remote": false,
+"sources": [
+"arbeitsagentur"
+],
+"links": {
+"arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/11949-17393280-S"
+},
+"categories": [
+"analytics_eng"
+],
+"level": "regular",
+"id": "5953ccd84ce0",
+"first_seen": "2026-10-20",
+"last_seen": "2026-10-20"
+},
+{
+"title": "Data Engineer",
+"company": "ELA Container GmbH",
+"city": "Haren (Ems)",
+"region": "Niedersachsen",
+"posted": "2026-10-16",
+"remote": false,
+"sources": [
+"arbeitsagentur"
+],
+"links": {
+"arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4967312016-S"
+},
+"categories": [
+"analytics_eng"
+],
+"level": "regular",
+"id": "6543bf867ecc",
+"first_seen": "2026-10-20",
+"last_seen": "2026-10-20"
+},
+{
+"title": "Business Analyst im Regulatorischen Reporting",
+"company": "Frankfurter Sparkasse",
+"city": "Frankfurt am Main",
+"region": "Hessen",
+"posted": "2026-10-16",
+"remote": false,
+"sources": [
+"arbeitsagentur"
+],
+"links": {
+"arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/20345-EWp3eyBc-S"
+},
+"categories": [
+"bi"
+],
+"level": "regular",
+"id": "82d7b5eec154",
+"first_seen": "2026-10-20",
+"last_seen": "2026-10-20"
+},
+{
+"title": "Senior Data Engineer - Animal Health Clinical Development",
+"company": "Boehringer Ingelheim Pharma GmbH & Co. KG",
+"city": "Ingelheim am Rhein",
+"region": "Rheinland-Pfalz",
+"posted": "2026-10-15",
+"remote": false,
+"sources": [
+"arbeitsagentur"
+],
+"links": {
+"arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/20177-44507914-1014-S"
+},
+"categories": [
+"analytics_eng"
+],
+"level": "senior",
+"id": "15e2d46411c5",
+"first_seen": "2026-10-20",
+"last_seen": "2026-10-20"
+},
+{
+"title": "Spezialist Digitales Marketing - Reporting, Data Analytics & AI",
+"company": "Kaufland Dienstleistung GmbH & Co. KG",
+"city": "Heilbronn, Neckar",
+"region": "Baden-Württemberg",
+"posted": "2026-10-15",
+"remote": false,
+"sources": [
+"arbeitsagentur"
+],
+"links": {
+"arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/19220-d5257fffe233539f-S"
+},
+"categories": [
+"bi",
+"data_analyst"
+],
+"level": "regular",
+"id": "f06453175c8d",
+"first_seen": "2026-10-20",
+"last_seen": "2026-10-20"
+},
+{
+"title": "Spezialist/Business Analyst Schwerpunkt BI",
+"company": "GLOBUS Markthallen Holding GmbH & Co. KG",
+"city": "St. Wendel, Saar",
+"region": "Saarland",
+"posted": "2026-10-15",
+"remote": false,
+"sources": [
+"arbeitsagentur"
+],
+"links": {
+"arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/13635-365baa53_JB5273401-S"
+},
+"categories": [
+"bi"
+],
+"level": "regular",
+"id": "729a7b2af0b1",
+"first_seen": "2026-10-20",
+"last_seen": "2026-10-20"
+},
+{
+"title": "Business Intelligence Experts",
+"company": "Kaiser Personalberatung GmbH",
+"city": "Hamburg",
+"region": "Hamburg",
+"posted": "2026-10-15",
+"remote": false,
+"sources": [
+"arbeitsagentur"
+],
+"links": {
+"arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4965997880-S"
+},
+"categories": [
+"bi"
+],
+"level": "regular",
+"id": "fc45a793a0de",
+"first_seen": "2026-10-20",
+"last_seen": "2026-10-20"
+},
+{
+"title": "(Senior) Entwickler Business Intelligence",
+"company": "MID GmbH",
+"city": "Nürnberg, Mittelfranken",
+"region": "Bayern",
+"posted": "2026-10-15",
+"remote": false,
+"sources": [
+"arbeitsagentur"
+],
+"links": {
+"arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/13635-b6920cd3_JB5273620-S"
+},
+"categories": [
+"bi"
+],
+"level": "senior",
+"id": "a51b0e12a5e5",
+"first_seen": "2026-10-20",
+"last_seen": "2026-10-20"
+},
+{
+"title": "(Senior) Consultant Business Intelligence",
+"company": "MID GmbH",
+"city": "Nürnberg, Mittelfranken",
+"region": "Bayern",
+"posted": "2026-10-15",
+"remote": false,
+"sources": [
+"arbeitsagentur"
+],
+"links": {
+"arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/13635-cc61cb92_JB5273504-S"
+},
+"categories": [
+"bi"
+],
+"level": "senior",
+"id": "943d22069540",
+"first_seen": "2026-10-20",
+"last_seen": "2026-10-20"
+},
+{
+"title": "Controller Schwerpunkt Business Intelligence, Regional Club",
+"company": "ADAC Nordrhein e.V.",
+"city": "Köln",
+"region": "Nordrhein-Westfalen",
+"posted": "2026-10-15",
+"remote": false,
+"sources": [
+"arbeitsagentur"
+],
+"links": {
+"arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2357972-S"
+},
+"categories": [
+"bi"
+],
+"level": "regular",
+"id": "229c2c28e648",
+"first_seen": "2026-10-20",
+"last_seen": "2026-10-20"
+},
+{
+"title": "accompio GmbH: Werkstudent Data Analytics / Business Intelligence - Wuppertal",
+"company": "accompio GmbH",
+"city": "Wuppertal",
+"region": "Nordrhein-Westfalen",
+"posted": "2026-10-15",
+"remote": true,
+"sources": [
+"arbeitsagentur"
+],
+"links": {
+"arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/11956-3069421792015201-S"
+},
+"categories": [
+"bi",
+"data_analyst"
+],
+"level": "student",
+"id": "d741f630bec8",
+"first_seen": "2026-10-20",
+"last_seen": "2026-10-20"
+},
+{
+"title": "Referent Business Analyst & Business Intelligence (w|m|d)",
+"company": "ADAC Service GmbH",
+"city": "München",
+"region": "Bayern",
+"posted": "2026-10-15",
+"remote": false,
+"sources": [
+"arbeitsagentur"
+],
+"links": {
+"arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/18349-47442_16_JB5273115-S"
+},
+"categories": [
+"bi"
+],
+"level": "regular",
+"id": "f519977dfcfe",
+"first_seen": "2026-10-20",
+"last_seen": "2026-10-20"
+},
+{
+"title": "Domain Architect for Data & Analytics",
+"company": "Airbus Defence and Space GmbH",
+"city": "München",
+"region": "Bayern",
+"posted": "2026-10-15",
+"remote": false,
+"sources": [
+"arbeitsagentur"
+],
+"links": {
+"arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/16947-976934316-S"
+},
+"categories": [
+"data_analyst"
+],
+"level": "regular",
+"id": "fc8db7672358",
+"first_seen": "2026-10-20",
+"last_seen": "2026-10-20"
+},
+{
+"title": "Data Analyst Robotik / IoT",
+"company": "Alfred Kärcher",
+"city": "Schwaikheim",
+"region": "Baden-Württemberg",
+"posted": "2026-10-15",
+"remote": false,
+"sources": [
+"arbeitsagentur"
+],
+"links": {
+"arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/13644-313330-S"
+},
+"categories": [
+"data_analyst"
+],
+"level": "regular",
+"id": "a14bbb30c93a",
+"first_seen": "2026-10-20",
+"last_seen": "2026-10-20"
+},
+{
+"title": "Data Engineer - Big Data Platform,Hirschau,München",
+"company": "Conrad Electronic SE",
+"city": "Hirschau, Oberpfalz",
+"region": "Bayern",
+"posted": "2026-10-15",
+"remote": false,
+"sources": [
+"arbeitsagentur"
+],
+"links": {
+"arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2358270-S"
+},
+"categories": [
+"analytics_eng"
+],
+"level": "regular",
+"id": "09bf0d45d89e",
+"first_seen": "2026-10-20",
+"last_seen": "2026-10-20"
+},
+{
+"title": "Data Engineer Cloud/Big Data",
+"company": "Cologne Intelligence",
+"city": "Köln",
+"region": "Nordrhein-Westfalen",
+"posted": "2026-10-15",
+"remote": true,
+"sources": [
+"arbeitsagentur"
+],
+"links": {
+"arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/13644-313451-S"
+},
+"categories": [
+"analytics_eng"
+],
+"level": "regular",
+"id": "8aed6b61a5af",
+"first_seen": "2026-10-20",
+"last_seen": "2026-10-20"
+},
+{
+"title": "Referent Bankcontrolling & Reporting",
+"company": "Frankfurter Volksbank Rhein/Main eG",
+"city": "Hanau",
+"region": "Hessen",
+"posted": "2026-10-15",
+"remote": false,
+"sources": [
+"arbeitsagentur"
+],
+"links": {
+"arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003862844-S"
+},
+"categories": [
+"bi"
+],
+"level": "regular",
+"id": "0398bf7ef504",
+"first_seen": "2026-10-20",
+"last_seen": "2026-10-20"
+},
+{
+"title": "Signal Processing & Data Engineer",
+"company": "LIMATICA GmbH",
+"city": "Chemnitz, Sachsen",
+"region": "Sachsen",
+"posted": "2026-10-14",
+"remote": true,
+"sources": [
+"arbeitsagentur",
+"arbeitnow"
+],
+"links": {
+"arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003857849-S",
+"arbeitnow": "https://www.arbeitnow.com/jobs/companies/limatica/signal-processing-data-engineer-chemnitz-95163"
+},
+"categories": [
+"analytics_eng"
+],
+"level": "regular",
+"id": "d18df716f26b",
+"first_seen": "2026-10-20",
+"last_seen": "2026-10-20"
+},
+{
+"title": "Analytics Engineer Tchibo MOBIL / Mobilfunk",
+"company": "Tchibo GmbH Abteilung HRO/HRO-P",
+"city": "Hamburg",
+"region": "Hamburg",
+"posted": "2026-10-14",
+"remote": false,
+"sources": [
+"arbeitsagentur"
+],
+"links": {
+"arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/11937-34983_59604-1-S"
+},
+"categories": [
+"analytics_eng"
+],
+"level": "regular",
+"id": "47fa08bfdd48",
+"first_seen": "2026-10-20",
+"last_seen": "2026-10-20"
+},
+{
+"title": "Data Engineer Software",
+"company": "REWE Group",
+"city": "Köln",
+"region": "Nordrhein-Westfalen",
+"posted": "2026-10-14",
+"remote": false,
+"sources": [
+"arbeitsagentur"
+],
+"links": {
+"arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12608-1382495-28042-2-S"
+},
+"categories": [
+"analytics_eng"
+],
+"level": "regular",
+"id": "868bc72e207e",
+"first_seen": "2026-10-20",
+"last_seen": "2026-10-20"
+},
+{
+"title": "Business Intelligence Spezialist / Data Analyst im Controlling (VZ/TZ) Standort Rheine",
+"company": "DEOS AG",
+"city": "Rheine",
+"region": "Nordrhein-Westfalen",
+"posted": "2026-10-14",
+"remote": false,
+"sources": [
+"arbeitsagentur"
+],
+"links": {
+"arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/17373-1030540-S"
+},
+"categories": [
+"bi",
+"data_analyst"
+],
+"level": "regular",
+"id": "551818dca5f7",
+"first_seen": "2026-10-20",
+"last_seen": "2026-10-20"
+},
+{
+"title": "Data-Warehouse- und BI-Spezialist*in für Studium und Lehre ID: UV-0078-dezIII-ref-2026",
+"company": "Philipps-Universität Marburg",
+"city": "Marburg",
+"region": "Hessen",
+"posted": "2026-10-14",
+"remote": false,
+"sources": [
+"arbeitsagentur"
+],
+"links": {
+"arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1208286493-S"
+},
+"categories": [
+"bi"
+],
+"level": "regular",
+"id": "1be868500f4b",
+"first_seen": "2026-10-20",
+"last_seen": "2026-10-20"
+},
+{
+"title": "IT Business Intelligence Professional",
+"company": "Harry-Brot Group SE & Co. KG",
+"city": "",
+"region": "",
+"posted": "2026-10-14",
+"remote": false,
+"sources": [
+"arbeitsagentur"
+],
+"links": {
+"arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/19108-976682752-S"
+},
+"categories": [
+"bi"
+],
+"level": "regular",
+"id": "71c0a8380549",
+"first_seen": "2026-10-20",
+"last_seen": "2026-10-20"
+},
+{
+"title": "Referent Business Analyst & Business Intelligence (w|m|d), ADAC Zentrale",
+"company": "ADAC Service GmbH",
+"city": "München",
+"region": "Bayern",
+"posted": "2026-10-14",
+"remote": false,
+"sources": [
+"arbeitsagentur"
+],
+"links": {
+"arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2357058-S"
+},
+"categories": [
+"bi"
+],
+"level": "regular",
+"id": "9ed4e3b50cf8",
+"first_seen": "2026-10-20",
+"last_seen": "2026-10-20"
+},
+{
+"title": "Senior Data Engineer",
+"company": "Real I.S. AG Gesellschaft für Immobilien Assetmanagement",
+"city": "München",
+"region": "Bayern",
+"posted": "2026-10-14",
+"remote": false,
+"sources": [
+"arbeitsagentur"
+],
+"links": {
+"arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4964543918-S"
+},
+"categories": [
+"analytics_eng"
+],
+"level": "senior",
+"id": "88d86bec9781",
+"first_seen": "2026-10-20",
+"last_seen": "2026-10-20"
+},
+{
+"title": "Lead Data & Analytics Engineer",
+"company": "Henkel AG & Co. KGaA",
+"city": "Düsseldorf",
+"region": "Nordrhein-Westfalen",
+"posted": "2026-10-13",
+"remote": true,
+"sources": [
+"arbeitsagentur"
+],
+"links": {
+"arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003850803-S"
+},
+"categories": [
+"analytics_eng",
+"data_analyst"
+],
+"level": "senior",
+"id": "747a73536f34",
+"first_seen": "2026-10-20",
+"last_seen": "2026-10-20"
+},
+{
+"title": "(Senior) Data Engineer",
+"company": "Ströer SE & Co. KGaA",
+"city": "",
+"region": "",
+"posted": "2026-10-13",
+"remote": false,
+"sources": [
+"arbeitsagentur"
+],
+"links": {
+"arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/19533-976460273-S"
+},
+"categories": [
+"analytics_eng"
+],
+"level": "senior",
+"id": "0f19ab77bd11",
+"first_seen": "2026-10-20",
+"last_seen": "2026-10-20"
+},
+{
+"title": "SENIOR DATA ENGINEER/ARCHITECT",
+"company": "Interzero CSG GmbH",
+"city": "Köln",
+"region": "Nordrhein-Westfalen",
+"posted": "2026-10-13",
+"remote": false,
+"sources": [
+"arbeitsagentur"
+],
+"links": {
+"arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1208277853-S"
+},
+"categories": [
+"analytics_eng"
+],
+"level": "senior",
+"id": "737a3c638807",
+"first_seen": "2026-10-20",
+"last_seen": "2026-10-20"
+},
+{
+"title": "Analyst Vertriebsperformance & BI Reporting",
+"company": "DFH Haus GmbH",
+"city": "Simmern, Hunsrück",
+"region": "Rheinland-Pfalz",
+"posted": "2026-10-13",
+"remote": false,
+"sources": [
+"arbeitsagentur"
+],
+"links": {
+"arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003850161-S"
+},
+"categories": [
+"bi"
+],
+"level": "regular",
+"id": "23e310caf6e7",
+"first_seen": "2026-10-20",
+"last_seen": "2026-10-20"
+},
+{
+"title": "Data Analyst Marktlogistik",
+"company": "dm-drogerie markt GmbH + Co.KG",
+"city": "Karlsruhe, Baden",
+"region": "Baden-Württemberg",
+"posted": "2026-10-13",
+"remote": false,
+"sources": [
+"arbeitsagentur"
+],
+"links": {
+"arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12787-271911131026-S"
+},
+"categories": [
+"data_analyst"
+],
+"level": "regular",
+"id": "3ad1b5909e80",
+"first_seen": "2026-10-20",
+"last_seen": "2026-10-20"
+},
+{
+"title": "Data Analyst eCommerce",
+"company": "dm-drogerie markt GmbH + Co. KG",
+"city": "Karlsruhe, Baden",
+"region": "Baden-Württemberg",
+"posted": "2026-10-13",
+"remote": false,
+"sources": [
+"arbeitsagentur"
+],
+"links": {
+"arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/13649-13374912AB-S"
+},
+"categories": [
+"data_analyst"
+],
+"level": "regular",
+"id": "c6a32f01d634",
+"first_seen": "2026-10-20",
+"last_seen": "2026-10-20"
+},
+{
+"title": "Data Analyst Healthcare in Hamburg, Hamburg (City Nord)",
+"company": "rehaVital Gesundheitsservice GmbH",
+"city": "Hamburg",
+"region": "Hamburg",
+"posted": "2026-10-13",
+"remote": false,
+"sources": [
+"arbeitsagentur"
+],
+"links": {
+"arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2356147-S"
+},
+"categories": [
+"data_analyst"
+],
+"level": "regular",
+"id": "199df35b16dd",
+"first_seen": "2026-10-20",
+"last_seen": "2026-10-20"
+},
+{
+"title": "Data Engineer",
+"company": "ÖBB Technische Services GmbH",
+"city": "Wien,Favoriten",
+"region": "WIEN",
+"posted": "2026-10-13",
+"remote": false,
+"sources": [
+"arbeitsagentur"
+],
+"links": {
+"arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/11949-17387579-S"
+},
+"categories": [
+"analytics_eng"
+],
+"level": "regular",
+"id": "134e75bb1c51",
+"first_seen": "2026-10-20",
+"last_seen": "2026-10-20"
+},
+{
+"title": "Data Engineer SAS Base",
+"company": "SIGNAL IDUNA Bauspar AG",
+"city": "Hamburg",
+"region": "Hamburg",
+"posted": "2026-10-13",
+"remote": false,
+"sources": [
+"arbeitsagentur"
+],
+"links": {
+"arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4963186422-S"
+},
+"categories": [
+"analytics_eng"
+],
+"level": "regular",
+"id": "596f937ac245",
+"first_seen": "2026-10-20",
+"last_seen": "2026-10-20"
+},
+{
+"title": "Data Engineer Celonis",
+"company": "EXXETA AG",
+"city": "Mannheim",
+"region": "Baden-Württemberg",
+"posted": "2026-10-13",
+"remote": false,
+"sources": [
+"arbeitsagentur"
+],
+"links": {
+"arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12336-a26f1192j0456072-S"
+},
+"categories": [
+"analytics_eng"
+],
+"level": "regular",
+"id": "a0c7dd6b4067",
+"first_seen": "2026-10-20",
+"last_seen": "2026-10-20"
+},
+{
+"title": "Kaufmännischer Mitarbeiter Energiedatenmanagement",
+"company": "KSK Real Estate Management GmbH",
+"city": "Sankt Augustin",
+"region": "Nordrhein-Westfalen",
+"posted": "2026-10-13",
+"remote": false,
+"sources": [
+"arbeitsagentur"
+],
+"links": {
+"arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003850071-S"
+},
+"categories": [
+"energy"
+],
+"level": "regular",
+"id": "c02bfd57cb82",
+"first_seen": "2026-10-20",
+"last_seen": "2026-10-20"
+},
+{
+"title": "Head of BI, Data Governance & Digital Transformation",
+"company": "Henkel AG & Co. KGaA",
+"city": "Düsseldorf",
+"region": "Nordrhein-Westfalen",
+"posted": "2026-10-13",
+"remote": true,
+"sources": [
+"arbeitsagentur"
+],
+"links": {
+"arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003850843-S"
+},
+"categories": [
+"bi"
+],
+"level": "senior",
+"id": "9d23b113f4d7",
 "first_seen": "2026-10-20",
 "last_seen": "2026-10-20"
 }
