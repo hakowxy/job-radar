@@ -34,6 +34,13 @@ SEARCH = CFG["search"]
 CATEGORIES = CFG["category"]
 TODAY = datetime.now(timezone.utc).date()
 UA = "job-radar/1.0 (personal job search tool)"
+IN_ACTIONS = os.environ.get("GITHUB_ACTIONS") == "true"
+
+
+def annotate(level: str, msg: str) -> None:
+    """在 GitHub Actions 里显示为运行页面上的提示（notice / warning / error）。"""
+    if IN_ACTIONS:
+        print(f"::{level}::" + msg.replace("%", "%25").replace("\r", "").replace("\n", "%0A"))
 
 
 # ─────────────────────────── HTTP ───────────────────────────
@@ -223,9 +230,11 @@ def ba_get(params: dict) -> list:
         if not _ba_logged:   # 把真实格式打印到 Actions 日志里，方便排查
             keys = list(data)[:15] if isinstance(data, dict) else type(data).__name__
             sample = sorted(items[0])[:30] if items else None
-            print(f"    [BA {path}] top-level keys: {keys}; items: {None if items is None else len(items)}; item keys: {sample}")
-            if items is None or (not items and isinstance(data, dict) and not data.get("maxErgebnisse")):
-                print(f"    [BA {path}] raw: {json.dumps(data, ensure_ascii=False)[:600]}")
+            line = f"[BA {path}] top-level keys: {keys}; items: {None if items is None else len(items)}; item keys: {sample}"
+            if items is None or not items:
+                line += f"; raw: {json.dumps(data, ensure_ascii=False)[:500]}"
+            print("    " + line)
+            annotate("notice", line)
         if items is None:
             errors.append(f"{path}: 返回格式无法识别")
             continue
@@ -364,7 +373,9 @@ def run_sources() -> tuple[list[dict], list[dict]]:
         except Exception as e:  # 一个来源挂了不影响其他来源
             status.append({"id": sid, "label": label, "ok": False, "fetched": 0, "kept": 0,
                            "seconds": round(time.time() - t0, 1), "note": str(e)[:300]})
-        print(f"  {'✓' if status[-1]['ok'] else '✗'} {label}: {status[-1]['fetched']} 抓到 → {status[-1]['kept']} 保留  {status[-1]['note']}")
+        line = f"{'✓' if status[-1]['ok'] else '✗'} {label}: {status[-1]['fetched']} 抓到 → {status[-1]['kept']} 保留  {status[-1]['note']}"
+        print("  " + line)
+        annotate("notice" if status[-1]["ok"] else "warning", line)
     if not os.environ.get("ADZUNA_APP_ID"):
         status.append({"id": "adzuna", "label": "Adzuna", "ok": None, "fetched": 0, "kept": 0, "seconds": 0,
                        "note": "未启用：在 GitHub Secrets 里设置 ADZUNA_APP_ID / ADZUNA_APP_KEY"})
@@ -450,6 +461,7 @@ def main() -> None:
     print(f"Job Radar {TODAY}")
     fetched, status = run_sources()
     if not any(s["ok"] for s in status):
+        annotate("error", "所有来源都失败了，保留旧数据，不更新。")
         sys.exit("所有来源都失败了，保留旧数据，不更新。")
 
     store, new_ids = merge(store, fetched)
@@ -471,4 +483,12 @@ def main() -> None:
 
 
 if __name__ == "__main__":
-    main()
+    try:
+        main()
+    except SystemExit:
+        raise
+    except Exception as e:
+        import traceback
+        tb = traceback.extract_tb(e.__traceback__)[-1]
+        annotate("error", f"{type(e).__name__}: {e} (line {tb.lineno}: {tb.line})")
+        raise
