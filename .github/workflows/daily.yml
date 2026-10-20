@@ -1,0 +1,77 @@
+name: Daily job radar
+
+on:
+  schedule:
+    - cron: "17 5 * * *"     # 每天 UTC 5:17 = 德国早上 6:17（冬令时）/ 7:17（夏令时）
+  workflow_dispatch:          # 也可以在 Actions 页面手动点 "Run workflow"
+  push:
+    branches: [main]
+    paths: ["config.toml", "scraper/**", "site/**", ".github/workflows/**"]
+
+permissions:
+  contents: write   # 把抓到的数据存回仓库
+  issues: write     # 每日新职位 Issue（会发邮件通知你）
+  pages: write
+  id-token: write
+
+concurrency:
+  group: job-radar
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Fetch jobs
+        env:
+          ADZUNA_APP_ID: ${{ secrets.ADZUNA_APP_ID }}
+          ADZUNA_APP_KEY: ${{ secrets.ADZUNA_APP_KEY }}
+        run: python scraper/fetch_jobs.py
+
+      - name: Save data to repo
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/jobs.json data/meta.json
+          if ! git diff --cached --quiet; then
+            git commit -m "data: $(date -u +%F)"
+            git pull --rebase
+            git push
+          fi
+
+      - name: Post daily digest issue
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if [ ! -s data/digest.md ]; then echo "今天没有符合条件的新职位"; exit 0; fi
+          PAGE="https://${GITHUB_REPOSITORY_OWNER}.github.io/${GITHUB_REPOSITORY#*/}/"
+          printf '\n---\n[打开 Job Radar 查看和筛选全部职位](%s)\n\ncc @%s\n' "$PAGE" "$GITHUB_REPOSITORY_OWNER" >> data/digest.md
+          gh label create job-digest --color 0b7a6e --description "每日新职位" --force
+          gh issue list --label job-digest --state open --json number --jq '.[].number' | xargs -r -n1 gh issue close
+          gh issue create --title "新职位 $(date -u +%F)" --label job-digest --body-file data/digest.md
+
+      - name: Build site
+        run: |
+          mkdir -p dist
+          cp site/* dist/
+          cp data/jobs.json data/meta.json dist/
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+
+  deploy:
+    needs: update
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

@@ -1,0 +1,56 @@
+# ─────────────────────────────────────────────────────────────
+#  Job Radar 配置文件：改这里就能改"找什么工作"
+#  改完提交到 GitHub，下一次自动运行就会生效
+# ─────────────────────────────────────────────────────────────
+
+[search]
+days = 7                  # 每次抓取最近几天发布的职位
+max_pages = 5             # 每个关键词最多翻几页（劳动局每页 100 条）
+where = ""                # 留空 = 全德国；也可以写城市，如 "München"
+radius_km = 0             # 配合 where 使用的半径，0 = 不限制
+exclude_agencies = true   # 排除劳务派遣（Zeitarbeit）和私人中介
+keep_days = 3             # 某个职位连续几天没再出现，就当作已下架
+
+# 职位名里出现这些词就丢掉（不区分大小写）
+exclude = ["ausbildung", "duales studium", "minijob", "azubi"]
+
+
+# ─── 岗位类型 ────────────────────────────────────────────────
+#  每个 [[category]] 就是页面上的一个可点击按钮
+#  queries：拿去搜索的关键词（发给招聘网站）
+#  match：职位名必须包含其中之一，才会被归入这个类型（用来过滤噪音）
+#         写 "xxx*" 表示前缀匹配，例如 "datenanalyst*" 也能匹配 "Datenanalystin"
+#  不属于任何类型的职位会被丢掉
+#  （Werkstudent / Junior / Senior 不用单独配置，页面上有"级别"筛选）
+
+[[category]]
+id = "bi"
+label = "BI / Reporting"
+queries = ["Business Intelligence", "BI Analyst", "Power BI", "Reporting Analyst"]
+match = ["business intelligence", "bi", "power bi", "tableau", "qlik", "reporting*", "controlling analyst"]
+
+[[category]]
+id = "data_analyst"
+label = "Data Analyst"
+queries = ["Data Analyst", "Datenanalyst"]
+match = ["data analyst", "datenanalyst*", "data analytics", "analytics analyst", "product analyst", "marketing analyst"]
+
+[[category]]
+id = "analytics_eng"
+label = "Analytics / Data Engineer"
+queries = ["Analytics Engineer", "Data Engineer"]
+match = ["analytics engineer", "data engineer", "dateningenieur*", "etl", "dbt"]
+
+[[category]]
+id = "energy"
+label = "能源行业数据"
+queries = ["Energiewirtschaft Datenanalyse", "Energy Data Analyst", "Energiedaten"]
+match = ["energiedaten*", "energy data", "energiewirtschaft*", "energy analyst", "energiemarkt*", "netzdaten*"]
+
+# ─── 每日邮件 ────────────────────────────────────────────────
+#  每天在仓库里开一个 Issue 列出新职位，GitHub 会自动发邮件通知你
+
+[notify]
+daily_issue = true
+categories = ["bi", "data_analyst", "analytics_eng", "energy"]   # 只汇报这几类
+max_items = 40
