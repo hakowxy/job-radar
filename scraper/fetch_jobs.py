@@ -58,6 +58,10 @@ def http_json(url: str, params: dict | None = None, headers: dict | None = None,
             if e.code < 500 and e.code != 429:   # 4xx（除限流外）重试也没用
                 raise
             last = e
+            if e.code == 429:   # 被限流：按服务器要求的时间等待，至少 20 秒
+                wait = e.headers.get("Retry-After") if e.headers else None
+                time.sleep(min(int(wait) if wait and wait.isdigit() else 20 * (attempt + 1), 120))
+                continue
         except (urllib.error.URLError, TimeoutError) as e:
             last = e
         time.sleep(2 ** (attempt + 1))
@@ -205,7 +209,7 @@ def ba_items(data) -> list | None:
         return data
     if not isinstance(data, dict):
         return None
-    for k in ("stellenangebote", "ergebnisse", "stellen", "jobs", "content", "results"):
+    for k in ("stellenangebote", "ergebnisliste", "ergebnisse", "stellen", "jobs", "content", "results"):
         if isinstance(data.get(k), list):
             return data[k]
     for v in data.values():   # 嵌套一层，例如 {"_embedded": {"jobs": [...]}}
@@ -229,9 +233,11 @@ def ba_get(params: dict) -> list:
         items = ba_items(data)
         if not _ba_logged:   # 把真实格式打印到 Actions 日志里，方便排查
             keys = list(data)[:15] if isinstance(data, dict) else type(data).__name__
-            sample = sorted(items[0])[:30] if items else None
+            sample = sorted(items[0]) if items else None
             line = f"[BA {path}] top-level keys: {keys}; items: {None if items is None else len(items)}; item keys: {sample}"
-            if items is None or not items:
+            if items:
+                line += f"; first item: {json.dumps(items[0], ensure_ascii=False)[:2500]}"
+            elif items is None or not items:
                 line += f"; raw: {json.dumps(data, ensure_ascii=False)[:500]}"
             print("    " + line)
             annotate("notice", line)
@@ -299,7 +305,7 @@ def fetch_arbeitnow() -> list[dict]:
     它也有德国以外的职位，所以只保留能认出是德国城市（或写了 Germany）的。"""
     cutoff = TODAY - timedelta(days=SEARCH["days"])
     jobs = []
-    for page in range(1, SEARCH["max_pages"] * 4 + 1):
+    for page in range(1, SEARCH["max_pages"] * 2 + 1):
         data = http_json("https://www.arbeitnow.com/api/job-board-api", {"page": page})
         items = data.get("data") or []
         too_old = 0
@@ -319,7 +325,7 @@ def fetch_arbeitnow() -> list[dict]:
             ))
         if not items or too_old > len(items) / 2 or not (data.get("links") or {}).get("next", True):
             break
-        time.sleep(0.5)
+        time.sleep(2)   # Arbeitnow 限流比较严格
     return jobs
 
 
