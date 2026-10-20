@@ -1,0 +1,317 @@
+[
+{
+"title": "Business Intelligence & AI Consultant als Werkstudent",
+"company": "twomynds",
+"city": "Cologne",
+"region": "Nordrhein-Westfalen",
+"posted": "2026-10-20",
+"remote": false,
+"sources": [
+"arbeitnow"
+],
+"links": {
+"arbeitnow": "https://www.arbeitnow.com/jobs/companies/twomynds/business-intelligence-ai-consultant-als-werkstudent-cologne-304113"
+},
+"categories": [
+"bi"
+],
+"level": "student",
+"id": "b6f0f42ff847",
+"first_seen": "2026-10-20",
+"last_seen": "2026-10-20"
+},
+{
+"title": "Signal Processing & Data Engineer",
+"company": "Limatica",
+"city": "Chemnitz",
+"region": "Sachsen",
+"posted": "2026-10-20",
+"remote": false,
+"sources": [
+"arbeitnow"
+],
+"links": {
+"arbeitnow": "https://www.arbeitnow.com/jobs/companies/limatica/signal-processing-data-engineer-chemnitz-95163"
+},
+"categories": [
+"analytics_eng"
+],
+"level": "regular",
+"id": "d18df716f26b",
+"first_seen": "2026-10-20",
+"last_seen": "2026-10-20"
+},
+{
+"title": "Working Student - Data Engineer & Software Developer (Research Analytics)",
+"company": "Agilerobotsse",
+"city": "Munich, Bavaria",
+"region": "Bayern",
+"posted": "2026-10-20",
+"remote": false,
+"sources": [
+"arbeitnow"
+],
+"links": {
+"arbeitnow": "https://www.arbeitnow.com/jobs/companies/agilerobotsse/working-student-data-engineer-software-developer-research-analytics-munich-bavaria-406891"
+},
+"categories": [
+"analytics_eng"
+],
+"level": "student",
+"id": "66b3910e2e62",
+"first_seen": "2026-10-20",
+"last_seen": "2026-10-20"
+},
+{
+"title": "Marketing Analyst",
+"company": "Pergolux",
+"city": "Berlin | Global Team",
+"region": "Berlin",
+"posted": "2026-10-20",
+"remote": false,
+"sources": [
+"arbeitnow"
+],
+"links": {
+"arbeitnow": "https://www.arbeitnow.com/jobs/companies/pergolux/marketing-analyst-berlin-103166"
+},
+"categories": [
+"data_analyst"
+],
+"level": "regular",
+"id": "fd3f53ccb0f9",
+"first_seen": "2026-10-20",
+"last_seen": "2026-10-20"
+},
+{
+"title": "Data Analyst FlixTrain Operations",
+"company": "Flix",
+"city": "Berlin, Germany",
+"region": "Berlin",
+"posted": "2026-10-19",
+"remote": false,
+"sources": [
+"arbeitnow"
+],
+"links": {
+"arbeitnow": "https://www.arbeitnow.com/jobs/companies/flix/data-analyst-flixtrain-operations-berlin-54675"
+},
+"categories": [
+"data_analyst"
+],
+"level": "regular",
+"id": "aed502d8ebab",
+"first_seen": "2026-10-20",
+"last_seen": "2026-10-20"
+},
+{
+"title": "(Senior) Data Engineer - Tracking Infrastructure",
+"company": "Statista",
+"city": "Hamburg or Berlin",
+"region": "Hamburg",
+"posted": "2026-10-18",
+"remote": false,
+"sources": [
+"arbeitnow"
+],
+"links": {
+"arbeitnow": "https://www.arbeitnow.com/jobs/companies/statista/senior-data-engineer-tracking-infrastructure-hamburg-or-berlin-24021"
+},
+"categories": [
+"analytics_eng"
+],
+"level": "senior",
+"id": "553e4adc84f1",
+"first_seen": "2026-10-20",
+"last_seen": "2026-10-20"
+},
+{
+"title": "Data Engineer - AI Pipelines & DataOps",
+"company": "Intersnack IT KG",
+"city": "Düsseldorf, Nordrhein-Westfalen, Germany",
+"region": "Nordrhein-Westfalen",
+"posted": "2026-10-18",
+"remote": false,
+"sources": [
+"arbeitnow"
+],
+"links": {
+"arbeitnow": "https://www.arbeitnow.com/jobs/companies/intersnack-it-kg/data-engineer-ai-pipelines-dataops-dusseldorf-8107"
+},
+"categories": [
+"analytics_eng"
+],
+"level": "regular",
+"id": "6bbd4fe85754",
+"first_seen": "2026-10-20",
+"last_seen": "2026-10-20"
+},
+{
+"title": "FinOps Data Analyst & Consultant",
+"company": "Cortex Reply",
+"city": "Munich, Berlin, Germany",
+"region": "Bayern",
+"posted": "2026-10-18",
+"remote": false,
+"sources": [
+"arbeitnow"
+],
+"links": {
+"arbeitnow": "https://www.arbeitnow.com/jobs/companies/cortex-reply/finops-data-analyst-consultant-munich-189989"
+},
+"categories": [
+"data_analyst"
+],
+"level": "regular",
+"id": "fb78adcdd936",
+"first_seen": "2026-10-20",
+"last_seen": "2026-10-20"
+},
+{
+"title": "Mitarbeiter SQL Server Administrator / Datenanalyst",
+"company": "Hall Tabakwaren e.K",
+"city": "Hilden, Nordrhein-Westfalen, Deutschland",
+"region": "",
+"posted": "2026-10-18",
+"remote": false,
+"sources": [
+"arbeitnow"
+],
+"links": {
+"arbeitnow": "https://www.arbeitnow.com/jobs/companies/hall-tabakwaren-ek/mitarbeiter-sql-server-administrator-datenanalyst-hilden-188168"
+},
+"categories": [
+"data_analyst"
+],
+"level": "regular",
+"id": "54c9fd523f2a",
+"first_seen": "2026-10-20",
+"last_seen": "2026-10-20"
+},
+{
+"title": "(Senior) Data Analyst",
+"company": "Quantum-Systems GmbH",
+"city": "Gilching, Bayern, Germany",
+"region": "Bayern",
+"posted": "2026-10-18",
+"remote": false,
+"sources": [
+"arbeitnow"
+],
+"links": {
+"arbeitnow": "https://www.arbeitnow.com/jobs/companies/quantum-systems-gmbh/senior-data-analyst-gilching-96906"
+},
+"categories": [
+"data_analyst"
+],
+"level": "senior",
+"id": "ee47c44170dc",
+"first_seen": "2026-10-20",
+"last_seen": "2026-10-20"
+},
+{
+"title": "Data Engineer",
+"company": "Zoi",
+"city": "Berlin, Berlin, Germany",
+"region": "Berlin",
+"posted": "2026-10-18",
+"remote": false,
+"sources": [
+"arbeitnow"
+],
+"links": {
+"arbeitnow": "https://www.arbeitnow.com/jobs/companies/zoi/data-engineer-berlin-453355"
+},
+"categories": [
+"analytics_eng"
+],
+"level": "regular",
+"id": "b2bf9f38ff23",
+"first_seen": "2026-10-20",
+"last_seen": "2026-10-20"
+},
+{
+"title": "(Senior) Oracle Data Warehouse / BI-Developer",
+"company": "virtual7 GmbH",
+"city": "Karlsruhe, Baden-Württemberg, Deutschland",
+"region": "Baden-Württemberg",
+"posted": "2026-10-18",
+"remote": false,
+"sources": [
+"arbeitnow"
+],
+"links": {
+"arbeitnow": "https://www.arbeitnow.com/jobs/companies/virtual7-gmbh/senior-oracle-data-warehouse-bi-developer-karlsruhe-340141"
+},
+"categories": [
+"bi"
+],
+"level": "senior",
+"id": "538ab8e57707",
+"first_seen": "2026-10-20",
+"last_seen": "2026-10-20"
+},
+{
+"title": "Interim Senior BI Analyst",
+"company": "Shiftmove",
+"city": "Germany",
+"region": "",
+"posted": "2026-10-17",
+"remote": true,
+"sources": [
+"arbeitnow"
+],
+"links": {
+"arbeitnow": "https://www.arbeitnow.com/jobs/companies/shiftmove/remote-interim-senior-bi-analyst-all-genders-germany-169194"
+},
+"categories": [
+"bi"
+],
+"level": "senior",
+"id": "5db17a604147",
+"first_seen": "2026-10-20",
+"last_seen": "2026-10-20"
+},
+{
+"title": "Senior Data Engineer — Document & AI Pipelines",
+"company": "Tracium GmbH",
+"city": "Berlin",
+"region": "Berlin",
+"posted": "2026-10-17",
+"remote": true,
+"sources": [
+"arbeitnow"
+],
+"links": {
+"arbeitnow": "https://www.arbeitnow.com/jobs/companies/tracium-gmbh/senior-data-engineer-document-ai-pipelines-berlin-415387"
+},
+"categories": [
+"analytics_eng"
+],
+"level": "senior",
+"id": "5710c2f7c689",
+"first_seen": "2026-10-20",
+"last_seen": "2026-10-20"
+},
+{
+"title": "Data Engineer - Data Platform & Ontology",
+"company": "Statista",
+"city": "Hamburg or Berlin",
+"region": "Hamburg",
+"posted": "2026-10-16",
+"remote": false,
+"sources": [
+"arbeitnow"
+],
+"links": {
+"arbeitnow": "https://www.arbeitnow.com/jobs/companies/statista/data-engineer-data-platform-ontology-hamburg-or-berlin-119444"
+},
+"categories": [
+"analytics_eng"
+],
+"level": "regular",
+"id": "ddd1df01f9da",
+"first_seen": "2026-10-20",
+"last_seen": "2026-10-20"
+}
+]

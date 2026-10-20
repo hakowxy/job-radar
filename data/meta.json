@@ -1,0 +1,57 @@
+{
+ "run_at": "2026-10-20T14:45:37Z",
+ "today": "2026-10-20",
+ "new_today": 15,
+ "total": 15,
+ "sources": [
+  {
+   "id": "arbeitsagentur",
+   "label": "联邦劳动局 Jobbörse",
+   "ok": false,
+   "fetched": 0,
+   "kept": 0,
+   "seconds": 7.2,
+   "note": "/pc/v6/jobs: 返回格式无法识别"
+  },
+  {
+   "id": "arbeitnow",
+   "label": "Arbeitnow",
+   "ok": true,
+   "fetched": 801,
+   "kept": 15,
+   "seconds": 24.2,
+   "note": ""
+  },
+  {
+   "id": "adzuna",
+   "label": "Adzuna",
+   "ok": null,
+   "fetched": 0,
+   "kept": 0,
+   "seconds": 0,
+   "note": "未启用：在 GitHub Secrets 里设置 ADZUNA_APP_ID / ADZUNA_APP_KEY"
+  }
+ ],
+ "categories": [
+  {
+   "id": "bi",
+   "label": "BI / Reporting"
+  },
+  {
+   "id": "data_analyst",
+   "label": "Data Analyst"
+  },
+  {
+   "id": "analytics_eng",
+   "label": "Analytics / Data Engineer"
+  },
+  {
+   "id": "energy",
+   "label": "能源行业数据"
+  }
+ ],
+ "search": {
+  "days": 7,
+  "where": "Deutschland"
+ }
+}
