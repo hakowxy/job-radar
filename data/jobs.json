@@ -1,5 +1,398 @@
 [
 {
+"title": "Senior Data Engineer",
+"company": "Forvis Mazars",
+"city": "Düsseldorf",
+"region": "Nordrhein-Westfalen",
+"posted": "2026-10-22",
+"remote": true,
+"sources": [
+"arbeitsagentur"
+],
+"links": {
+"arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/13644-313688-S"
+},
+"ba_ref": "13644-313688-S",
+"categories": [
+"analytics_eng"
+],
+"id": "37bfb595fccf",
+"first_seen": "2026-10-22",
+"last_seen": "2026-10-22",
+"jd_lang": "de",
+"jd_lang_basis": "jd",
+"german": "required",
+"exp_min": 3,
+"level": "senior",
+"has_jd": true,
+"enriched": 1
+},
+{
+"title": "Datenanalyst",
+"company": "Finanz Informatik",
+"city": "Frankfurt am Main",
+"region": "Hessen",
+"posted": "2026-10-22",
+"remote": true,
+"sources": [
+"arbeitsagentur"
+],
+"links": {
+"arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/13644-313659-S"
+},
+"ba_ref": "13644-313659-S",
+"categories": [
+"data_analyst"
+],
+"id": "a32048955ecc",
+"first_seen": "2026-10-22",
+"last_seen": "2026-10-22",
+"jd_lang": "de",
+"jd_lang_basis": "jd",
+"german": "required",
+"exp_min": 2,
+"level": "associate",
+"has_jd": true,
+"enriched": 1
+},
+{
+"title": "Power BI Consultant",
+"company": "Rödl GmbH RAG StBG",
+"city": "Hamburg",
+"region": "Hamburg",
+"posted": "2026-10-22",
+"remote": false,
+"sources": [
+"arbeitsagentur"
+],
+"links": {
+"arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003897198-S"
+},
+"ba_ref": "10001-1003897198-S",
+"categories": [
+"bi"
+],
+"id": "4b2a16776998",
+"first_seen": "2026-10-22",
+"last_seen": "2026-10-22",
+"jd_lang": "de",
+"jd_lang_basis": "jd",
+"german": "required",
+"exp_min": null,
+"level": "unknown",
+"has_jd": true,
+"enriched": 1
+},
+{
+"title": "Data & Analytics Engineer:in",
+"company": "Deutsche Bahn AG",
+"city": "Frankfurt am Main",
+"region": "Hessen",
+"posted": "2026-10-21",
+"remote": false,
+"sources": [
+"arbeitsagentur"
+],
+"links": {
+"arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12456-1645525-1-S"
+},
+"ba_ref": "12456-1645525-1-S",
+"categories": [
+"analytics_eng",
+"data_analyst"
+],
+"id": "7744ce91925d",
+"first_seen": "2026-10-22",
+"last_seen": "2026-10-22",
+"jd_lang": "de",
+"jd_lang_basis": "jd",
+"german": "required",
+"exp_min": null,
+"level": "unknown",
+"has_jd": true,
+"enriched": 1
+},
+{
+"title": "Business Intelligence & Analytics Specialist",
+"company": "GALDERMA LABORATORIUM GMBH",
+"city": "Düsseldorf",
+"region": "Nordrhein-Westfalen",
+"posted": "2026-10-21",
+"remote": false,
+"sources": [
+"arbeitsagentur"
+],
+"links": {
+"arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003892037-S"
+},
+"ba_ref": "10001-1003892037-S",
+"categories": [
+"bi"
+],
+"id": "7194a9a3d6fa",
+"first_seen": "2026-10-22",
+"last_seen": "2026-10-22",
+"jd_lang": "de",
+"jd_lang_basis": "jd",
+"german": "required",
+"exp_min": null,
+"level": "unknown",
+"has_jd": true,
+"enriched": 1
+},
+{
+"title": "Consultant Meldewesen / Regulatory Reporting Banking",
+"company": "Sopra Steria SE",
+"city": "",
+"region": "",
+"posted": "2026-10-21",
+"remote": false,
+"sources": [
+"arbeitsagentur"
+],
+"links": {
+"arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/16236-978295925-S"
+},
+"ba_ref": "16236-978295925-S",
+"categories": [
+"bi"
+],
+"id": "6bd56954b22b",
+"first_seen": "2026-10-22",
+"last_seen": "2026-10-22",
+"jd_lang": "de",
+"jd_lang_basis": "jd",
+"german": "required",
+"exp_min": null,
+"level": "unknown",
+"has_jd": true,
+"enriched": 1
+},
+{
+"title": "Senior Inhouse Consultant Data & Analytics",
+"company": "Bertelsmann GBS GmbH",
+"city": "",
+"region": "",
+"posted": "2026-10-21",
+"remote": true,
+"sources": [
+"arbeitsagentur"
+],
+"links": {
+"arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/13660-978279718-S"
+},
+"ba_ref": "13660-978279718-S",
+"categories": [
+"data_analyst"
+],
+"id": "8a5eaa6cfd11",
+"first_seen": "2026-10-22",
+"last_seen": "2026-10-22",
+"jd_lang": "de",
+"jd_lang_basis": "jd",
+"german": "required",
+"exp_min": 3,
+"level": "senior",
+"has_jd": true,
+"enriched": 1
+},
+{
+"title": "Senior Data Analyst - Hybrid",
+"company": "Vereinigte Hagelversicherung VVaG",
+"city": "Gießen, Lahn",
+"region": "Hessen",
+"posted": "2026-10-21",
+"remote": true,
+"sources": [
+"arbeitsagentur"
+],
+"links": {
+"arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/17338-83abed8f8a5b5d32b0-S"
+},
+"ba_ref": "17338-83abed8f8a5b5d32b0-S",
+"categories": [
+"data_analyst"
+],
+"id": "112af6dc0ff5",
+"first_seen": "2026-10-22",
+"last_seen": "2026-10-22",
+"jd_lang": "de",
+"jd_lang_basis": "jd",
+"german": "required",
+"exp_min": 3,
+"level": "senior",
+"has_jd": true,
+"enriched": 1
+},
+{
+"title": "Senior Professional Data-Engineer",
+"company": "adorsys GmbH & Co. KG",
+"city": "Nürnberg, Mittelfranken",
+"region": "Bayern",
+"posted": "2026-10-21",
+"remote": false,
+"sources": [
+"arbeitsagentur"
+],
+"links": {
+"arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/13635-0822a73c_JB5278182-S"
+},
+"ba_ref": "13635-0822a73c_JB5278182-S",
+"categories": [
+"analytics_eng"
+],
+"id": "abab3be2911c",
+"first_seen": "2026-10-22",
+"last_seen": "2026-10-22",
+"jd_lang": "de",
+"jd_lang_basis": "jd",
+"german": "required",
+"exp_min": 3,
+"level": "senior",
+"has_jd": true,
+"enriched": 1
+},
+{
+"title": "Datenanalyst Massendaten",
+"company": "Finanz Informatik Solutions Plus GmbH",
+"city": "München",
+"region": "Bayern",
+"posted": "2026-10-21",
+"remote": false,
+"sources": [
+"arbeitsagentur"
+],
+"links": {
+"arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/13884-348577-S"
+},
+"ba_ref": "13884-348577-S",
+"categories": [
+"data_analyst"
+],
+"id": "7b6f7c6fba90",
+"first_seen": "2026-10-22",
+"last_seen": "2026-10-22",
+"jd_lang": "de",
+"jd_lang_basis": "jd",
+"german": "required",
+"exp_min": null,
+"level": "unknown",
+"has_jd": true,
+"enriched": 1
+},
+{
+"title": "(Senior) Data Engineer:in",
+"company": "Deutsche Bahn AG",
+"city": "Frankfurt am Main",
+"region": "Hessen",
+"posted": "2026-10-20",
+"remote": false,
+"sources": [
+"arbeitsagentur"
+],
+"links": {
+"arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12456-1645523-1-S"
+},
+"ba_ref": "12456-1645523-1-S",
+"categories": [
+"analytics_eng"
+],
+"id": "edc6fedd1d00",
+"first_seen": "2026-10-22",
+"last_seen": "2026-10-22",
+"jd_lang": "de",
+"jd_lang_basis": "jd",
+"german": "required",
+"exp_min": 3,
+"level": "senior",
+"has_jd": true,
+"enriched": 1
+},
+{
+"title": "NTT DATA Deutschland SE: SAP Data & Analytics (Senior) Managing Consultant",
+"company": "NTT DATA Deutschland SE",
+"city": "Frankfurt am Main",
+"region": "Hessen",
+"posted": "2026-10-17",
+"remote": true,
+"sources": [
+"arbeitsagentur"
+],
+"links": {
+"arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/19913-3070521792188001-S"
+},
+"ba_ref": "19913-3070521792188001-S",
+"categories": [
+"data_analyst"
+],
+"id": "5af2e287eb66",
+"first_seen": "2026-10-22",
+"last_seen": "2026-10-22",
+"jd_lang": "de",
+"jd_lang_basis": "jd",
+"german": "required",
+"exp_min": 3,
+"level": "senior",
+"has_jd": true,
+"enriched": 1
+},
+{
+"title": "Senior SAP Data & Analytics Consultant",
+"company": "Deutsche Telekom MMS GmbH",
+"city": "Berlin",
+"region": "Berlin",
+"posted": "2026-10-17",
+"remote": false,
+"sources": [
+"arbeitsagentur"
+],
+"links": {
+"arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/20478-2359206-S"
+},
+"ba_ref": "20478-2359206-S",
+"categories": [
+"data_analyst"
+],
+"id": "6e68af05f90e",
+"first_seen": "2026-10-22",
+"last_seen": "2026-10-22",
+"jd_lang": "de",
+"jd_lang_basis": "jd",
+"german": "required",
+"exp_min": null,
+"level": "senior",
+"has_jd": true,
+"enriched": 1
+},
+{
+"title": "NTT DATA Deutschland SE: SAP Data & Analytics (Senior) Consultant",
+"company": "NTT DATA Deutschland SE",
+"city": "Köln",
+"region": "Nordrhein-Westfalen",
+"posted": "2026-10-17",
+"remote": true,
+"sources": [
+"arbeitsagentur"
+],
+"links": {
+"arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/19913-3070741792188001-S"
+},
+"ba_ref": "19913-3070741792188001-S",
+"categories": [
+"data_analyst"
+],
+"id": "d05590b293c5",
+"first_seen": "2026-10-22",
+"last_seen": "2026-10-22",
+"jd_lang": "de",
+"jd_lang_basis": "jd",
+"german": "required",
+"exp_min": 3,
+"level": "senior",
+"has_jd": true,
+"enriched": 1
+},
+{
 "title": "Senior Product Analyst",
 "company": "Zalando SE",
 "city": "Berlin",
@@ -18,14 +411,14 @@
 ],
 "id": "14f3348ab684",
 "first_seen": "2026-10-21",
-"last_seen": "2026-10-21",
 "jd_lang": "en",
 "jd_lang_basis": "jd",
 "german": "not_needed",
 "exp_min": null,
 "level": "senior",
 "has_jd": true,
-"enriched": 1
+"enriched": 1,
+"last_seen": "2026-10-22"
 },
 {
 "title": "Data Engineer",
@@ -46,14 +439,14 @@
 ],
 "id": "f1f019dd0b72",
 "first_seen": "2026-10-21",
-"last_seen": "2026-10-21",
 "jd_lang": "en",
 "jd_lang_basis": "jd",
 "german": "not_needed",
 "exp_min": 5,
 "level": "senior",
 "has_jd": true,
-"enriched": 1
+"enriched": 1,
+"last_seen": "2026-10-22"
 },
 {
 "title": "(Senior) Data Engineer:in",
@@ -103,14 +496,14 @@
 ],
 "id": "d24bfbf3506a",
 "first_seen": "2026-10-21",
-"last_seen": "2026-10-21",
 "jd_lang": "de",
 "jd_lang_basis": "jd",
 "german": "required",
 "exp_min": 0,
 "level": "student",
 "has_jd": true,
-"enriched": 1
+"enriched": 1,
+"last_seen": "2026-10-22"
 },
 {
 "title": "Data Engineer",
@@ -131,14 +524,14 @@
 ],
 "id": "4879584df5f3",
 "first_seen": "2026-10-21",
-"last_seen": "2026-10-21",
 "jd_lang": "de",
 "jd_lang_basis": "jd",
 "german": "plus",
 "exp_min": null,
 "level": "unknown",
 "has_jd": true,
-"enriched": 1
+"enriched": 1,
+"last_seen": "2026-10-22"
 },
 {
 "title": "Data Engineer",
@@ -159,14 +552,14 @@
 ],
 "id": "52f7669cf3b3",
 "first_seen": "2026-10-21",
-"last_seen": "2026-10-21",
 "jd_lang": "de",
 "jd_lang_basis": "jd",
 "german": "required",
 "exp_min": null,
 "level": "unknown",
 "has_jd": true,
-"enriched": 1
+"enriched": 1,
+"last_seen": "2026-10-22"
 },
 {
 "title": "Managing Consultant Power BI, Customer Success mit Entscheidungsbefugnis",
@@ -186,14 +579,14 @@
 ],
 "id": "8b088a83b43d",
 "first_seen": "2026-10-21",
-"last_seen": "2026-10-21",
 "jd_lang": "de",
 "jd_lang_basis": "jd",
 "german": "required",
 "exp_min": null,
 "level": "unknown",
 "has_jd": true,
-"enriched": 1
+"enriched": 1,
+"last_seen": "2026-10-22"
 },
 {
 "title": "Senior Analytics Engineer - EMEA",
@@ -213,29 +606,29 @@
 ],
 "id": "3a197ef47a50",
 "first_seen": "2026-10-21",
-"last_seen": "2026-10-21",
 "jd_lang": "en",
 "jd_lang_basis": "jd",
 "german": "not_needed",
 "exp_min": 5,
 "level": "senior",
 "has_jd": true,
-"enriched": 1
+"enriched": 1,
+"last_seen": "2026-10-22"
 },
 {
 "title": "IT-Spezialist Data Engineer",
 "company": "Volksbank Mittweida eG",
 "city": "Mittweida",
 "region": "Sachsen",
-"posted": "2026-10-21",
+"posted": "2026-10-22",
 "remote": true,
 "sources": [
 "arbeitsagentur"
 ],
 "links": {
-"arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/18024-10Q9A00000X09-S"
+"arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/18024-10Q9A00000X0A-S"
 },
-"ba_ref": "18024-10Q9A00000X09-S",
+"ba_ref": "18024-10Q9A00000X0A-S",
 "categories": [
 "analytics_eng"
 ],
@@ -248,7 +641,7 @@
 "level": "associate",
 "has_jd": true,
 "enriched": 1,
-"last_seen": "2026-10-21"
+"last_seen": "2026-10-22"
 },
 {
 "title": "Business Intelligence & AI Consultant als Werkstudent",
@@ -275,7 +668,7 @@
 "level": "student",
 "has_jd": true,
 "enriched": 1,
-"last_seen": "2026-10-21"
+"last_seen": "2026-10-22"
 },
 {
 "title": "Working Student - Data Engineer & Software Developer (Research Analytics)",
@@ -302,7 +695,7 @@
 "level": "student",
 "has_jd": true,
 "enriched": 1,
-"last_seen": "2026-10-21"
+"last_seen": "2026-10-22"
 },
 {
 "title": "Marketing Analyst",
@@ -329,37 +722,7 @@
 "level": "associate",
 "has_jd": true,
 "enriched": 1,
-"last_seen": "2026-10-21"
-},
-{
-"title": "Data Analyst FlixTrain Operations",
-"company": "Flix",
-"city": "Berlin",
-"region": "Berlin",
-"posted": "2026-10-20",
-"remote": false,
-"sources": [
-"arbeitsagentur",
-"arbeitnow"
-],
-"links": {
-"arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12951-c8451df1-c7d1-461e--S",
-"arbeitnow": "https://www.arbeitnow.com/jobs/companies/flix/data-analyst-flixtrain-operations-berlin-54675"
-},
-"ba_ref": "12951-c8451df1-c7d1-461e--S",
-"categories": [
-"data_analyst"
-],
-"id": "aed502d8ebab",
-"first_seen": "2026-10-20",
-"jd_lang": "de",
-"jd_lang_basis": "jd",
-"german": "required",
-"exp_min": 2,
-"level": "associate",
-"has_jd": true,
-"enriched": 1,
-"last_seen": "2026-10-21"
+"last_seen": "2026-10-22"
 },
 {
 "title": "Data Engineer / Analytics Engineer",
@@ -387,7 +750,7 @@
 "level": "associate",
 "has_jd": true,
 "enriched": 1,
-"last_seen": "2026-10-21"
+"last_seen": "2026-10-22"
 },
 {
 "title": "(SENIOR) BUSINESS ANALYST* BI & ANALYTICS, HS48 Zentrale",
@@ -415,7 +778,7 @@
 "level": "senior",
 "has_jd": true,
 "enriched": 1,
-"last_seen": "2026-10-21"
+"last_seen": "2026-10-22"
 },
 {
 "title": "Data-Analyst - Retail & Sales Analytics",
@@ -443,7 +806,7 @@
 "level": "associate",
 "has_jd": true,
 "enriched": 1,
-"last_seen": "2026-10-21"
+"last_seen": "2026-10-22"
 },
 {
 "title": "Datenanalyst / Data Scientist - Vorhersagen für Solar- und Windstrom",
@@ -471,7 +834,7 @@
 "level": "unknown",
 "has_jd": true,
 "enriched": 1,
-"last_seen": "2026-10-21"
+"last_seen": "2026-10-22"
 },
 {
 "title": "IT Business Analyst* Regulatory Reporting",
@@ -499,7 +862,7 @@
 "level": "unknown",
 "has_jd": true,
 "enriched": 1,
-"last_seen": "2026-10-21"
+"last_seen": "2026-10-22"
 },
 {
 "title": "Data Engineer",
@@ -527,7 +890,61 @@
 "level": "associate",
 "has_jd": true,
 "enriched": 1,
-"last_seen": "2026-10-21"
+"last_seen": "2026-10-22"
+},
+{
+"title": "Signal Processing & Data Engineer",
+"company": "Limatica",
+"city": "Chemnitz",
+"region": "Sachsen",
+"posted": "2026-10-20",
+"remote": false,
+"sources": [
+"arbeitnow"
+],
+"links": {
+"arbeitnow": "https://www.arbeitnow.com/jobs/companies/limatica/signal-processing-data-engineer-chemnitz-95163"
+},
+"categories": [
+"analytics_eng"
+],
+"id": "d18df716f26b",
+"first_seen": "2026-10-20",
+"jd_lang": "en",
+"jd_lang_basis": "jd",
+"german": "required",
+"exp_min": null,
+"level": "unknown",
+"has_jd": true,
+"enriched": 1,
+"last_seen": "2026-10-22"
+},
+{
+"title": "Data Analyst FlixTrain Operations",
+"company": "Flix",
+"city": "Berlin, Germany",
+"region": "Berlin",
+"posted": "2026-10-19",
+"remote": false,
+"sources": [
+"arbeitnow"
+],
+"links": {
+"arbeitnow": "https://www.arbeitnow.com/jobs/companies/flix/data-analyst-flixtrain-operations-berlin-54675"
+},
+"categories": [
+"data_analyst"
+],
+"id": "aed502d8ebab",
+"first_seen": "2026-10-20",
+"jd_lang": "de",
+"jd_lang_basis": "jd",
+"german": "required",
+"exp_min": 2,
+"level": "associate",
+"has_jd": true,
+"enriched": 1,
+"last_seen": "2026-10-22"
 },
 {
 "title": "HR Data Analyst",
@@ -555,7 +972,7 @@
 "level": "unknown",
 "has_jd": true,
 "enriched": 1,
-"last_seen": "2026-10-21"
+"last_seen": "2026-10-22"
 },
 {
 "title": "682/B - Datenanalyst",
@@ -583,7 +1000,7 @@
 "level": "associate",
 "has_jd": true,
 "enriched": 1,
-"last_seen": "2026-10-21"
+"last_seen": "2026-10-22"
 },
 {
 "title": "BI Developer",
@@ -611,7 +1028,7 @@
 "level": "entry",
 "has_jd": true,
 "enriched": 1,
-"last_seen": "2026-10-21"
+"last_seen": "2026-10-22"
 },
 {
 "title": "Business Intelligence Manager",
@@ -639,7 +1056,7 @@
 "level": "associate",
 "has_jd": true,
 "enriched": 1,
-"last_seen": "2026-10-21"
+"last_seen": "2026-10-22"
 },
 {
 "title": "Data Engineer / BI-Architekt*in",
@@ -668,7 +1085,7 @@
 "level": "associate",
 "has_jd": true,
 "enriched": 1,
-"last_seen": "2026-10-21"
+"last_seen": "2026-10-22"
 },
 {
 "title": "Datenanalyst",
@@ -696,7 +1113,7 @@
 "level": "associate",
 "has_jd": true,
 "enriched": 1,
-"last_seen": "2026-10-21"
+"last_seen": "2026-10-22"
 },
 {
 "title": "Controller - Finanzcontrolling / Reporting / Power BI",
@@ -752,7 +1169,7 @@
 "level": "unknown",
 "has_jd": true,
 "enriched": 1,
-"last_seen": "2026-10-21"
+"last_seen": "2026-10-22"
 },
 {
 "title": "(Senior) Data Engineer - Tracking Infrastructure",
@@ -779,7 +1196,7 @@
 "level": "senior",
 "has_jd": true,
 "enriched": 1,
-"last_seen": "2026-10-21"
+"last_seen": "2026-10-22"
 },
 {
 "title": "Data Engineer - AI Pipelines & DataOps",
@@ -806,7 +1223,7 @@
 "level": "unknown",
 "has_jd": true,
 "enriched": 1,
-"last_seen": "2026-10-21"
+"last_seen": "2026-10-22"
 },
 {
 "title": "FinOps Data Analyst & Consultant",
@@ -1023,7 +1440,7 @@
 "level": "associate",
 "has_jd": true,
 "enriched": 1,
-"last_seen": "2026-10-21"
+"last_seen": "2026-10-22"
 },
 {
 "title": "NTT DATA Deutschland SE: SAP Data & Analytics (Senior) Managing Consultant",
@@ -1135,7 +1552,7 @@
 "level": "unknown",
 "has_jd": true,
 "enriched": 1,
-"last_seen": "2026-10-21"
+"last_seen": "2026-10-22"
 },
 {
 "title": "Senior Machine Learning Scientist / Data Engineer - Logistics Algorithms",
@@ -1163,7 +1580,7 @@
 "level": "senior",
 "has_jd": true,
 "enriched": 1,
-"last_seen": "2026-10-21"
+"last_seen": "2026-10-22"
 },
 {
 "title": "Head of Data & Analytics",
@@ -1246,7 +1663,7 @@
 "level": "associate",
 "has_jd": true,
 "enriched": 1,
-"last_seen": "2026-10-21"
+"last_seen": "2026-10-22"
 },
 {
 "title": "Dozent / Lehrkraft für KI, Python & Data Analytics",
@@ -1274,7 +1691,7 @@
 "level": "unknown",
 "has_jd": true,
 "enriched": 1,
-"last_seen": "2026-10-21"
+"last_seen": "2026-10-22"
 },
 {
 "title": "Data Analyst",
@@ -1302,7 +1719,7 @@
 "level": "unknown",
 "has_jd": true,
 "enriched": 1,
-"last_seen": "2026-10-21"
+"last_seen": "2026-10-22"
 },
 {
 "title": "(Junior) Business Intelligence Analyst",
@@ -1330,7 +1747,7 @@
 "level": "entry",
 "has_jd": true,
 "enriched": 1,
-"last_seen": "2026-10-21"
+"last_seen": "2026-10-22"
 },
 {
 "title": "Data Analyst - Marketing & Growth",
@@ -1358,7 +1775,7 @@
 "level": "unknown",
 "has_jd": true,
 "enriched": 1,
-"last_seen": "2026-10-21"
+"last_seen": "2026-10-22"
 },
 {
 "title": "(Senior) Consultant Data Warehouse Design | Senior Data Analyst",
@@ -1386,7 +1803,7 @@
 "level": "senior",
 "has_jd": true,
 "enriched": 1,
-"last_seen": "2026-10-21"
+"last_seen": "2026-10-22"
 },
 {
 "title": "Data Engineer",
@@ -1414,7 +1831,7 @@
 "level": "unknown",
 "has_jd": true,
 "enriched": 1,
-"last_seen": "2026-10-21"
+"last_seen": "2026-10-22"
 },
 {
 "title": "Business Analyst im Regulatorischen Reporting",
@@ -1442,7 +1859,7 @@
 "level": "unknown",
 "has_jd": true,
 "enriched": 1,
-"last_seen": "2026-10-21"
+"last_seen": "2026-10-22"
 },
 {
 "title": "Senior Data Engineer - Animal Health Clinical Development",
@@ -1470,7 +1887,7 @@
 "level": "senior",
 "has_jd": true,
 "enriched": 1,
-"last_seen": "2026-10-21"
+"last_seen": "2026-10-22"
 },
 {
 "title": "Spezialist Digitales Marketing - Reporting, Data Analytics & AI",
@@ -1499,7 +1916,7 @@
 "level": "entry",
 "has_jd": true,
 "enriched": 1,
-"last_seen": "2026-10-21"
+"last_seen": "2026-10-22"
 },
 {
 "title": "Spezialist/Business Analyst Schwerpunkt BI",
@@ -1527,7 +1944,7 @@
 "level": "unknown",
 "has_jd": true,
 "enriched": 1,
-"last_seen": "2026-10-21"
+"last_seen": "2026-10-22"
 },
 {
 "title": "Business Intelligence Experts",
@@ -1555,7 +1972,7 @@
 "level": "unknown",
 "has_jd": true,
 "enriched": 1,
-"last_seen": "2026-10-21"
+"last_seen": "2026-10-22"
 },
 {
 "title": "(Senior) Entwickler Business Intelligence",
@@ -1583,7 +2000,7 @@
 "level": "senior",
 "has_jd": true,
 "enriched": 1,
-"last_seen": "2026-10-21"
+"last_seen": "2026-10-22"
 },
 {
 "title": "(Senior) Consultant Business Intelligence",
@@ -1611,7 +2028,7 @@
 "level": "senior",
 "has_jd": true,
 "enriched": 1,
-"last_seen": "2026-10-21"
+"last_seen": "2026-10-22"
 },
 {
 "title": "Controller Schwerpunkt Business Intelligence, Regional Club",
@@ -1639,7 +2056,7 @@
 "level": "associate",
 "has_jd": true,
 "enriched": 1,
-"last_seen": "2026-10-21"
+"last_seen": "2026-10-22"
 },
 {
 "title": "accompio GmbH: Werkstudent Data Analytics / Business Intelligence - Wuppertal",
@@ -1696,7 +2113,7 @@
 "level": "associate",
 "has_jd": true,
 "enriched": 1,
-"last_seen": "2026-10-21"
+"last_seen": "2026-10-22"
 },
 {
 "title": "Domain Architect for Data & Analytics",
@@ -1724,7 +2141,7 @@
 "level": "senior",
 "has_jd": true,
 "enriched": 1,
-"last_seen": "2026-10-21"
+"last_seen": "2026-10-22"
 },
 {
 "title": "Data Analyst Robotik / IoT",
@@ -1752,7 +2169,7 @@
 "level": "unknown",
 "has_jd": true,
 "enriched": 1,
-"last_seen": "2026-10-21"
+"last_seen": "2026-10-22"
 },
 {
 "title": "Data Engineer - Big Data Platform,Hirschau,München",
@@ -1780,7 +2197,7 @@
 "level": "associate",
 "has_jd": true,
 "enriched": 1,
-"last_seen": "2026-10-21"
+"last_seen": "2026-10-22"
 },
 {
 "title": "Data Engineer Cloud/Big Data",
@@ -1808,7 +2225,7 @@
 "level": "unknown",
 "has_jd": true,
 "enriched": 1,
-"last_seen": "2026-10-21"
+"last_seen": "2026-10-22"
 },
 {
 "title": "Referent Bankcontrolling & Reporting",
@@ -1836,37 +2253,7 @@
 "level": "unknown",
 "has_jd": true,
 "enriched": 1,
-"last_seen": "2026-10-21"
-},
-{
-"title": "Signal Processing & Data Engineer",
-"company": "LIMATICA GmbH",
-"city": "Chemnitz, Sachsen",
-"region": "Sachsen",
-"posted": "2026-10-14",
-"remote": true,
-"sources": [
-"arbeitsagentur",
-"arbeitnow"
-],
-"links": {
-"arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003857849-S",
-"arbeitnow": "https://www.arbeitnow.com/jobs/companies/limatica/signal-processing-data-engineer-chemnitz-95163"
-},
-"ba_ref": "10001-1003857849-S",
-"categories": [
-"analytics_eng"
-],
-"id": "d18df716f26b",
-"first_seen": "2026-10-20",
-"jd_lang": "en",
-"jd_lang_basis": "jd",
-"german": "required",
-"exp_min": null,
-"level": "unknown",
-"has_jd": true,
-"enriched": 1,
-"last_seen": "2026-10-21"
+"last_seen": "2026-10-22"
 },
 {
 "title": "Analytics Engineer Tchibo MOBIL / Mobilfunk",
