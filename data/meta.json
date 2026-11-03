@@ -1,25 +1,25 @@
 {
- "run_at": "2026-11-02T13:32:26Z",
- "today": "2026-11-02",
- "new_today": 3,
- "total": 87,
+ "run_at": "2026-11-03T12:50:13Z",
+ "today": "2026-11-03",
+ "new_today": 7,
+ "total": 85,
  "sources": [
   {
    "id": "arbeitsagentur",
    "label": "联邦劳动局 Jobbörse",
    "ok": true,
-   "fetched": 258,
-   "kept": 92,
-   "seconds": 7.8,
+   "fetched": 259,
+   "kept": 83,
+   "seconds": 6.9,
    "note": "endpoint /pc/v6/jobs"
   },
   {
    "id": "arbeitnow",
    "label": "Arbeitnow",
    "ok": true,
-   "fetched": 812,
-   "kept": 8,
-   "seconds": 23.2,
+   "fetched": 802,
+   "kept": 9,
+   "seconds": 20.9,
    "note": ""
   },
   {
@@ -55,8 +55,8 @@
   "where": "Deutschland"
  },
  "enrich": {
-  "analysed": 3,
-  "with_jd": 3,
+  "analysed": 7,
+  "with_jd": 7,
   "ba_detail_endpoint": "/pc/v4/jobdetails/{b64}"
  }
 }
