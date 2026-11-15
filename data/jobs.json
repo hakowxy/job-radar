@@ -1,5 +1,116 @@
 [
 {
+"title": "Haema GmbH: Data Analyst / Data Engineer",
+"company": "Haema GmbH",
+"city": "Leipzig",
+"region": "Sachsen",
+"posted": "2026-11-15",
+"remote": false,
+"sources": [
+"arbeitsagentur"
+],
+"links": {
+"arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/11956-2972541794697201-S"
+},
+"ba_ref": "11956-2972541794697201-S",
+"categories": [
+"analytics_eng",
+"data_analyst"
+],
+"id": "0e4ac62c99d9",
+"first_seen": "2026-11-15",
+"last_seen": "2026-11-15",
+"jd_lang": "de",
+"jd_lang_basis": "jd",
+"german": "required",
+"exp_min": 5,
+"level": "senior",
+"has_jd": true,
+"enriched": 1
+},
+{
+"title": "Controller / Data Analyst im Lebensmittelhandel",
+"company": "dennree GmbH",
+"city": "Töpen",
+"region": "Bayern",
+"posted": "2026-11-15",
+"remote": false,
+"sources": [
+"arbeitsagentur"
+],
+"links": {
+"arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/14927-10uufa16q6k-S"
+},
+"ba_ref": "14927-10uufa16q6k-S",
+"categories": [
+"data_analyst"
+],
+"id": "6115da5a5850",
+"first_seen": "2026-11-15",
+"last_seen": "2026-11-15",
+"jd_lang": "de",
+"jd_lang_basis": "jd",
+"german": "required",
+"exp_min": 3,
+"level": "associate",
+"has_jd": true,
+"enriched": 1
+},
+{
+"title": "Analytics Engineer",
+"company": "Octopus Energy Group",
+"city": "Munich (DE)",
+"region": "Bayern",
+"posted": "2026-11-15",
+"remote": false,
+"sources": [
+"arbeitnow"
+],
+"links": {
+"arbeitnow": "https://www.arbeitnow.com/jobs/companies/octopus-energy-group/analytics-engineer-munich-de-286051"
+},
+"categories": [
+"analytics_eng"
+],
+"id": "b0107b93e97f",
+"first_seen": "2026-11-15",
+"last_seen": "2026-11-15",
+"jd_lang": "de",
+"jd_lang_basis": "jd",
+"german": "required",
+"exp_min": null,
+"level": "unknown",
+"has_jd": true,
+"enriched": 1
+},
+{
+"title": "Senior Data Analyst",
+"company": "Cosuno",
+"city": "Berlin/Remote",
+"region": "Berlin",
+"posted": "2026-11-15",
+"remote": false,
+"sources": [
+"arbeitnow"
+],
+"links": {
+"arbeitnow": "https://www.arbeitnow.com/jobs/companies/cosuno/senior-data-analyst-berlin-443903"
+},
+"categories": [
+"data_analyst"
+],
+"id": "f05095944f3c",
+"first_seen": "2026-11-15",
+"last_seen": "2026-11-15",
+"jd_lang": "en",
+"jd_lang_basis": "jd",
+"german": "not_needed",
+"exp_min": null,
+"level": "senior",
+"has_jd": true,
+"enriched": 1
+},
+{
 "title": "Business Analyst Kapitalmarkt / Data Analytics",
 "company": "DZ BANK AG",
 "city": "Frankfurt am Main",
@@ -18,14 +129,14 @@
 ],
 "id": "3a4eb228a4a3",
 "first_seen": "2026-11-14",
-"last_seen": "2026-11-14",
 "jd_lang": "de",
 "jd_lang_basis": "jd",
 "german": "required",
 "exp_min": 3,
 "level": "associate",
 "has_jd": true,
-"enriched": 1
+"enriched": 1,
+"last_seen": "2026-11-15"
 },
 {
 "title": "Data analyst - AML",
@@ -45,14 +156,14 @@
 ],
 "id": "4b1a9346c906",
 "first_seen": "2026-11-14",
-"last_seen": "2026-11-14",
 "jd_lang": "en",
 "jd_lang_basis": "jd",
 "german": "not_needed",
 "exp_min": null,
 "level": "unknown",
 "has_jd": true,
-"enriched": 1
+"enriched": 1,
+"last_seen": "2026-11-15"
 },
 {
 "title": "SAP BI Berater / Entwickler – deutschlandweit | Remote möglich",
@@ -73,14 +184,14 @@
 ],
 "id": "0a3c5ff3ffb5",
 "first_seen": "2026-11-14",
-"last_seen": "2026-11-14",
 "jd_lang": "de",
 "jd_lang_basis": "jd",
 "german": "required",
 "exp_min": null,
 "level": "unknown",
 "has_jd": true,
-"enriched": 1
+"enriched": 1,
+"last_seen": "2026-11-15"
 },
 {
 "title": "Reporting Analyst",
@@ -101,14 +212,14 @@
 ],
 "id": "e64b965567b1",
 "first_seen": "2026-11-14",
-"last_seen": "2026-11-14",
 "jd_lang": "de",
 "jd_lang_basis": "jd",
 "german": "required",
 "exp_min": 0,
 "level": "entry",
 "has_jd": true,
-"enriched": 1
+"enriched": 1,
+"last_seen": "2026-11-15"
 },
 {
 "title": "Werkstudent Data, Controlling & KPI-Reporting",
@@ -128,14 +239,14 @@
 ],
 "id": "e090e302eb89",
 "first_seen": "2026-11-14",
-"last_seen": "2026-11-14",
 "jd_lang": "de",
 "jd_lang_basis": "jd",
 "german": "required",
 "exp_min": 0,
 "level": "student",
 "has_jd": true,
-"enriched": 1
+"enriched": 1,
+"last_seen": "2026-11-15"
 },
 {
 "title": "Senior Data Engineer",
@@ -155,14 +266,14 @@
 ],
 "id": "2e8a72d4c6ed",
 "first_seen": "2026-11-14",
-"last_seen": "2026-11-14",
 "jd_lang": "de",
 "jd_lang_basis": "jd",
 "german": "required",
 "exp_min": 3,
 "level": "senior",
 "has_jd": true,
-"enriched": 1
+"enriched": 1,
+"last_seen": "2026-11-15"
 },
 {
 "title": "Senior Data Engineer Kubernetes",
@@ -182,14 +293,14 @@
 ],
 "id": "a69082e741aa",
 "first_seen": "2026-11-14",
-"last_seen": "2026-11-14",
 "jd_lang": "de",
 "jd_lang_basis": "jd",
 "german": "required",
 "exp_min": 3,
 "level": "senior",
 "has_jd": true,
-"enriched": 1
+"enriched": 1,
+"last_seen": "2026-11-15"
 },
 {
 "title": "Data Engineer:in",
@@ -210,14 +321,14 @@
 ],
 "id": "f9c0d5cba3e8",
 "first_seen": "2026-11-14",
-"last_seen": "2026-11-14",
 "jd_lang": "de",
 "jd_lang_basis": "jd",
 "german": "required",
 "exp_min": 3,
 "level": "associate",
 "has_jd": true,
-"enriched": 1
+"enriched": 1,
+"last_seen": "2026-11-15"
 },
 {
 "title": "Senior Data Engineer",
@@ -245,7 +356,7 @@
 "level": "senior",
 "has_jd": true,
 "enriched": 1,
-"last_seen": "2026-11-14"
+"last_seen": "2026-11-15"
 },
 {
 "title": "Business Intelligence Spezialist / Data Analyst im Controlling (VZ/TZ) Standort Rheine",
@@ -274,7 +385,7 @@
 "level": "associate",
 "has_jd": true,
 "enriched": 1,
-"last_seen": "2026-11-14"
+"last_seen": "2026-11-15"
 },
 {
 "title": "Qlik / SAP Analytics Developer",
@@ -302,7 +413,7 @@
 "level": "unknown",
 "has_jd": true,
 "enriched": 1,
-"last_seen": "2026-11-14"
+"last_seen": "2026-11-15"
 },
 {
 "title": "Controller Reporting und Prozesse",
@@ -330,7 +441,7 @@
 "level": "unknown",
 "has_jd": true,
 "enriched": 1,
-"last_seen": "2026-11-14"
+"last_seen": "2026-11-15"
 },
 {
 "title": "Senior Data Engineer",
@@ -357,7 +468,7 @@
 "level": "senior",
 "has_jd": true,
 "enriched": 1,
-"last_seen": "2026-11-14"
+"last_seen": "2026-11-15"
 },
 {
 "title": "Praktikum KI-Lösungen & Automatisierung im Energiemarkt",
@@ -384,7 +495,7 @@
 "level": "student",
 "has_jd": true,
 "enriched": 1,
-"last_seen": "2026-11-14"
+"last_seen": "2026-11-15"
 },
 {
 "title": "Geospatial & Remote Sensing Data Engineer",
@@ -412,7 +523,7 @@
 "level": "unknown",
 "has_jd": true,
 "enriched": 1,
-"last_seen": "2026-11-14"
+"last_seen": "2026-11-15"
 },
 {
 "title": "Datenanalyst / Mitarbeiter Disposition & Verkaufssteuerung",
@@ -440,7 +551,7 @@
 "level": "unknown",
 "has_jd": true,
 "enriched": 1,
-"last_seen": "2026-11-14"
+"last_seen": "2026-11-15"
 },
 {
 "title": "Datenarchitekt / Data Engineer - MS 365 Business Cen",
@@ -468,7 +579,7 @@
 "level": "unknown",
 "has_jd": true,
 "enriched": 1,
-"last_seen": "2026-11-14"
+"last_seen": "2026-11-15"
 },
 {
 "title": "Controller Finance & Reporting",
@@ -496,7 +607,7 @@
 "level": "entry",
 "has_jd": true,
 "enriched": 1,
-"last_seen": "2026-11-14"
+"last_seen": "2026-11-15"
 },
 {
 "title": "Data Analyst Marketing",
@@ -523,7 +634,7 @@
 "level": "unknown",
 "has_jd": true,
 "enriched": 1,
-"last_seen": "2026-11-14"
+"last_seen": "2026-11-15"
 },
 {
 "title": "Forschungsprojektleiter:in Energiedaten & Gebäudetechnik",
@@ -550,7 +661,7 @@
 "level": "unknown",
 "has_jd": true,
 "enriched": 1,
-"last_seen": "2026-11-14"
+"last_seen": "2026-11-15"
 },
 {
 "title": "Teamleiter Controlling mit BI-Fokus, InsurTech",
@@ -578,7 +689,7 @@
 "level": "lead",
 "has_jd": true,
 "enriched": 1,
-"last_seen": "2026-11-14"
+"last_seen": "2026-11-15"
 },
 {
 "title": "Data Engineer",
@@ -634,7 +745,7 @@
 "level": "associate",
 "has_jd": true,
 "enriched": 1,
-"last_seen": "2026-11-14"
+"last_seen": "2026-11-15"
 },
 {
 "title": "GB Data & Analytics (DA) > BI & Analytik> Ware & Umsatz - Leitung auf Führungsebene 4",
@@ -691,7 +802,7 @@
 "level": "senior",
 "has_jd": true,
 "enriched": 1,
-"last_seen": "2026-11-14"
+"last_seen": "2026-11-15"
 },
 {
 "title": "Werkstudent Data Analytics & Business Intelligence",
@@ -776,7 +887,7 @@
 "level": "associate",
 "has_jd": true,
 "enriched": 1,
-"last_seen": "2026-11-14"
+"last_seen": "2026-11-15"
 },
 {
 "title": "Data Engineer",
@@ -804,7 +915,7 @@
 "level": "associate",
 "has_jd": true,
 "enriched": 1,
-"last_seen": "2026-11-14"
+"last_seen": "2026-11-15"
 },
 {
 "title": "Data Engineer",
@@ -832,7 +943,7 @@
 "level": "unknown",
 "has_jd": true,
 "enriched": 1,
-"last_seen": "2026-11-14"
+"last_seen": "2026-11-15"
 },
 {
 "title": "Senior Data Engineer",
@@ -860,7 +971,7 @@
 "level": "senior",
 "has_jd": true,
 "enriched": 1,
-"last_seen": "2026-11-14"
+"last_seen": "2026-11-15"
 },
 {
 "title": "Data Engineer / Scientist Payment",
@@ -888,7 +999,7 @@
 "level": "associate",
 "has_jd": true,
 "enriched": 1,
-"last_seen": "2026-11-14"
+"last_seen": "2026-11-15"
 },
 {
 "title": "Data Engineer SAS Base",
@@ -916,7 +1027,7 @@
 "level": "unknown",
 "has_jd": true,
 "enriched": 1,
-"last_seen": "2026-11-14"
+"last_seen": "2026-11-15"
 },
 {
 "title": "Manager BI Reporting",
@@ -944,7 +1055,7 @@
 "level": "associate",
 "has_jd": true,
 "enriched": 1,
-"last_seen": "2026-11-14"
+"last_seen": "2026-11-15"
 },
 {
 "title": "Data Engineer:in",
@@ -1028,7 +1139,7 @@
 "level": "unknown",
 "has_jd": true,
 "enriched": 1,
-"last_seen": "2026-11-14"
+"last_seen": "2026-11-15"
 },
 {
 "title": "Data Analyst",
@@ -1056,7 +1167,7 @@
 "level": "unknown",
 "has_jd": true,
 "enriched": 1,
-"last_seen": "2026-11-14"
+"last_seen": "2026-11-15"
 },
 {
 "title": "Data & Analytics Engineer",
@@ -1085,7 +1196,7 @@
 "level": "associate",
 "has_jd": true,
 "enriched": 1,
-"last_seen": "2026-11-14"
+"last_seen": "2026-11-15"
 },
 {
 "title": "Data & BI Analyst in Visselhövede",
@@ -1113,7 +1224,7 @@
 "level": "entry",
 "has_jd": true,
 "enriched": 1,
-"last_seen": "2026-11-14"
+"last_seen": "2026-11-15"
 },
 {
 "title": "Data Analyst - Forecasting",
@@ -1169,7 +1280,7 @@
 "level": "entry",
 "has_jd": true,
 "enriched": 1,
-"last_seen": "2026-11-14"
+"last_seen": "2026-11-15"
 },
 {
 "title": "Data Analyst - Controlling",
@@ -1197,7 +1308,7 @@
 "level": "associate",
 "has_jd": true,
 "enriched": 1,
-"last_seen": "2026-11-14"
+"last_seen": "2026-11-15"
 },
 {
 "title": "Sustainability Reporting Excellence Analyst",
@@ -1225,7 +1336,7 @@
 "level": "entry",
 "has_jd": true,
 "enriched": 1,
-"last_seen": "2026-11-14"
+"last_seen": "2026-11-15"
 },
 {
 "title": "(Senior) Fund Accounting & Reporting Manager",
@@ -1280,7 +1391,7 @@
 "level": "associate",
 "has_jd": true,
 "enriched": 1,
-"last_seen": "2026-11-14"
+"last_seen": "2026-11-15"
 },
 {
 "title": "Senior Data Analyst, ML & Experimentation",
@@ -1391,7 +1502,7 @@
 "level": "associate",
 "has_jd": true,
 "enriched": 1,
-"last_seen": "2026-11-14"
+"last_seen": "2026-11-15"
 },
 {
 "title": "Business Intelligence & AI Specialist",
@@ -1419,7 +1530,7 @@
 "level": "entry",
 "has_jd": true,
 "enriched": 1,
-"last_seen": "2026-11-14"
+"last_seen": "2026-11-15"
 },
 {
 "title": "Business Intelligence & AI Specialist",
@@ -1447,7 +1558,7 @@
 "level": "entry",
 "has_jd": true,
 "enriched": 1,
-"last_seen": "2026-11-14"
+"last_seen": "2026-11-15"
 },
 {
 "title": "(Junior) Business Intelligence Analyst EZV",
@@ -1503,7 +1614,7 @@
 "level": "unknown",
 "has_jd": true,
 "enriched": 1,
-"last_seen": "2026-11-14"
+"last_seen": "2026-11-15"
 },
 {
 "title": "Senior Data Engineer Risk Regulation - Hybrid",
@@ -1531,7 +1642,7 @@
 "level": "senior",
 "has_jd": true,
 "enriched": 1,
-"last_seen": "2026-11-14"
+"last_seen": "2026-11-15"
 },
 {
 "title": "Datenanalyst Energiebeschaffung und Vertrieb",
@@ -1559,7 +1670,7 @@
 "level": "unknown",
 "has_jd": true,
 "enriched": 1,
-"last_seen": "2026-11-14"
+"last_seen": "2026-11-15"
 },
 {
 "title": "Senior Product Analyst",
@@ -1614,7 +1725,7 @@
 "level": "associate",
 "has_jd": true,
 "enriched": 1,
-"last_seen": "2026-11-14"
+"last_seen": "2026-11-15"
 },
 {
 "title": "Business Intelligence & AI Specialist",
@@ -1642,7 +1753,7 @@
 "level": "entry",
 "has_jd": true,
 "enriched": 1,
-"last_seen": "2026-11-14"
+"last_seen": "2026-11-15"
 },
 {
 "title": "Senior Consultant SAP HCM / SuccessFactors - HR Analytics & Reporting",
@@ -1670,7 +1781,7 @@
 "level": "senior",
 "has_jd": true,
 "enriched": 1,
-"last_seen": "2026-11-14"
+"last_seen": "2026-11-15"
 },
 {
 "title": "Microsoft BI Entwickler",
@@ -1698,7 +1809,7 @@
 "level": "unknown",
 "has_jd": true,
 "enriched": 1,
-"last_seen": "2026-11-14"
+"last_seen": "2026-11-15"
 },
 {
 "title": "Data Analyst",
@@ -1726,7 +1837,7 @@
 "level": "unknown",
 "has_jd": true,
 "enriched": 1,
-"last_seen": "2026-11-14"
+"last_seen": "2026-11-15"
 },
 {
 "title": "Senior Manager Data Analytics bei der Sparkasse KölnBonn",
@@ -1754,7 +1865,7 @@
 "level": "senior",
 "has_jd": true,
 "enriched": 1,
-"last_seen": "2026-11-14"
+"last_seen": "2026-11-15"
 },
 {
 "title": "Data-Engineer",
@@ -1782,7 +1893,7 @@
 "level": "senior",
 "has_jd": true,
 "enriched": 1,
-"last_seen": "2026-11-14"
+"last_seen": "2026-11-15"
 },
 {
 "title": "Data-Engineer – Systemadmin",
@@ -1810,63 +1921,7 @@
 "level": "senior",
 "has_jd": true,
 "enriched": 1,
-"last_seen": "2026-11-14"
-},
-{
-"title": "Senior Data & Analytics Engineer – Microsoft Fabric & Power BI",
-"company": "Pexon Consulting GmbH",
-"city": "Berlin",
-"region": "Berlin",
-"posted": "2026-11-09",
-"remote": false,
-"sources": [
-"arbeitnow"
-],
-"links": {
-"arbeitnow": "https://www.arbeitnow.com/jobs/companies/pexon-consulting-gmbh/senior-data-analytics-engineer-microsoft-fabric-power-bi-berlin-226406"
-},
-"categories": [
-"bi",
-"data_analyst",
-"analytics_eng"
-],
-"id": "d602c7370191",
-"first_seen": "2026-11-09",
-"jd_lang": "de",
-"jd_lang_basis": "jd",
-"german": "required",
-"exp_min": null,
-"level": "senior",
-"has_jd": true,
-"enriched": 1,
-"last_seen": "2026-11-11"
-},
-{
-"title": "Senior Marketing Data Analyst Pricing",
-"company": "hellofresh",
-"city": "Berlin, Berlin",
-"region": "Berlin",
-"posted": "2026-11-08",
-"remote": false,
-"sources": [
-"arbeitnow"
-],
-"links": {
-"arbeitnow": "https://www.arbeitnow.com/jobs/companies/hellofresh/senior-marketing-data-analyst-pricing-all-genders-berlin-berlin-253239"
-},
-"categories": [
-"data_analyst"
-],
-"id": "009584039d86",
-"first_seen": "2026-11-09",
-"jd_lang": "en",
-"jd_lang_basis": "jd",
-"german": "not_needed",
-"exp_min": 4,
-"level": "senior",
-"has_jd": true,
-"enriched": 1,
-"last_seen": "2026-11-11"
+"last_seen": "2026-11-15"
 },
 {
 "title": "Business Intelligence Entwickler im Bereich Informationssysteme",
@@ -1894,7 +1949,7 @@
 "level": "unknown",
 "has_jd": true,
 "enriched": 1,
-"last_seen": "2026-11-14"
+"last_seen": "2026-11-15"
 },
 {
 "title": "Data Engineer",
@@ -2037,34 +2092,6 @@
 "last_seen": "2026-11-13"
 },
 {
-"title": "Data Engineer:in",
-"company": "Deutsche Bahn AG",
-"city": "Berlin",
-"region": "Berlin",
-"posted": "2026-11-06",
-"remote": false,
-"sources": [
-"arbeitsagentur"
-],
-"links": {
-"arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12456-1651664-1-S"
-},
-"ba_ref": "12456-1651664-1-S",
-"categories": [
-"analytics_eng"
-],
-"id": "0993a55f4f2b",
-"first_seen": "2026-11-07",
-"jd_lang": "de",
-"jd_lang_basis": "jd",
-"german": "required",
-"exp_min": 0,
-"level": "entry",
-"has_jd": true,
-"enriched": 1,
-"last_seen": "2026-11-11"
-},
-{
 "title": "Softwareentwickler , Business Intelligence Management und Data Warehouse",
 "company": "Landkreis Stade",
 "city": "Stade, Niederelbe",
@@ -2090,7 +2117,7 @@
 "level": "unknown",
 "has_jd": true,
 "enriched": 1,
-"last_seen": "2026-11-14"
+"last_seen": "2026-11-15"
 },
 {
 "title": "Projektkoordinator*in Data Warehouse & Business Intelligence in Studium und Lehre ID UV-0079-dezIII",
@@ -2230,7 +2257,7 @@
 "level": "unknown",
 "has_jd": true,
 "enriched": 1,
-"last_seen": "2026-11-14"
+"last_seen": "2026-11-15"
 },
 {
 "title": "Softwareentwickler , Business Intelligence Management und Datawarehouse",
@@ -2373,214 +2400,19 @@
 "last_seen": "2026-11-12"
 },
 {
-"title": "Senior Data Engineer",
-"company": "Sopra Steria SE",
-"city": "",
-"region": "",
-"posted": "2026-11-04",
-"remote": false,
-"sources": [
-"arbeitsagentur"
-],
-"links": {
-"arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/16236-981287210-S"
-},
-"ba_ref": "16236-981287210-S",
-"categories": [
-"analytics_eng"
-],
-"id": "6853d2d3adac",
-"first_seen": "2026-11-05",
-"jd_lang": "de",
-"jd_lang_basis": "jd",
-"german": "required",
-"exp_min": 3,
-"level": "senior",
-"has_jd": true,
-"enriched": 1,
-"last_seen": "2026-11-11"
-},
-{
-"title": "724/B - Abteilungsleitung IGA-Reporting",
-"company": "Finanz Informatik GmbH & Co. KG",
-"city": "Münster, Westfalen",
-"region": "Nordrhein-Westfalen",
-"posted": "2026-11-04",
-"remote": false,
-"sources": [
-"arbeitsagentur"
-],
-"links": {
-"arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/20079-veUhgxqu-S"
-},
-"ba_ref": "20079-veUhgxqu-S",
-"categories": [
-"bi"
-],
-"id": "bf0d69f33912",
-"first_seen": "2026-11-05",
-"jd_lang": "de",
-"jd_lang_basis": "jd",
-"german": "required",
-"exp_min": 3,
-"level": "associate",
-"has_jd": true,
-"enriched": 1,
-"last_seen": "2026-11-11"
-},
-{
-"title": "Data Analyst",
-"company": "Rhenus SE & CO. KG",
-"city": "Holzwickede",
-"region": "Nordrhein-Westfalen",
-"posted": "2026-11-04",
-"remote": false,
-"sources": [
-"arbeitsagentur"
-],
-"links": {
-"arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/14350-BB-5568-7878-197378-S"
-},
-"ba_ref": "14350-BB-5568-7878-197378-S",
-"categories": [
-"data_analyst"
-],
-"id": "001c9164661b",
-"first_seen": "2026-11-04",
-"jd_lang": "en",
-"jd_lang_basis": "jd",
-"german": "required",
-"exp_min": null,
-"level": "unknown",
-"has_jd": true,
-"enriched": 1,
-"last_seen": "2026-11-11"
-},
-{
-"title": "Business Intelligence Analyst , Trier",
-"company": "moccamedia GmbH",
-"city": "Trier",
-"region": "Rheinland-Pfalz",
-"posted": "2026-11-04",
-"remote": false,
-"sources": [
-"arbeitsagentur"
-],
-"links": {
-"arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2370547-S"
-},
-"ba_ref": "12811-2370547-S",
-"categories": [
-"bi"
-],
-"id": "b279f63e38e9",
-"first_seen": "2026-11-04",
-"jd_lang": "de",
-"jd_lang_basis": "jd",
-"german": "required",
-"exp_min": 3,
-"level": "associate",
-"has_jd": true,
-"enriched": 1,
-"last_seen": "2026-11-11"
-},
-{
-"title": "Business Intelligence Developer , Trier",
-"company": "moccamedia GmbH",
-"city": "Trier",
-"region": "Rheinland-Pfalz",
-"posted": "2026-11-04",
-"remote": false,
-"sources": [
-"arbeitsagentur"
-],
-"links": {
-"arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2370542-S"
-},
-"ba_ref": "12811-2370542-S",
-"categories": [
-"bi"
-],
-"id": "cda8b4a316b9",
-"first_seen": "2026-11-04",
-"jd_lang": "de",
-"jd_lang_basis": "jd",
-"german": "required",
-"exp_min": 3,
-"level": "associate",
-"has_jd": true,
-"enriched": 1,
-"last_seen": "2026-11-11"
-},
-{
-"title": "Data & Business Intelligence Engineer",
-"company": "Uhlmann Pac-Systeme GmbH & Co. KG",
-"city": "Laupheim",
-"region": "Baden-Württemberg",
-"posted": "2026-11-04",
-"remote": false,
-"sources": [
-"arbeitsagentur"
-],
-"links": {
-"arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/13635-js_bc_89_JB5290444-S"
-},
-"ba_ref": "13635-js_bc_89_JB5290444-S",
-"categories": [
-"bi"
-],
-"id": "88e9b0799cb9",
-"first_seen": "2026-11-03",
-"jd_lang": "de",
-"jd_lang_basis": "jd",
-"german": "required",
-"exp_min": null,
-"level": "unknown",
-"has_jd": true,
-"enriched": 1,
-"last_seen": "2026-11-11"
-},
-{
-"title": "(Senior) Oracle Data Warehouse / BI-Developer",
-"company": "virtual7 GmbH",
-"city": "Karlsruhe, Baden-Württemberg, Deutschland",
-"region": "Baden-Württemberg",
-"posted": "2026-11-08",
-"remote": false,
-"sources": [
-"arbeitnow"
-],
-"links": {
-"arbeitnow": "https://www.arbeitnow.com/jobs/companies/virtual7-gmbh/senior-oracle-data-warehouse-bi-developer-karlsruhe-173565"
-},
-"categories": [
-"bi"
-],
-"id": "538ab8e57707",
-"first_seen": "2026-10-31",
-"jd_lang": "de",
-"jd_lang_basis": "jd",
-"german": "required",
-"exp_min": 3,
-"level": "senior",
-"has_jd": true,
-"enriched": 1,
-"last_seen": "2026-11-11"
-},
-{
 "title": "IT-Spezialist Data Engineer",
 "company": "Volksbank Mittweida eG",
 "city": "Mittweida",
 "region": "Sachsen",
-"posted": "2026-11-13",
+"posted": "2026-11-15",
 "remote": true,
 "sources": [
 "arbeitsagentur"
 ],
 "links": {
-"arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/18024-10Q9A00000X0W-S"
+"arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/18024-10Q9A00000X0X-S"
 },
-"ba_ref": "18024-10Q9A00000X0W-S",
+"ba_ref": "18024-10Q9A00000X0X-S",
 "categories": [
 "analytics_eng"
 ],
@@ -2593,7 +2425,7 @@
 "level": "associate",
 "has_jd": true,
 "enriched": 1,
-"last_seen": "2026-11-14"
+"last_seen": "2026-11-15"
 },
 {
 "title": "BI Developer",
