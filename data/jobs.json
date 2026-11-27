@@ -1,5 +1,1741 @@
 [
 {
+"title": "Business Intelligence Engineer/Analytics Engineer , Gunzenhausen",
+"company": "Hetzner Online GmbH",
+"city": "Gunzenhausen am Altmühlsee",
+"region": "Bayern",
+"posted": "2026-11-27",
+"remote": false,
+"sources": [
+"arbeitsagentur"
+],
+"links": {
+"arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2386272-S"
+},
+"ba_ref": "12811-2386272-S",
+"categories": [
+"analytics_eng",
+"bi"
+],
+"id": "37a068e499fe",
+"first_seen": "2026-11-27",
+"last_seen": "2026-11-27",
+"jd_lang": "de",
+"jd_lang_basis": "jd",
+"german": "required",
+"exp_min": null,
+"level": "unknown",
+"has_jd": true,
+"enriched": 1
+},
+{
+"title": "Senior Analytics Engineer / BI Specialist , Hamburg Zentrale",
+"company": "Detlev Louis",
+"city": "Hamburg",
+"region": "Hamburg",
+"posted": "2026-11-27",
+"remote": false,
+"sources": [
+"arbeitsagentur"
+],
+"links": {
+"arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2386824-S"
+},
+"ba_ref": "12811-2386824-S",
+"categories": [
+"bi",
+"analytics_eng"
+],
+"id": "5834f33fe090",
+"first_seen": "2026-11-27",
+"last_seen": "2026-11-27",
+"jd_lang": "de",
+"jd_lang_basis": "jd",
+"german": "required",
+"exp_min": 3,
+"level": "senior",
+"has_jd": true,
+"enriched": 1
+},
+{
+"title": "Consultant Data Analytics Global Transformation Tax",
+"company": "PricewaterhouseCoopers GmbH WPG",
+"city": "Stuttgart",
+"region": "Baden-Württemberg",
+"posted": "2026-11-27",
+"remote": false,
+"sources": [
+"arbeitsagentur"
+],
+"links": {
+"arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/18989-986960635-S"
+},
+"ba_ref": "18989-986960635-S",
+"categories": [
+"data_analyst"
+],
+"id": "7060f8ed59e9",
+"first_seen": "2026-11-27",
+"last_seen": "2026-11-27",
+"jd_lang": "de",
+"jd_lang_basis": "jd",
+"german": "required",
+"exp_min": 0,
+"level": "entry",
+"has_jd": true,
+"enriched": 1
+},
+{
+"title": "Consultant Data Analytics Global Transformation Tax",
+"company": "PricewaterhouseCoopers GmbH WPG",
+"city": "Mannheim",
+"region": "Baden-Württemberg",
+"posted": "2026-11-27",
+"remote": false,
+"sources": [
+"arbeitsagentur"
+],
+"links": {
+"arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/18989-986960629-S"
+},
+"ba_ref": "18989-986960629-S",
+"categories": [
+"data_analyst"
+],
+"id": "ded2f79115db",
+"first_seen": "2026-11-27",
+"last_seen": "2026-11-27",
+"jd_lang": "de",
+"jd_lang_basis": "jd",
+"german": "required",
+"exp_min": 0,
+"level": "entry",
+"has_jd": true,
+"enriched": 1
+},
+{
+"title": "Consultant Data Analytics Global Transformation Tax",
+"company": "PricewaterhouseCoopers GmbH WPG",
+"city": "Frankfurt am Main",
+"region": "Hessen",
+"posted": "2026-11-27",
+"remote": false,
+"sources": [
+"arbeitsagentur"
+],
+"links": {
+"arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/18989-986960630-S"
+},
+"ba_ref": "18989-986960630-S",
+"categories": [
+"data_analyst"
+],
+"id": "abe19e17fee8",
+"first_seen": "2026-11-27",
+"last_seen": "2026-11-27",
+"jd_lang": "de",
+"jd_lang_basis": "jd",
+"german": "required",
+"exp_min": 0,
+"level": "entry",
+"has_jd": true,
+"enriched": 1
+},
+{
+"title": "Consultant Data Analytics Global Transformation Tax",
+"company": "PricewaterhouseCoopers GmbH WPG",
+"city": "München",
+"region": "Bayern",
+"posted": "2026-11-27",
+"remote": false,
+"sources": [
+"arbeitsagentur"
+],
+"links": {
+"arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/18989-986960628-S"
+},
+"ba_ref": "18989-986960628-S",
+"categories": [
+"data_analyst"
+],
+"id": "662c85741a5d",
+"first_seen": "2026-11-27",
+"last_seen": "2026-11-27",
+"jd_lang": "de",
+"jd_lang_basis": "jd",
+"german": "required",
+"exp_min": 0,
+"level": "entry",
+"has_jd": true,
+"enriched": 1
+},
+{
+"title": "Consultant Data Analytics Global Transformation Tax",
+"company": "PricewaterhouseCoopers GmbH WPG",
+"city": "Bremen",
+"region": "Bremen",
+"posted": "2026-11-27",
+"remote": false,
+"sources": [
+"arbeitsagentur"
+],
+"links": {
+"arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/18989-986960623-S"
+},
+"ba_ref": "18989-986960623-S",
+"categories": [
+"data_analyst"
+],
+"id": "1397b60feffb",
+"first_seen": "2026-11-27",
+"last_seen": "2026-11-27",
+"jd_lang": "de",
+"jd_lang_basis": "jd",
+"german": "required",
+"exp_min": 0,
+"level": "entry",
+"has_jd": true,
+"enriched": 1
+},
+{
+"title": "Consultant Data Analytics Global Transformation Tax",
+"company": "PricewaterhouseCoopers GmbH WPG",
+"city": "Berlin",
+"region": "Berlin",
+"posted": "2026-11-27",
+"remote": false,
+"sources": [
+"arbeitsagentur"
+],
+"links": {
+"arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/18989-986960619-S"
+},
+"ba_ref": "18989-986960619-S",
+"categories": [
+"data_analyst"
+],
+"id": "888bd3e3b38c",
+"first_seen": "2026-11-27",
+"last_seen": "2026-11-27",
+"jd_lang": "de",
+"jd_lang_basis": "jd",
+"german": "required",
+"exp_min": 0,
+"level": "entry",
+"has_jd": true,
+"enriched": 1
+},
+{
+"title": "Consultant Data Analytics Global Transformation Tax",
+"company": "PricewaterhouseCoopers GmbH WPG",
+"city": "Hamburg",
+"region": "Hamburg",
+"posted": "2026-11-27",
+"remote": false,
+"sources": [
+"arbeitsagentur"
+],
+"links": {
+"arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/18989-986960626-S"
+},
+"ba_ref": "18989-986960626-S",
+"categories": [
+"data_analyst"
+],
+"id": "c9cfd33407f0",
+"first_seen": "2026-11-27",
+"last_seen": "2026-11-27",
+"jd_lang": "de",
+"jd_lang_basis": "jd",
+"german": "required",
+"exp_min": 0,
+"level": "entry",
+"has_jd": true,
+"enriched": 1
+},
+{
+"title": "Consultant Data Analytics Global Transformation Tax",
+"company": "PricewaterhouseCoopers GmbH WPG",
+"city": "Düsseldorf",
+"region": "Nordrhein-Westfalen",
+"posted": "2026-11-27",
+"remote": false,
+"sources": [
+"arbeitsagentur"
+],
+"links": {
+"arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/18989-986960622-S"
+},
+"ba_ref": "18989-986960622-S",
+"categories": [
+"data_analyst"
+],
+"id": "8a2bb98bf1a1",
+"first_seen": "2026-11-27",
+"last_seen": "2026-11-27",
+"jd_lang": "de",
+"jd_lang_basis": "jd",
+"german": "required",
+"exp_min": 0,
+"level": "entry",
+"has_jd": true,
+"enriched": 1
+},
+{
+"title": "Consultant Data Analytics Global Transformation Tax",
+"company": "PricewaterhouseCoopers GmbH WPG",
+"city": "Köln",
+"region": "Nordrhein-Westfalen",
+"posted": "2026-11-27",
+"remote": false,
+"sources": [
+"arbeitsagentur"
+],
+"links": {
+"arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/18989-986960624-S"
+},
+"ba_ref": "18989-986960624-S",
+"categories": [
+"data_analyst"
+],
+"id": "baa245beb77d",
+"first_seen": "2026-11-27",
+"last_seen": "2026-11-27",
+"jd_lang": "de",
+"jd_lang_basis": "jd",
+"german": "required",
+"exp_min": 0,
+"level": "entry",
+"has_jd": true,
+"enriched": 1
+},
+{
+"title": "Datenanalyst Vermögensschadenhaftpflicht",
+"company": "Allianz Deutschland AG",
+"city": "Unterföhring",
+"region": "Bayern",
+"posted": "2026-11-27",
+"remote": false,
+"sources": [
+"arbeitsagentur"
+],
+"links": {
+"arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15719-44598016-1126-S"
+},
+"ba_ref": "15719-44598016-1126-S",
+"categories": [
+"data_analyst"
+],
+"id": "1079d5bc92d5",
+"first_seen": "2026-11-27",
+"last_seen": "2026-11-27",
+"jd_lang": "de",
+"jd_lang_basis": "jd",
+"german": "required",
+"exp_min": null,
+"level": "unknown",
+"has_jd": true,
+"enriched": 1
+},
+{
+"title": "Data Analyst",
+"company": "KWS SAAT SE & Co. KGaA",
+"city": "Einbeck",
+"region": "Niedersachsen",
+"posted": "2026-11-27",
+"remote": false,
+"sources": [
+"arbeitsagentur"
+],
+"links": {
+"arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1004082509-S"
+},
+"ba_ref": "10001-1004082509-S",
+"categories": [
+"data_analyst"
+],
+"id": "09ac55a0078a",
+"first_seen": "2026-11-27",
+"last_seen": "2026-11-27",
+"jd_lang": "en",
+"jd_lang_basis": "jd",
+"german": "plus",
+"exp_min": null,
+"level": "unknown",
+"has_jd": true,
+"enriched": 1
+},
+{
+"title": "Data Analyst",
+"company": "MERKUR GROUP",
+"city": "Lübbecke, Westfalen",
+"region": "Nordrhein-Westfalen",
+"posted": "2026-11-27",
+"remote": true,
+"sources": [
+"arbeitsagentur"
+],
+"links": {
+"arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/13644-315308-S"
+},
+"ba_ref": "13644-315308-S",
+"categories": [
+"data_analyst"
+],
+"id": "f7450fe0b09f",
+"first_seen": "2026-11-27",
+"last_seen": "2026-11-27",
+"jd_lang": "de",
+"jd_lang_basis": "jd",
+"german": "required",
+"exp_min": 4,
+"level": "associate",
+"has_jd": true,
+"enriched": 1
+},
+{
+"title": "Data Analyst - Advanced Analytics & AI",
+"company": "Advantest Europe GmbH",
+"city": "Böblingen",
+"region": "Baden-Württemberg",
+"posted": "2026-11-27",
+"remote": false,
+"sources": [
+"arbeitsagentur"
+],
+"links": {
+"arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12908-065319655-S"
+},
+"ba_ref": "12908-065319655-S",
+"categories": [
+"data_analyst"
+],
+"id": "eba413277900",
+"first_seen": "2026-11-27",
+"last_seen": "2026-11-27",
+"jd_lang": "en",
+"jd_lang_basis": "jd",
+"german": "not_needed",
+"exp_min": null,
+"level": "unknown",
+"has_jd": true,
+"enriched": 1
+},
+{
+"title": "Data Analyst Vertragsmanagement Energie (m|w|d)",
+"company": "envia Mitteldeutsche Energie AG",
+"city": "Kabelsketal",
+"region": "Sachsen-Anhalt",
+"posted": "2026-11-27",
+"remote": false,
+"sources": [
+"arbeitsagentur"
+],
+"links": {
+"arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12728-10806-1-S"
+},
+"ba_ref": "12728-10806-1-S",
+"categories": [
+"data_analyst"
+],
+"id": "372f375f5644",
+"first_seen": "2026-11-27",
+"last_seen": "2026-11-27",
+"jd_lang": "de",
+"jd_lang_basis": "jd",
+"german": "required",
+"exp_min": null,
+"level": "unknown",
+"has_jd": true,
+"enriched": 1
+},
+{
+"title": "Consultant - IT Beratung Energiewirtschaft",
+"company": "PricewaterhouseCoopers GmbH WPG",
+"city": "Kiel",
+"region": "Schleswig-Holstein",
+"posted": "2026-11-27",
+"remote": false,
+"sources": [
+"arbeitsagentur"
+],
+"links": {
+"arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/18989-986960897-S"
+},
+"ba_ref": "18989-986960897-S",
+"categories": [
+"energy"
+],
+"id": "119b9d275912",
+"first_seen": "2026-11-27",
+"last_seen": "2026-11-27",
+"jd_lang": "de",
+"jd_lang_basis": "jd",
+"german": "required",
+"exp_min": 0,
+"level": "entry",
+"has_jd": true,
+"enriched": 1
+},
+{
+"title": "Consultant - SAP-Beratung Energiewirtschaft",
+"company": "PricewaterhouseCoopers GmbH WPG",
+"city": "Kiel",
+"region": "Schleswig-Holstein",
+"posted": "2026-11-27",
+"remote": false,
+"sources": [
+"arbeitsagentur"
+],
+"links": {
+"arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/18989-986960841-S"
+},
+"ba_ref": "18989-986960841-S",
+"categories": [
+"energy"
+],
+"id": "b940614ed6f3",
+"first_seen": "2026-11-27",
+"last_seen": "2026-11-27",
+"jd_lang": "de",
+"jd_lang_basis": "jd",
+"german": "required",
+"exp_min": 0,
+"level": "entry",
+"has_jd": true,
+"enriched": 1
+},
+{
+"title": "Consultant - IT Beratung Energiewirtschaft",
+"company": "PricewaterhouseCoopers GmbH WPG",
+"city": "Stuttgart",
+"region": "Baden-Württemberg",
+"posted": "2026-11-27",
+"remote": false,
+"sources": [
+"arbeitsagentur"
+],
+"links": {
+"arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/18989-986960911-S"
+},
+"ba_ref": "18989-986960911-S",
+"categories": [
+"energy"
+],
+"id": "866906b6ae69",
+"first_seen": "2026-11-27",
+"last_seen": "2026-11-27",
+"jd_lang": "de",
+"jd_lang_basis": "jd",
+"german": "required",
+"exp_min": 0,
+"level": "entry",
+"has_jd": true,
+"enriched": 1
+},
+{
+"title": "Consultant - IT Beratung Energiewirtschaft",
+"company": "PricewaterhouseCoopers GmbH WPG",
+"city": "Saarbrücken",
+"region": "Saarland",
+"posted": "2026-11-27",
+"remote": false,
+"sources": [
+"arbeitsagentur"
+],
+"links": {
+"arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/18989-986960901-S"
+},
+"ba_ref": "18989-986960901-S",
+"categories": [
+"energy"
+],
+"id": "3f9e0f5eb001",
+"first_seen": "2026-11-27",
+"last_seen": "2026-11-27",
+"jd_lang": "de",
+"jd_lang_basis": "jd",
+"german": "required",
+"exp_min": 0,
+"level": "entry",
+"has_jd": true,
+"enriched": 1
+},
+{
+"title": "Consultant - IT Beratung Energiewirtschaft",
+"company": "PricewaterhouseCoopers GmbH WPG",
+"city": "Nürnberg, Mittelfranken",
+"region": "Bayern",
+"posted": "2026-11-27",
+"remote": false,
+"sources": [
+"arbeitsagentur"
+],
+"links": {
+"arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/18989-986960900-S"
+},
+"ba_ref": "18989-986960900-S",
+"categories": [
+"energy"
+],
+"id": "d824f431b6a2",
+"first_seen": "2026-11-27",
+"last_seen": "2026-11-27",
+"jd_lang": "de",
+"jd_lang_basis": "jd",
+"german": "required",
+"exp_min": 0,
+"level": "entry",
+"has_jd": true,
+"enriched": 1
+},
+{
+"title": "Consultant - IT Beratung Energiewirtschaft",
+"company": "PricewaterhouseCoopers GmbH WPG",
+"city": "Schwerin, Mecklenburg",
+"region": "Mecklenburg-Vorpommern",
+"posted": "2026-11-27",
+"remote": false,
+"sources": [
+"arbeitsagentur"
+],
+"links": {
+"arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/18989-986960903-S"
+},
+"ba_ref": "18989-986960903-S",
+"categories": [
+"energy"
+],
+"id": "5bbf72c07049",
+"first_seen": "2026-11-27",
+"last_seen": "2026-11-27",
+"jd_lang": "de",
+"jd_lang_basis": "jd",
+"german": "required",
+"exp_min": 0,
+"level": "entry",
+"has_jd": true,
+"enriched": 1
+},
+{
+"title": "Consultant - IT Beratung Energiewirtschaft",
+"company": "PricewaterhouseCoopers GmbH WPG",
+"city": "Essen, Ruhr",
+"region": "Nordrhein-Westfalen",
+"posted": "2026-11-27",
+"remote": false,
+"sources": [
+"arbeitsagentur"
+],
+"links": {
+"arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/18989-986960890-S"
+},
+"ba_ref": "18989-986960890-S",
+"categories": [
+"energy"
+],
+"id": "bc6a03e2863d",
+"first_seen": "2026-11-27",
+"last_seen": "2026-11-27",
+"jd_lang": "de",
+"jd_lang_basis": "jd",
+"german": "required",
+"exp_min": 0,
+"level": "entry",
+"has_jd": true,
+"enriched": 1
+},
+{
+"title": "Consultant - IT Beratung Energiewirtschaft",
+"company": "PricewaterhouseCoopers GmbH WPG",
+"city": "Osnabrück",
+"region": "Niedersachsen",
+"posted": "2026-11-27",
+"remote": false,
+"sources": [
+"arbeitsagentur"
+],
+"links": {
+"arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/18989-986960895-S"
+},
+"ba_ref": "18989-986960895-S",
+"categories": [
+"energy"
+],
+"id": "0377992a6042",
+"first_seen": "2026-11-27",
+"last_seen": "2026-11-27",
+"jd_lang": "de",
+"jd_lang_basis": "jd",
+"german": "required",
+"exp_min": 0,
+"level": "entry",
+"has_jd": true,
+"enriched": 1
+},
+{
+"title": "Consultant - IT Beratung Energiewirtschaft",
+"company": "PricewaterhouseCoopers GmbH WPG",
+"city": "Mannheim",
+"region": "Baden-Württemberg",
+"posted": "2026-11-27",
+"remote": false,
+"sources": [
+"arbeitsagentur"
+],
+"links": {
+"arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/18989-986960893-S"
+},
+"ba_ref": "18989-986960893-S",
+"categories": [
+"energy"
+],
+"id": "5f49fca00234",
+"first_seen": "2026-11-27",
+"last_seen": "2026-11-27",
+"jd_lang": "de",
+"jd_lang_basis": "jd",
+"german": "required",
+"exp_min": 0,
+"level": "entry",
+"has_jd": true,
+"enriched": 1
+},
+{
+"title": "Consultant - IT Beratung Energiewirtschaft",
+"company": "PricewaterhouseCoopers GmbH WPG",
+"city": "Kassel, Hessen",
+"region": "Hessen",
+"posted": "2026-11-27",
+"remote": false,
+"sources": [
+"arbeitsagentur"
+],
+"links": {
+"arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/18989-986960884-S"
+},
+"ba_ref": "18989-986960884-S",
+"categories": [
+"energy"
+],
+"id": "0035b4b75b5d",
+"first_seen": "2026-11-27",
+"last_seen": "2026-11-27",
+"jd_lang": "de",
+"jd_lang_basis": "jd",
+"german": "required",
+"exp_min": 0,
+"level": "entry",
+"has_jd": true,
+"enriched": 1
+},
+{
+"title": "Consultant - IT Beratung Energiewirtschaft",
+"company": "PricewaterhouseCoopers GmbH WPG",
+"city": "Hamburg",
+"region": "Hamburg",
+"posted": "2026-11-27",
+"remote": false,
+"sources": [
+"arbeitsagentur"
+],
+"links": {
+"arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/18989-986960888-S"
+},
+"ba_ref": "18989-986960888-S",
+"categories": [
+"energy"
+],
+"id": "8308c33718cb",
+"first_seen": "2026-11-27",
+"last_seen": "2026-11-27",
+"jd_lang": "de",
+"jd_lang_basis": "jd",
+"german": "required",
+"exp_min": 0,
+"level": "entry",
+"has_jd": true,
+"enriched": 1
+},
+{
+"title": "Consultant - IT Beratung Energiewirtschaft",
+"company": "PricewaterhouseCoopers GmbH WPG",
+"city": "Frankfurt am Main",
+"region": "Hessen",
+"posted": "2026-11-27",
+"remote": false,
+"sources": [
+"arbeitsagentur"
+],
+"links": {
+"arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/18989-986960881-S"
+},
+"ba_ref": "18989-986960881-S",
+"categories": [
+"energy"
+],
+"id": "435f7c726103",
+"first_seen": "2026-11-27",
+"last_seen": "2026-11-27",
+"jd_lang": "de",
+"jd_lang_basis": "jd",
+"german": "required",
+"exp_min": 0,
+"level": "entry",
+"has_jd": true,
+"enriched": 1
+},
+{
+"title": "Consultant - IT Beratung Energiewirtschaft",
+"company": "PricewaterhouseCoopers GmbH WPG",
+"city": "München",
+"region": "Bayern",
+"posted": "2026-11-27",
+"remote": false,
+"sources": [
+"arbeitsagentur"
+],
+"links": {
+"arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/18989-986960889-S"
+},
+"ba_ref": "18989-986960889-S",
+"categories": [
+"energy"
+],
+"id": "5605fe479cff",
+"first_seen": "2026-11-27",
+"last_seen": "2026-11-27",
+"jd_lang": "de",
+"jd_lang_basis": "jd",
+"german": "required",
+"exp_min": 0,
+"level": "entry",
+"has_jd": true,
+"enriched": 1
+},
+{
+"title": "Consultant - IT Beratung Energiewirtschaft",
+"company": "PricewaterhouseCoopers GmbH WPG",
+"city": "Hannover",
+"region": "Niedersachsen",
+"posted": "2026-11-27",
+"remote": false,
+"sources": [
+"arbeitsagentur"
+],
+"links": {
+"arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/18989-986960886-S"
+},
+"ba_ref": "18989-986960886-S",
+"categories": [
+"energy"
+],
+"id": "109aa454c80d",
+"first_seen": "2026-11-27",
+"last_seen": "2026-11-27",
+"jd_lang": "de",
+"jd_lang_basis": "jd",
+"german": "required",
+"exp_min": 0,
+"level": "entry",
+"has_jd": true,
+"enriched": 1
+},
+{
+"title": "Consultant - IT Beratung Energiewirtschaft",
+"company": "PricewaterhouseCoopers GmbH WPG",
+"city": "Leipzig",
+"region": "Sachsen",
+"posted": "2026-11-27",
+"remote": false,
+"sources": [
+"arbeitsagentur"
+],
+"links": {
+"arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/18989-986960887-S"
+},
+"ba_ref": "18989-986960887-S",
+"categories": [
+"energy"
+],
+"id": "68df1a608306",
+"first_seen": "2026-11-27",
+"last_seen": "2026-11-27",
+"jd_lang": "de",
+"jd_lang_basis": "jd",
+"german": "required",
+"exp_min": 0,
+"level": "entry",
+"has_jd": true,
+"enriched": 1
+},
+{
+"title": "Consultant - IT Beratung Energiewirtschaft",
+"company": "PricewaterhouseCoopers GmbH WPG",
+"city": "Duisburg",
+"region": "Nordrhein-Westfalen",
+"posted": "2026-11-27",
+"remote": false,
+"sources": [
+"arbeitsagentur"
+],
+"links": {
+"arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/18989-986960874-S"
+},
+"ba_ref": "18989-986960874-S",
+"categories": [
+"energy"
+],
+"id": "af8201e9865a",
+"first_seen": "2026-11-27",
+"last_seen": "2026-11-27",
+"jd_lang": "de",
+"jd_lang_basis": "jd",
+"german": "required",
+"exp_min": 0,
+"level": "entry",
+"has_jd": true,
+"enriched": 1
+},
+{
+"title": "Consultant - IT Beratung Energiewirtschaft",
+"company": "PricewaterhouseCoopers GmbH WPG",
+"city": "Köln",
+"region": "Nordrhein-Westfalen",
+"posted": "2026-11-27",
+"remote": false,
+"sources": [
+"arbeitsagentur"
+],
+"links": {
+"arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/18989-986960866-S"
+},
+"ba_ref": "18989-986960866-S",
+"categories": [
+"energy"
+],
+"id": "58a159da587d",
+"first_seen": "2026-11-27",
+"last_seen": "2026-11-27",
+"jd_lang": "de",
+"jd_lang_basis": "jd",
+"german": "required",
+"exp_min": 0,
+"level": "entry",
+"has_jd": true,
+"enriched": 1
+},
+{
+"title": "Consultant - IT Beratung Energiewirtschaft",
+"company": "PricewaterhouseCoopers GmbH WPG",
+"city": "Düsseldorf",
+"region": "Nordrhein-Westfalen",
+"posted": "2026-11-27",
+"remote": false,
+"sources": [
+"arbeitsagentur"
+],
+"links": {
+"arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/18989-986960871-S"
+},
+"ba_ref": "18989-986960871-S",
+"categories": [
+"energy"
+],
+"id": "f1d403500339",
+"first_seen": "2026-11-27",
+"last_seen": "2026-11-27",
+"jd_lang": "de",
+"jd_lang_basis": "jd",
+"german": "required",
+"exp_min": 0,
+"level": "entry",
+"has_jd": true,
+"enriched": 1
+},
+{
+"title": "Consultant - IT Beratung Energiewirtschaft",
+"company": "PricewaterhouseCoopers GmbH WPG",
+"city": "Bielefeld",
+"region": "Nordrhein-Westfalen",
+"posted": "2026-11-27",
+"remote": false,
+"sources": [
+"arbeitsagentur"
+],
+"links": {
+"arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/18989-986960868-S"
+},
+"ba_ref": "18989-986960868-S",
+"categories": [
+"energy"
+],
+"id": "c19b3aaf8d96",
+"first_seen": "2026-11-27",
+"last_seen": "2026-11-27",
+"jd_lang": "de",
+"jd_lang_basis": "jd",
+"german": "required",
+"exp_min": 0,
+"level": "entry",
+"has_jd": true,
+"enriched": 1
+},
+{
+"title": "Consultant - IT Beratung Energiewirtschaft",
+"company": "PricewaterhouseCoopers GmbH WPG",
+"city": "Bremen",
+"region": "Bremen",
+"posted": "2026-11-27",
+"remote": false,
+"sources": [
+"arbeitsagentur"
+],
+"links": {
+"arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/18989-986960863-S"
+},
+"ba_ref": "18989-986960863-S",
+"categories": [
+"energy"
+],
+"id": "b6ccfde38ccf",
+"first_seen": "2026-11-27",
+"last_seen": "2026-11-27",
+"jd_lang": "de",
+"jd_lang_basis": "jd",
+"german": "required",
+"exp_min": 0,
+"level": "entry",
+"has_jd": true,
+"enriched": 1
+},
+{
+"title": "Consultant - IT Beratung Energiewirtschaft",
+"company": "PricewaterhouseCoopers GmbH WPG",
+"city": "Erfurt",
+"region": "Thüringen",
+"posted": "2026-11-27",
+"remote": false,
+"sources": [
+"arbeitsagentur"
+],
+"links": {
+"arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/18989-986960869-S"
+},
+"ba_ref": "18989-986960869-S",
+"categories": [
+"energy"
+],
+"id": "a17152c561c0",
+"first_seen": "2026-11-27",
+"last_seen": "2026-11-27",
+"jd_lang": "de",
+"jd_lang_basis": "jd",
+"german": "required",
+"exp_min": 0,
+"level": "entry",
+"has_jd": true,
+"enriched": 1
+},
+{
+"title": "Consultant - IT Beratung Energiewirtschaft",
+"company": "PricewaterhouseCoopers GmbH WPG",
+"city": "Berlin",
+"region": "Berlin",
+"posted": "2026-11-27",
+"remote": false,
+"sources": [
+"arbeitsagentur"
+],
+"links": {
+"arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/18989-986960858-S"
+},
+"ba_ref": "18989-986960858-S",
+"categories": [
+"energy"
+],
+"id": "567935cda0b0",
+"first_seen": "2026-11-27",
+"last_seen": "2026-11-27",
+"jd_lang": "de",
+"jd_lang_basis": "jd",
+"german": "required",
+"exp_min": 0,
+"level": "entry",
+"has_jd": true,
+"enriched": 1
+},
+{
+"title": "Consultant - SAP-Beratung Energiewirtschaft",
+"company": "PricewaterhouseCoopers GmbH WPG",
+"city": "Stuttgart",
+"region": "Baden-Württemberg",
+"posted": "2026-11-27",
+"remote": false,
+"sources": [
+"arbeitsagentur"
+],
+"links": {
+"arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/18989-986960859-S"
+},
+"ba_ref": "18989-986960859-S",
+"categories": [
+"energy"
+],
+"id": "a4b7f09b91a1",
+"first_seen": "2026-11-27",
+"last_seen": "2026-11-27",
+"jd_lang": "de",
+"jd_lang_basis": "jd",
+"german": "required",
+"exp_min": 0,
+"level": "entry",
+"has_jd": true,
+"enriched": 1
+},
+{
+"title": "Consultant - SAP-Beratung Energiewirtschaft",
+"company": "PricewaterhouseCoopers GmbH WPG",
+"city": "Osnabrück",
+"region": "Niedersachsen",
+"posted": "2026-11-27",
+"remote": false,
+"sources": [
+"arbeitsagentur"
+],
+"links": {
+"arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/18989-986960861-S"
+},
+"ba_ref": "18989-986960861-S",
+"categories": [
+"energy"
+],
+"id": "1b30b146db77",
+"first_seen": "2026-11-27",
+"last_seen": "2026-11-27",
+"jd_lang": "de",
+"jd_lang_basis": "jd",
+"german": "required",
+"exp_min": 0,
+"level": "entry",
+"has_jd": true,
+"enriched": 1
+},
+{
+"title": "Consultant - SAP-Beratung Energiewirtschaft",
+"company": "PricewaterhouseCoopers GmbH WPG",
+"city": "Schwerin, Mecklenburg",
+"region": "Mecklenburg-Vorpommern",
+"posted": "2026-11-27",
+"remote": false,
+"sources": [
+"arbeitsagentur"
+],
+"links": {
+"arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/18989-986960855-S"
+},
+"ba_ref": "18989-986960855-S",
+"categories": [
+"energy"
+],
+"id": "a2c11e5771ad",
+"first_seen": "2026-11-27",
+"last_seen": "2026-11-27",
+"jd_lang": "de",
+"jd_lang_basis": "jd",
+"german": "required",
+"exp_min": 0,
+"level": "entry",
+"has_jd": true,
+"enriched": 1
+},
+{
+"title": "Consultant - SAP-Beratung Energiewirtschaft",
+"company": "PricewaterhouseCoopers GmbH WPG",
+"city": "Saarbrücken",
+"region": "Saarland",
+"posted": "2026-11-27",
+"remote": false,
+"sources": [
+"arbeitsagentur"
+],
+"links": {
+"arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/18989-986960856-S"
+},
+"ba_ref": "18989-986960856-S",
+"categories": [
+"energy"
+],
+"id": "392bf77ef63c",
+"first_seen": "2026-11-27",
+"last_seen": "2026-11-27",
+"jd_lang": "de",
+"jd_lang_basis": "jd",
+"german": "required",
+"exp_min": 0,
+"level": "entry",
+"has_jd": true,
+"enriched": 1
+},
+{
+"title": "Consultant - SAP-Beratung Energiewirtschaft",
+"company": "PricewaterhouseCoopers GmbH WPG",
+"city": "München",
+"region": "Bayern",
+"posted": "2026-11-27",
+"remote": false,
+"sources": [
+"arbeitsagentur"
+],
+"links": {
+"arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/18989-986960853-S"
+},
+"ba_ref": "18989-986960853-S",
+"categories": [
+"energy"
+],
+"id": "d1bfde6a76da",
+"first_seen": "2026-11-27",
+"last_seen": "2026-11-27",
+"jd_lang": "de",
+"jd_lang_basis": "jd",
+"german": "required",
+"exp_min": 0,
+"level": "entry",
+"has_jd": true,
+"enriched": 1
+},
+{
+"title": "Consultant - SAP-Beratung Energiewirtschaft",
+"company": "PricewaterhouseCoopers GmbH WPG",
+"city": "Hamburg",
+"region": "Hamburg",
+"posted": "2026-11-27",
+"remote": false,
+"sources": [
+"arbeitsagentur"
+],
+"links": {
+"arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/18989-986960850-S"
+},
+"ba_ref": "18989-986960850-S",
+"categories": [
+"energy"
+],
+"id": "3fed616d445b",
+"first_seen": "2026-11-27",
+"last_seen": "2026-11-27",
+"jd_lang": "de",
+"jd_lang_basis": "jd",
+"german": "required",
+"exp_min": 0,
+"level": "entry",
+"has_jd": true,
+"enriched": 1
+},
+{
+"title": "Consultant - SAP-Beratung Energiewirtschaft",
+"company": "PricewaterhouseCoopers GmbH WPG",
+"city": "Nürnberg, Mittelfranken",
+"region": "Bayern",
+"posted": "2026-11-27",
+"remote": false,
+"sources": [
+"arbeitsagentur"
+],
+"links": {
+"arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/18989-986960848-S"
+},
+"ba_ref": "18989-986960848-S",
+"categories": [
+"energy"
+],
+"id": "66d792e0c11f",
+"first_seen": "2026-11-27",
+"last_seen": "2026-11-27",
+"jd_lang": "de",
+"jd_lang_basis": "jd",
+"german": "required",
+"exp_min": 0,
+"level": "entry",
+"has_jd": true,
+"enriched": 1
+},
+{
+"title": "Consultant - SAP-Beratung Energiewirtschaft",
+"company": "PricewaterhouseCoopers GmbH WPG",
+"city": "Mannheim",
+"region": "Baden-Württemberg",
+"posted": "2026-11-27",
+"remote": false,
+"sources": [
+"arbeitsagentur"
+],
+"links": {
+"arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/18989-986960844-S"
+},
+"ba_ref": "18989-986960844-S",
+"categories": [
+"energy"
+],
+"id": "1a0b6d95ddf2",
+"first_seen": "2026-11-27",
+"last_seen": "2026-11-27",
+"jd_lang": "de",
+"jd_lang_basis": "jd",
+"german": "required",
+"exp_min": 0,
+"level": "entry",
+"has_jd": true,
+"enriched": 1
+},
+{
+"title": "Consultant - SAP-Beratung Energiewirtschaft",
+"company": "PricewaterhouseCoopers GmbH WPG",
+"city": "Leipzig",
+"region": "Sachsen",
+"posted": "2026-11-27",
+"remote": false,
+"sources": [
+"arbeitsagentur"
+],
+"links": {
+"arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/18989-986960845-S"
+},
+"ba_ref": "18989-986960845-S",
+"categories": [
+"energy"
+],
+"id": "37b9e6ec555e",
+"first_seen": "2026-11-27",
+"last_seen": "2026-11-27",
+"jd_lang": "de",
+"jd_lang_basis": "jd",
+"german": "required",
+"exp_min": 0,
+"level": "entry",
+"has_jd": true,
+"enriched": 1
+},
+{
+"title": "Consultant - SAP-Beratung Energiewirtschaft",
+"company": "PricewaterhouseCoopers GmbH WPG",
+"city": "Hannover",
+"region": "Niedersachsen",
+"posted": "2026-11-27",
+"remote": false,
+"sources": [
+"arbeitsagentur"
+],
+"links": {
+"arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/18989-986960838-S"
+},
+"ba_ref": "18989-986960838-S",
+"categories": [
+"energy"
+],
+"id": "e55dc08d7112",
+"first_seen": "2026-11-27",
+"last_seen": "2026-11-27",
+"jd_lang": "de",
+"jd_lang_basis": "jd",
+"german": "required",
+"exp_min": 0,
+"level": "entry",
+"has_jd": true,
+"enriched": 1
+},
+{
+"title": "Consultant - SAP-Beratung Energiewirtschaft",
+"company": "PricewaterhouseCoopers GmbH WPG",
+"city": "Kassel, Hessen",
+"region": "Hessen",
+"posted": "2026-11-27",
+"remote": false,
+"sources": [
+"arbeitsagentur"
+],
+"links": {
+"arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/18989-986960843-S"
+},
+"ba_ref": "18989-986960843-S",
+"categories": [
+"energy"
+],
+"id": "c0ca2bf9f328",
+"first_seen": "2026-11-27",
+"last_seen": "2026-11-27",
+"jd_lang": "de",
+"jd_lang_basis": "jd",
+"german": "required",
+"exp_min": 0,
+"level": "entry",
+"has_jd": true,
+"enriched": 1
+},
+{
+"title": "Consultant - SAP-Beratung Energiewirtschaft",
+"company": "PricewaterhouseCoopers GmbH WPG",
+"city": "Duisburg",
+"region": "Nordrhein-Westfalen",
+"posted": "2026-11-27",
+"remote": false,
+"sources": [
+"arbeitsagentur"
+],
+"links": {
+"arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/18989-986960837-S"
+},
+"ba_ref": "18989-986960837-S",
+"categories": [
+"energy"
+],
+"id": "b379d1d41ca2",
+"first_seen": "2026-11-27",
+"last_seen": "2026-11-27",
+"jd_lang": "de",
+"jd_lang_basis": "jd",
+"german": "required",
+"exp_min": 0,
+"level": "entry",
+"has_jd": true,
+"enriched": 1
+},
+{
+"title": "Consultant - SAP-Beratung Energiewirtschaft",
+"company": "PricewaterhouseCoopers GmbH WPG",
+"city": "Frankfurt am Main",
+"region": "Hessen",
+"posted": "2026-11-27",
+"remote": false,
+"sources": [
+"arbeitsagentur"
+],
+"links": {
+"arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/18989-986960834-S"
+},
+"ba_ref": "18989-986960834-S",
+"categories": [
+"energy"
+],
+"id": "3461c4d79270",
+"first_seen": "2026-11-27",
+"last_seen": "2026-11-27",
+"jd_lang": "de",
+"jd_lang_basis": "jd",
+"german": "required",
+"exp_min": 0,
+"level": "entry",
+"has_jd": true,
+"enriched": 1
+},
+{
+"title": "Consultant - SAP-Beratung Energiewirtschaft",
+"company": "PricewaterhouseCoopers GmbH WPG",
+"city": "Düsseldorf",
+"region": "Nordrhein-Westfalen",
+"posted": "2026-11-27",
+"remote": false,
+"sources": [
+"arbeitsagentur"
+],
+"links": {
+"arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/18989-986960829-S"
+},
+"ba_ref": "18989-986960829-S",
+"categories": [
+"energy"
+],
+"id": "15ce37c4b6e5",
+"first_seen": "2026-11-27",
+"last_seen": "2026-11-27",
+"jd_lang": "de",
+"jd_lang_basis": "jd",
+"german": "required",
+"exp_min": 0,
+"level": "entry",
+"has_jd": true,
+"enriched": 1
+},
+{
+"title": "Consultant - SAP-Beratung Energiewirtschaft",
+"company": "PricewaterhouseCoopers GmbH WPG",
+"city": "Essen, Ruhr",
+"region": "Nordrhein-Westfalen",
+"posted": "2026-11-27",
+"remote": false,
+"sources": [
+"arbeitsagentur"
+],
+"links": {
+"arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/18989-986960831-S"
+},
+"ba_ref": "18989-986960831-S",
+"categories": [
+"energy"
+],
+"id": "47e468259673",
+"first_seen": "2026-11-27",
+"last_seen": "2026-11-27",
+"jd_lang": "de",
+"jd_lang_basis": "jd",
+"german": "required",
+"exp_min": 0,
+"level": "entry",
+"has_jd": true,
+"enriched": 1
+},
+{
+"title": "Consultant - SAP-Beratung Energiewirtschaft",
+"company": "PricewaterhouseCoopers GmbH WPG",
+"city": "Köln",
+"region": "Nordrhein-Westfalen",
+"posted": "2026-11-27",
+"remote": false,
+"sources": [
+"arbeitsagentur"
+],
+"links": {
+"arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/18989-986960824-S"
+},
+"ba_ref": "18989-986960824-S",
+"categories": [
+"energy"
+],
+"id": "b8983eb5676a",
+"first_seen": "2026-11-27",
+"last_seen": "2026-11-27",
+"jd_lang": "de",
+"jd_lang_basis": "jd",
+"german": "required",
+"exp_min": 0,
+"level": "entry",
+"has_jd": true,
+"enriched": 1
+},
+{
+"title": "Consultant - SAP-Beratung Energiewirtschaft",
+"company": "PricewaterhouseCoopers GmbH WPG",
+"city": "Erfurt",
+"region": "Thüringen",
+"posted": "2026-11-27",
+"remote": false,
+"sources": [
+"arbeitsagentur"
+],
+"links": {
+"arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/18989-986960828-S"
+},
+"ba_ref": "18989-986960828-S",
+"categories": [
+"energy"
+],
+"id": "56e9f03673ad",
+"first_seen": "2026-11-27",
+"last_seen": "2026-11-27",
+"jd_lang": "de",
+"jd_lang_basis": "jd",
+"german": "required",
+"exp_min": 0,
+"level": "entry",
+"has_jd": true,
+"enriched": 1
+},
+{
+"title": "Consultant - SAP-Beratung Energiewirtschaft",
+"company": "PricewaterhouseCoopers GmbH WPG",
+"city": "Bremen",
+"region": "Bremen",
+"posted": "2026-11-27",
+"remote": false,
+"sources": [
+"arbeitsagentur"
+],
+"links": {
+"arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/18989-986960820-S"
+},
+"ba_ref": "18989-986960820-S",
+"categories": [
+"energy"
+],
+"id": "15d69e4bdbb8",
+"first_seen": "2026-11-27",
+"last_seen": "2026-11-27",
+"jd_lang": "de",
+"jd_lang_basis": "jd",
+"german": "required",
+"exp_min": 0,
+"level": "entry",
+"has_jd": true,
+"enriched": 1
+},
+{
+"title": "Consultant - SAP-Beratung Energiewirtschaft",
+"company": "PricewaterhouseCoopers GmbH WPG",
+"city": "Bielefeld",
+"region": "Nordrhein-Westfalen",
+"posted": "2026-11-27",
+"remote": false,
+"sources": [
+"arbeitsagentur"
+],
+"links": {
+"arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/18989-986960817-S"
+},
+"ba_ref": "18989-986960817-S",
+"categories": [
+"energy"
+],
+"id": "f7ae8cbea49d",
+"first_seen": "2026-11-27",
+"last_seen": "2026-11-27",
+"jd_lang": "de",
+"jd_lang_basis": "jd",
+"german": "required",
+"exp_min": 0,
+"level": "entry",
+"has_jd": true,
+"enriched": 1
+},
+{
+"title": "Consultant - SAP-Beratung Energiewirtschaft",
+"company": "PricewaterhouseCoopers GmbH WPG",
+"city": "Berlin",
+"region": "Berlin",
+"posted": "2026-11-27",
+"remote": false,
+"sources": [
+"arbeitsagentur"
+],
+"links": {
+"arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/18989-986960823-S"
+},
+"ba_ref": "18989-986960823-S",
+"categories": [
+"energy"
+],
+"id": "98f60d9c2937",
+"first_seen": "2026-11-27",
+"last_seen": "2026-11-27",
+"jd_lang": "de",
+"jd_lang_basis": "jd",
+"german": "required",
+"exp_min": 0,
+"level": "entry",
+"has_jd": true,
+"enriched": 1
+},
+{
+"title": "Business Analyst Reporting & Planung",
+"company": "Vonovia Recruiting DE",
+"city": "Bochum",
+"region": "Nordrhein-Westfalen",
+"posted": "2026-11-27",
+"remote": false,
+"sources": [
+"arbeitsagentur"
+],
+"links": {
+"arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12951-0a22b285-6d03-4f83--S"
+},
+"ba_ref": "12951-0a22b285-6d03-4f83--S",
+"categories": [
+"bi"
+],
+"id": "bf6cd0ac7c91",
+"first_seen": "2026-11-27",
+"last_seen": "2026-11-27",
+"jd_lang": "de",
+"jd_lang_basis": "jd",
+"german": "required",
+"exp_min": 2,
+"level": "associate",
+"has_jd": true,
+"enriched": 1
+},
+{
+"title": "Data Engineer Data Platforms & AI",
+"company": "PTA GmbH",
+"city": "Düsseldorf",
+"region": "Nordrhein-Westfalen",
+"posted": "2026-11-26",
+"remote": true,
+"sources": [
+"arbeitsagentur"
+],
+"links": {
+"arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1004076906-S"
+},
+"ba_ref": "10001-1004076906-S",
+"categories": [
+"analytics_eng"
+],
+"id": "c8ff093bc18d",
+"first_seen": "2026-11-27",
+"last_seen": "2026-11-27",
+"jd_lang": "de",
+"jd_lang_basis": "jd",
+"german": "required",
+"exp_min": 3,
+"level": "associate",
+"has_jd": true,
+"enriched": 1
+},
+{
+"title": "Visiting Analytics Engineer",
+"company": "Peec AI",
+"city": "Berlin",
+"region": "Berlin",
+"posted": "2026-11-26",
+"remote": false,
+"sources": [
+"arbeitnow"
+],
+"links": {
+"arbeitnow": "https://www.arbeitnow.com/jobs/companies/peec-ai/visiting-analytics-engineer-berlin-296396"
+},
+"categories": [
+"analytics_eng"
+],
+"id": "c5b7a1e37d0c",
+"first_seen": "2026-11-27",
+"last_seen": "2026-11-27",
+"jd_lang": "en",
+"jd_lang_basis": "jd",
+"german": "not_needed",
+"exp_min": null,
+"level": "unknown",
+"has_jd": true,
+"enriched": 1
+},
+{
+"title": "Azure Data Engineer with Databricks & PySpark",
+"company": "Jobgether",
+"city": "Germany",
+"region": "",
+"posted": "2026-11-26",
+"remote": false,
+"sources": [
+"arbeitnow"
+],
+"links": {
+"arbeitnow": "https://www.arbeitnow.com/jobs/companies/jobgether/azure-data-engineer-with-databricks-pyspark-germany-463363"
+},
+"categories": [
+"analytics_eng"
+],
+"id": "673f2f835b97",
+"first_seen": "2026-11-27",
+"last_seen": "2026-11-27",
+"jd_lang": "en",
+"jd_lang_basis": "jd",
+"german": "not_needed",
+"exp_min": 8,
+"level": "senior",
+"has_jd": true,
+"enriched": 1
+},
+{
 "title": "Data Analyst - Schwerpunkt Operations Research",
 "company": "DHL AG Zentrale",
 "city": "Bonn",
@@ -18,14 +1754,14 @@
 ],
 "id": "602cb903e47a",
 "first_seen": "2026-11-26",
-"last_seen": "2026-11-26",
 "jd_lang": "de",
 "jd_lang_basis": "jd",
 "german": "required",
 "exp_min": 0,
 "level": "entry",
 "has_jd": true,
-"enriched": 1
+"enriched": 1,
+"last_seen": "2026-11-27"
 },
 {
 "title": "Customer Data Analyst - Digital Sales",
@@ -46,14 +1782,14 @@
 ],
 "id": "24a317fade3e",
 "first_seen": "2026-11-26",
-"last_seen": "2026-11-26",
 "jd_lang": "de",
 "jd_lang_basis": "jd",
 "german": "required",
 "exp_min": null,
 "level": "unknown",
 "has_jd": true,
-"enriched": 1
+"enriched": 1,
+"last_seen": "2026-11-27"
 },
 {
 "title": "Controller Schwerpunkt Business Intelligence (BI)",
@@ -74,14 +1810,14 @@
 ],
 "id": "433e48a8a9a7",
 "first_seen": "2026-11-26",
-"last_seen": "2026-11-26",
 "jd_lang": "de",
 "jd_lang_basis": "jd",
 "german": "required",
 "exp_min": null,
 "level": "unknown",
 "has_jd": true,
-"enriched": 1
+"enriched": 1,
+"last_seen": "2026-11-27"
 },
 {
 "title": "Reporting Specialist",
@@ -102,14 +1838,14 @@
 ],
 "id": "6c2448babdb2",
 "first_seen": "2026-11-26",
-"last_seen": "2026-11-26",
 "jd_lang": "de",
 "jd_lang_basis": "jd",
 "german": "required",
 "exp_min": 3,
 "level": "associate",
 "has_jd": true,
-"enriched": 1
+"enriched": 1,
+"last_seen": "2026-11-27"
 },
 {
 "title": "Medical Data Analyst",
@@ -124,7 +1860,7 @@
 ],
 "links": {
 "arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/21172-r23428-S",
-"arbeitnow": "https://www.arbeitnow.com/jobs/companies/doccheck-ag/medical-data-analyst-koln-247112"
+"arbeitnow": "https://www.arbeitnow.com/jobs/companies/doccheck-ag/medical-data-analyst-koln-317829"
 },
 "ba_ref": "21172-r23428-S",
 "categories": [
@@ -132,14 +1868,14 @@
 ],
 "id": "6994915a20f9",
 "first_seen": "2026-11-26",
-"last_seen": "2026-11-26",
 "jd_lang": "de",
 "jd_lang_basis": "jd",
 "german": "required",
 "exp_min": 4,
 "level": "associate",
 "has_jd": true,
-"enriched": 1
+"enriched": 1,
+"last_seen": "2026-11-27"
 },
 {
 "title": "Junior Data Engineer - Geschäftskunden",
@@ -160,14 +1896,14 @@
 ],
 "id": "ae5674f2c51f",
 "first_seen": "2026-11-26",
-"last_seen": "2026-11-26",
 "jd_lang": "de",
 "jd_lang_basis": "jd",
 "german": "required",
 "exp_min": 0,
 "level": "entry",
 "has_jd": true,
-"enriched": 1
+"enriched": 1,
+"last_seen": "2026-11-27"
 },
 {
 "title": "Data Engineer",
@@ -188,14 +1924,14 @@
 ],
 "id": "69e4a0ad87c0",
 "first_seen": "2026-11-26",
-"last_seen": "2026-11-26",
 "jd_lang": "de",
 "jd_lang_basis": "jd",
 "german": "required",
 "exp_min": 0,
 "level": "entry",
 "has_jd": true,
-"enriched": 1
+"enriched": 1,
+"last_seen": "2026-11-27"
 },
 {
 "title": "Data Engineer",
@@ -216,14 +1952,14 @@
 ],
 "id": "c783851c7caf",
 "first_seen": "2026-11-26",
-"last_seen": "2026-11-26",
 "jd_lang": "de",
 "jd_lang_basis": "jd",
 "german": "plus",
 "exp_min": 3,
 "level": "associate",
 "has_jd": true,
-"enriched": 1
+"enriched": 1,
+"last_seen": "2026-11-27"
 },
 {
 "title": "Data Engineer Data Platforms & AI",
@@ -272,14 +2008,14 @@
 ],
 "id": "4ecef57a8563",
 "first_seen": "2026-11-26",
-"last_seen": "2026-11-26",
 "jd_lang": "de",
 "jd_lang_basis": "jd",
 "german": "required",
 "exp_min": 1,
 "level": "entry",
 "has_jd": true,
-"enriched": 1
+"enriched": 1,
+"last_seen": "2026-11-27"
 },
 {
 "title": "Data Engineer - SAP & Data Warehouse",
@@ -300,14 +2036,14 @@
 ],
 "id": "979cd968ea7e",
 "first_seen": "2026-11-26",
-"last_seen": "2026-11-26",
 "jd_lang": "de",
 "jd_lang_basis": "jd",
 "german": "required",
 "exp_min": null,
 "level": "unknown",
 "has_jd": true,
-"enriched": 1
+"enriched": 1,
+"last_seen": "2026-11-27"
 },
 {
 "title": "Senior Data Engineer - Banksteuerung",
@@ -328,14 +2064,14 @@
 ],
 "id": "42a44a3b58e3",
 "first_seen": "2026-11-26",
-"last_seen": "2026-11-26",
 "jd_lang": "de",
 "jd_lang_basis": "jd",
 "german": "required",
 "exp_min": null,
 "level": "senior",
 "has_jd": true,
-"enriched": 1
+"enriched": 1,
+"last_seen": "2026-11-27"
 },
 {
 "title": "IBH connect GmbH: Data Engineer SOC in Dresden",
@@ -356,14 +2092,14 @@
 ],
 "id": "7243e0795023",
 "first_seen": "2026-11-26",
-"last_seen": "2026-11-26",
 "jd_lang": "de",
 "jd_lang_basis": "jd",
 "german": "required",
 "exp_min": null,
 "level": "unknown",
 "has_jd": true,
-"enriched": 1
+"enriched": 1,
+"last_seen": "2026-11-27"
 },
 {
 "title": "Analytics Engineer - Data Platform",
@@ -383,14 +2119,14 @@
 ],
 "id": "fa493e69e156",
 "first_seen": "2026-11-26",
-"last_seen": "2026-11-26",
 "jd_lang": "en",
 "jd_lang_basis": "jd",
 "german": "plus",
 "exp_min": 4,
 "level": "associate",
 "has_jd": true,
-"enriched": 1
+"enriched": 1,
+"last_seen": "2026-11-27"
 },
 {
 "title": "(Senior) Data Engineer - Data Platform",
@@ -410,14 +2146,14 @@
 ],
 "id": "4ca49ba9610f",
 "first_seen": "2026-11-26",
-"last_seen": "2026-11-26",
 "jd_lang": "en",
 "jd_lang_basis": "jd",
 "german": "not_needed",
 "exp_min": 5,
 "level": "senior",
 "has_jd": true,
-"enriched": 1
+"enriched": 1,
+"last_seen": "2026-11-27"
 },
 {
 "title": "Senior Consultant SAP Business Intelligence & Data Analytics",
@@ -438,14 +2174,14 @@
 ],
 "id": "629b921770ee",
 "first_seen": "2026-11-26",
-"last_seen": "2026-11-26",
 "jd_lang": "de",
 "jd_lang_basis": "jd",
 "german": "required",
 "exp_min": 5,
 "level": "senior",
 "has_jd": true,
-"enriched": 1
+"enriched": 1,
+"last_seen": "2026-11-27"
 },
 {
 "title": "Aviation Data Engineer (Finance & Cost)",
@@ -465,14 +2201,14 @@
 ],
 "id": "bf7887b11e8f",
 "first_seen": "2026-11-26",
-"last_seen": "2026-11-26",
 "jd_lang": "en",
 "jd_lang_basis": "jd",
 "german": "not_needed",
 "exp_min": null,
 "level": "unknown",
 "has_jd": true,
-"enriched": 1
+"enriched": 1,
+"last_seen": "2026-11-27"
 },
 {
 "title": "Data Engineer",
@@ -492,14 +2228,14 @@
 ],
 "id": "5694d02d612f",
 "first_seen": "2026-11-26",
-"last_seen": "2026-11-26",
 "jd_lang": "en",
 "jd_lang_basis": "jd",
 "german": "plus",
 "exp_min": 3,
 "level": "associate",
 "has_jd": true,
-"enriched": 1
+"enriched": 1,
+"last_seen": "2026-11-27"
 },
 {
 "title": "Data Analyst als Wissenschaftliche/-r Mitarbeiter/-in im Referat Analyse der Unternehmens...",
@@ -520,14 +2256,14 @@
 ],
 "id": "3853a68a0476",
 "first_seen": "2026-11-26",
-"last_seen": "2026-11-26",
 "jd_lang": "de",
 "jd_lang_basis": "jd",
 "german": "required",
 "exp_min": null,
 "level": "unknown",
 "has_jd": true,
-"enriched": 1
+"enriched": 1,
+"last_seen": "2026-11-27"
 },
 {
 "title": "Data Engineer, Data Quality & Provenance",
@@ -547,14 +2283,14 @@
 ],
 "id": "2411ebe8d6a9",
 "first_seen": "2026-11-26",
-"last_seen": "2026-11-26",
 "jd_lang": "en",
 "jd_lang_basis": "jd",
 "german": "not_needed",
 "exp_min": null,
 "level": "unknown",
 "has_jd": true,
-"enriched": 1
+"enriched": 1,
+"last_seen": "2026-11-27"
 },
 {
 "title": "Business Intelligence Developer",
@@ -582,7 +2318,7 @@
 "level": "associate",
 "has_jd": true,
 "enriched": 1,
-"last_seen": "2026-11-26"
+"last_seen": "2026-11-27"
 },
 {
 "title": "BI Consultant Power BI & Fabric",
@@ -610,7 +2346,7 @@
 "level": "associate",
 "has_jd": true,
 "enriched": 1,
-"last_seen": "2026-11-26"
+"last_seen": "2026-11-27"
 },
 {
 "title": "Data Scientist / Data Engineer",
@@ -637,7 +2373,7 @@
 "level": "associate",
 "has_jd": true,
 "enriched": 1,
-"last_seen": "2026-11-26"
+"last_seen": "2026-11-27"
 },
 {
 "title": "Senior Data Engineer",
@@ -664,7 +2400,7 @@
 "level": "senior",
 "has_jd": true,
 "enriched": 1,
-"last_seen": "2026-11-26"
+"last_seen": "2026-11-27"
 },
 {
 "title": "Data Engineer",
@@ -692,7 +2428,7 @@
 "level": "unknown",
 "has_jd": true,
 "enriched": 1,
-"last_seen": "2026-11-26"
+"last_seen": "2026-11-27"
 },
 {
 "title": "NTT DATA Deutschland SE: SAP Data & Analytics (Senior) Consultant",
@@ -720,7 +2456,7 @@
 "level": "senior",
 "has_jd": true,
 "enriched": 1,
-"last_seen": "2026-11-26"
+"last_seen": "2026-11-27"
 },
 {
 "title": "Business Intelligence Specialist / Analyst",
@@ -748,7 +2484,7 @@
 "level": "entry",
 "has_jd": true,
 "enriched": 1,
-"last_seen": "2026-11-26"
+"last_seen": "2026-11-27"
 },
 {
 "title": "Spezialist für Laborapplikationen, Datenintegration und Business Intelligence",
@@ -776,7 +2512,7 @@
 "level": "unknown",
 "has_jd": true,
 "enriched": 1,
-"last_seen": "2026-11-26"
+"last_seen": "2026-11-27"
 },
 {
 "title": "Data Analyst - Business Intelligence / Tableau",
@@ -833,7 +2569,7 @@
 "level": "associate",
 "has_jd": true,
 "enriched": 1,
-"last_seen": "2026-11-26"
+"last_seen": "2026-11-27"
 },
 {
 "title": "Data Analyst",
@@ -889,7 +2625,7 @@
 "level": "unknown",
 "has_jd": true,
 "enriched": 1,
-"last_seen": "2026-11-26"
+"last_seen": "2026-11-27"
 },
 {
 "title": "Softwareentwickler / Data Engineer DevOps",
@@ -917,7 +2653,7 @@
 "level": "unknown",
 "has_jd": true,
 "enriched": 1,
-"last_seen": "2026-11-26"
+"last_seen": "2026-11-27"
 },
 {
 "title": "Senior Data Engineer",
@@ -945,7 +2681,7 @@
 "level": "senior",
 "has_jd": true,
 "enriched": 1,
-"last_seen": "2026-11-26"
+"last_seen": "2026-11-27"
 },
 {
 "title": "Senior Data Engineer & Consultant – Microsoft Fabric",
@@ -973,7 +2709,7 @@
 "level": "senior",
 "has_jd": true,
 "enriched": 1,
-"last_seen": "2026-11-26"
+"last_seen": "2026-11-27"
 },
 {
 "title": "Datenanalyst",
@@ -1001,7 +2737,7 @@
 "level": "associate",
 "has_jd": true,
 "enriched": 1,
-"last_seen": "2026-11-26"
+"last_seen": "2026-11-27"
 },
 {
 "title": "(Senior) Controller – Financial Reporting, Planning & BI",
@@ -1056,7 +2792,7 @@
 "level": "associate",
 "has_jd": true,
 "enriched": 1,
-"last_seen": "2026-11-26"
+"last_seen": "2026-11-27"
 },
 {
 "title": "(Senior) Data Analyst - Semantic Modelling & AI , Headquarter",
@@ -1084,7 +2820,7 @@
 "level": "senior",
 "has_jd": true,
 "enriched": 1,
-"last_seen": "2026-11-26"
+"last_seen": "2026-11-27"
 },
 {
 "title": "Data Engineer",
@@ -1112,7 +2848,7 @@
 "level": "associate",
 "has_jd": true,
 "enriched": 1,
-"last_seen": "2026-11-26"
+"last_seen": "2026-11-27"
 },
 {
 "title": "ERP Application Specialist - Microsoft Dynamics 365 Business Central & Power BI",
@@ -1140,7 +2876,7 @@
 "level": "unknown",
 "has_jd": true,
 "enriched": 1,
-"last_seen": "2026-11-26"
+"last_seen": "2026-11-27"
 },
 {
 "title": "Senior Data Engineer and Platform Architect Application Integration",
@@ -1168,7 +2904,7 @@
 "level": "senior",
 "has_jd": true,
 "enriched": 1,
-"last_seen": "2026-11-26"
+"last_seen": "2026-11-27"
 },
 {
 "title": "Data Analyst Controlling / BI 32427 Minden",
@@ -1197,7 +2933,7 @@
 "level": "entry",
 "has_jd": true,
 "enriched": 1,
-"last_seen": "2026-11-26"
+"last_seen": "2026-11-27"
 },
 {
 "title": "Data Analyst",
@@ -1225,35 +2961,7 @@
 "level": "entry",
 "has_jd": true,
 "enriched": 1,
-"last_seen": "2026-11-26"
-},
-{
-"title": "Data Analyst",
-"company": "Testbee GmbH",
-"city": "Uttenweiler",
-"region": "Baden-Württemberg",
-"posted": "2026-11-23",
-"remote": false,
-"sources": [
-"arbeitsagentur"
-],
-"links": {
-"arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/19146-100016254420-S"
-},
-"ba_ref": "19146-100016254420-S",
-"categories": [
-"data_analyst"
-],
-"id": "928677ac6102",
-"first_seen": "2026-11-23",
-"last_seen": "2026-11-23",
-"jd_lang": "de",
-"jd_lang_basis": "jd",
-"german": "required",
-"exp_min": null,
-"level": "unknown",
-"has_jd": true,
-"enriched": 1
+"last_seen": "2026-11-27"
 },
 {
 "title": "Senior Data Analyst - Hybrid",
@@ -1281,7 +2989,7 @@
 "level": "senior",
 "has_jd": true,
 "enriched": 1,
-"last_seen": "2026-11-26"
+"last_seen": "2026-11-27"
 },
 {
 "title": "Senior Manager Data Analytics bei der Sparkasse KölnBonn",
@@ -1309,7 +3017,7 @@
 "level": "senior",
 "has_jd": true,
 "enriched": 1,
-"last_seen": "2026-11-26"
+"last_seen": "2026-11-27"
 },
 {
 "title": "Data Engineer , Bonn",
@@ -1337,7 +3045,7 @@
 "level": "unknown",
 "has_jd": true,
 "enriched": 1,
-"last_seen": "2026-11-26"
+"last_seen": "2026-11-27"
 },
 {
 "title": "Data Engineer",
@@ -1419,7 +3127,7 @@
 "level": "associate",
 "has_jd": true,
 "enriched": 1,
-"last_seen": "2026-11-26"
+"last_seen": "2026-11-27"
 },
 {
 "title": "Data & Analytics Engineer im IT-Consulting - Hybrid",
@@ -1448,7 +3156,7 @@
 "level": "unknown",
 "has_jd": true,
 "enriched": 1,
-"last_seen": "2026-11-26"
+"last_seen": "2026-11-27"
 },
 {
 "title": "Senior Data & Analytics Engineer im IT-Consulting - Hybrid",
@@ -1477,7 +3185,7 @@
 "level": "senior",
 "has_jd": true,
 "enriched": 1,
-"last_seen": "2026-11-26"
+"last_seen": "2026-11-27"
 },
 {
 "title": "Senior Data Engineer - Hybrid",
@@ -1505,7 +3213,7 @@
 "level": "senior",
 "has_jd": true,
 "enriched": 1,
-"last_seen": "2026-11-26"
+"last_seen": "2026-11-27"
 },
 {
 "title": "Data Engineer (Databricks, MS Fabric) - Hybrid",
@@ -1533,7 +3241,7 @@
 "level": "unknown",
 "has_jd": true,
 "enriched": 1,
-"last_seen": "2026-11-26"
+"last_seen": "2026-11-27"
 },
 {
 "title": "Lead Forward-Deployed Engineer (BI) - Hybrid",
@@ -1561,7 +3269,7 @@
 "level": "lead",
 "has_jd": true,
 "enriched": 1,
-"last_seen": "2026-11-26"
+"last_seen": "2026-11-27"
 },
 {
 "title": "Senior Data Engineer",
@@ -1616,7 +3324,7 @@
 "level": "entry",
 "has_jd": true,
 "enriched": 1,
-"last_seen": "2026-11-26"
+"last_seen": "2026-11-27"
 },
 {
 "title": "Sales Planning & Reporting AuP",
@@ -1647,33 +3355,6 @@
 "last_seen": "2026-11-24"
 },
 {
-"title": "(Senior) Consultant SAP BI/ Business Intelligence",
-"company": "cbs Corporate Business Solutions GmbH",
-"city": "Heidelberg, Baden-Württemberg, Deutschland",
-"region": "Baden-Württemberg",
-"posted": "2026-11-20",
-"remote": false,
-"sources": [
-"arbeitnow"
-],
-"links": {
-"arbeitnow": "https://www.arbeitnow.com/jobs/companies/cbs-corporate-business-solutions-gmbh/senior-consultant-sap-bi-business-intelligence-heidelberg-69642"
-},
-"categories": [
-"bi"
-],
-"id": "eb9e80ae0493",
-"first_seen": "2026-11-21",
-"jd_lang": "de",
-"jd_lang_basis": "jd",
-"german": "required",
-"exp_min": null,
-"level": "senior",
-"has_jd": true,
-"enriched": 1,
-"last_seen": "2026-11-23"
-},
-{
 "title": "Data Engineer",
 "company": "Agrarmarkt Austria",
 "city": "Wien,Brigittenau",
@@ -1699,7 +3380,7 @@
 "level": "associate",
 "has_jd": true,
 "enriched": 1,
-"last_seen": "2026-11-26"
+"last_seen": "2026-11-27"
 },
 {
 "title": "Senior Data Engineer",
@@ -1727,7 +3408,7 @@
 "level": "senior",
 "has_jd": true,
 "enriched": 1,
-"last_seen": "2026-11-26"
+"last_seen": "2026-11-27"
 },
 {
 "title": "Data Analyst Befristet auf 3 Jahre im Rahmen einer Elternzeitvertretung",
@@ -1755,7 +3436,7 @@
 "level": "associate",
 "has_jd": true,
 "enriched": 1,
-"last_seen": "2026-11-26"
+"last_seen": "2026-11-27"
 },
 {
 "title": "Data Analyst Befristet auf 3 Jahre im Rahmen einer Elternzeitvertretung",
@@ -1783,7 +3464,7 @@
 "level": "associate",
 "has_jd": true,
 "enriched": 1,
-"last_seen": "2026-11-26"
+"last_seen": "2026-11-27"
 },
 {
 "title": "Data Analyst Befristet auf 3 Jahre im Rahmen einer Elternzeitvertretung",
@@ -1811,7 +3492,7 @@
 "level": "associate",
 "has_jd": true,
 "enriched": 1,
-"last_seen": "2026-11-26"
+"last_seen": "2026-11-27"
 },
 {
 "title": "Junior Experte / Referent \"Data Analyst & AI\"",
@@ -1867,7 +3548,7 @@
 "level": "senior",
 "has_jd": true,
 "enriched": 1,
-"last_seen": "2026-11-26"
+"last_seen": "2026-11-27"
 },
 {
 "title": "Inhouse Senior SAP BI Consultant",
@@ -1895,7 +3576,7 @@
 "level": "senior",
 "has_jd": true,
 "enriched": 1,
-"last_seen": "2026-11-26"
+"last_seen": "2026-11-27"
 },
 {
 "title": "NTT DATA Deutschland SE: SAP Data & Analytics (Senior) Consultant",
@@ -1951,7 +3632,7 @@
 "level": "associate",
 "has_jd": true,
 "enriched": 1,
-"last_seen": "2026-11-26"
+"last_seen": "2026-11-27"
 },
 {
 "title": "Data Engineer - Fintech - remote",
@@ -1979,7 +3660,7 @@
 "level": "associate",
 "has_jd": true,
 "enriched": 1,
-"last_seen": "2026-11-26"
+"last_seen": "2026-11-27"
 },
 {
 "title": "Senior BI Engineer",
@@ -2659,13 +4340,13 @@
 "company": "virtual7 GmbH",
 "city": "Karlsruhe, Baden-Württemberg, Deutschland",
 "region": "Baden-Württemberg",
-"posted": "2026-11-22",
+"posted": "2026-11-27",
 "remote": false,
 "sources": [
 "arbeitnow"
 ],
 "links": {
-"arbeitnow": "https://www.arbeitnow.com/jobs/companies/virtual7-gmbh/senior-oracle-data-warehouse-bi-developer-karlsruhe-202180"
+"arbeitnow": "https://www.arbeitnow.com/jobs/companies/virtual7-gmbh/senior-oracle-data-warehouse-bi-developer-karlsruhe-186237"
 },
 "categories": [
 "bi"
@@ -2679,7 +4360,7 @@
 "level": "senior",
 "has_jd": true,
 "enriched": 1,
-"last_seen": "2026-11-25"
+"last_seen": "2026-11-27"
 },
 {
 "title": "Risk Analytics Data Analyst",
@@ -3047,6 +4728,34 @@
 "last_seen": "2026-11-24"
 },
 {
+"title": "(Senior) Entwickler Business Intelligence",
+"company": "MID",
+"city": "Nürnberg, Mittelfranken",
+"region": "Bayern",
+"posted": "2026-11-27",
+"remote": true,
+"sources": [
+"arbeitsagentur"
+],
+"links": {
+"arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/13644-315313-S"
+},
+"ba_ref": "13644-315313-S",
+"categories": [
+"bi"
+],
+"id": "a51b0e12a5e5",
+"first_seen": "2026-11-17",
+"jd_lang": "de",
+"jd_lang_basis": "jd",
+"german": "required",
+"exp_min": 3,
+"level": "senior",
+"has_jd": true,
+"enriched": 1,
+"last_seen": "2026-11-27"
+},
+{
 "title": "Junior Specialist Data Analytics Logistics",
 "company": "Kraftverkehr Nagel SE & Co. KG",
 "city": "Versmold",
@@ -3072,7 +4781,7 @@
 "level": "entry",
 "has_jd": true,
 "enriched": 1,
-"last_seen": "2026-11-26"
+"last_seen": "2026-11-27"
 },
 {
 "title": "AI & Data Engineer",
@@ -3100,7 +4809,7 @@
 "level": "associate",
 "has_jd": true,
 "enriched": 1,
-"last_seen": "2026-11-26"
+"last_seen": "2026-11-27"
 },
 {
 "title": "Data Analyst Robotik / IoT",
@@ -3128,7 +4837,7 @@
 "level": "unknown",
 "has_jd": true,
 "enriched": 1,
-"last_seen": "2026-11-26"
+"last_seen": "2026-11-27"
 },
 {
 "title": "Data Engineer – Schwerpunkt Programmierung & Datenpipelines*",
@@ -3155,7 +4864,7 @@
 "level": "associate",
 "has_jd": true,
 "enriched": 1,
-"last_seen": "2026-11-26"
+"last_seen": "2026-11-27"
 },
 {
 "title": "Data Analyst",
@@ -3434,34 +5143,6 @@
 "german": "required",
 "exp_min": null,
 "level": "unknown",
-"has_jd": true,
-"enriched": 1,
-"last_seen": "2026-11-24"
-},
-{
-"title": "(Senior) Entwickler Business Intelligence",
-"company": "MID",
-"city": "Nürnberg, Mittelfranken",
-"region": "Bayern",
-"posted": "2026-11-17",
-"remote": true,
-"sources": [
-"arbeitsagentur"
-],
-"links": {
-"arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/13644-295742-S"
-},
-"ba_ref": "13644-295742-S",
-"categories": [
-"bi"
-],
-"id": "a51b0e12a5e5",
-"first_seen": "2026-11-17",
-"jd_lang": "de",
-"jd_lang_basis": "jd",
-"german": "required",
-"exp_min": 3,
-"level": "senior",
 "has_jd": true,
 "enriched": 1,
 "last_seen": "2026-11-24"
@@ -4253,343 +5934,6 @@
 "last_seen": "2026-11-24"
 },
 {
-"title": "Business Intelligence Experts",
-"company": "Kaiser Personalberatung GmbH",
-"city": "Hamburg",
-"region": "Hamburg",
-"posted": "2026-11-16",
-"remote": false,
-"sources": [
-"arbeitsagentur"
-],
-"links": {
-"arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-5001657913-S"
-},
-"ba_ref": "12288-5001657913-S",
-"categories": [
-"bi"
-],
-"id": "fc45a793a0de",
-"first_seen": "2026-11-17",
-"jd_lang": "de",
-"jd_lang_basis": "jd",
-"german": "required",
-"exp_min": null,
-"level": "unknown",
-"has_jd": true,
-"enriched": 1,
-"last_seen": "2026-11-23"
-},
-{
-"title": "Data Analyst , Bonn",
-"company": "General-Anzeiger Bonn",
-"city": "Bonn",
-"region": "Nordrhein-Westfalen",
-"posted": "2026-11-16",
-"remote": false,
-"sources": [
-"arbeitsagentur"
-],
-"links": {
-"arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2379482-S"
-},
-"ba_ref": "12811-2379482-S",
-"categories": [
-"data_analyst"
-],
-"id": "d51780966424",
-"first_seen": "2026-11-17",
-"jd_lang": "de",
-"jd_lang_basis": "jd",
-"german": "required",
-"exp_min": null,
-"level": "unknown",
-"has_jd": true,
-"enriched": 1,
-"last_seen": "2026-11-23"
-},
-{
-"title": "IT-Data & Analytics Consultant , Fulda, Löherstraße 52",
-"company": "RhönEnergie Fulda GmbH",
-"city": "Fulda",
-"region": "Hessen",
-"posted": "2026-11-16",
-"remote": false,
-"sources": [
-"arbeitsagentur"
-],
-"links": {
-"arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2379261-S"
-},
-"ba_ref": "12811-2379261-S",
-"categories": [
-"data_analyst"
-],
-"id": "14e5fa39a7b2",
-"first_seen": "2026-11-17",
-"jd_lang": "de",
-"jd_lang_basis": "jd",
-"german": "required",
-"exp_min": 3,
-"level": "associate",
-"has_jd": true,
-"enriched": 1,
-"last_seen": "2026-11-23"
-},
-{
-"title": "Business Analyst Meldewesen Common Reporting",
-"company": "Finanz Informatik GmbH & Co. KG",
-"city": "Münster, Westfalen",
-"region": "Nordrhein-Westfalen",
-"posted": "2026-11-16",
-"remote": false,
-"sources": [
-"arbeitsagentur"
-],
-"links": {
-"arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-5001627774-S"
-},
-"ba_ref": "12288-5001627774-S",
-"categories": [
-"bi"
-],
-"id": "b105449b99e3",
-"first_seen": "2026-11-17",
-"jd_lang": "de",
-"jd_lang_basis": "jd",
-"german": "required",
-"exp_min": 3,
-"level": "associate",
-"has_jd": true,
-"enriched": 1,
-"last_seen": "2026-11-23"
-},
-{
-"title": "HR Data Analyst",
-"company": "HUK-COBURG VVaG",
-"city": "Coburg",
-"region": "Bayern",
-"posted": "2026-11-16",
-"remote": true,
-"sources": [
-"arbeitsagentur"
-],
-"links": {
-"arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1208680983-S"
-},
-"ba_ref": "10000-1208680983-S",
-"categories": [
-"data_analyst"
-],
-"id": "35e5c15c284d",
-"first_seen": "2026-11-16",
-"jd_lang": "de",
-"jd_lang_basis": "jd",
-"german": "required",
-"exp_min": null,
-"level": "unknown",
-"has_jd": true,
-"enriched": 1,
-"last_seen": "2026-11-23"
-},
-{
-"title": "(Senior) Data Engineer",
-"company": "Bruker EAS GmbH",
-"city": "Hanau",
-"region": "Hessen",
-"posted": "2026-11-16",
-"remote": false,
-"sources": [
-"arbeitsagentur"
-],
-"links": {
-"arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1004020720-S"
-},
-"ba_ref": "10001-1004020720-S",
-"categories": [
-"analytics_eng"
-],
-"id": "3bbc440a6d21",
-"first_seen": "2026-11-16",
-"jd_lang": "de",
-"jd_lang_basis": "jd",
-"german": "required",
-"exp_min": 3,
-"level": "senior",
-"has_jd": true,
-"enriched": 1,
-"last_seen": "2026-11-23"
-},
-{
-"title": "Controller - Schwerpunkt Business Intelligence & Automatisierung",
-"company": "Prowind GmbH",
-"city": "Osnabrück",
-"region": "Niedersachsen",
-"posted": "2026-11-16",
-"remote": true,
-"sources": [
-"arbeitsagentur"
-],
-"links": {
-"arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12688-REG-46164-RJA-S"
-},
-"ba_ref": "12688-REG-46164-RJA-S",
-"categories": [
-"bi"
-],
-"id": "50dc99a32016",
-"first_seen": "2026-11-16",
-"jd_lang": "de",
-"jd_lang_basis": "jd",
-"german": "required",
-"exp_min": null,
-"level": "unknown",
-"has_jd": true,
-"enriched": 1,
-"last_seen": "2026-11-23"
-},
-{
-"title": "BE-terna GmbH: Solution Sales Specialist Qlik, Microsoft Data Analytics & AI",
-"company": "BE-terna GmbH",
-"city": "Überlingen, Bodensee",
-"region": "Baden-Württemberg",
-"posted": "2026-11-16",
-"remote": true,
-"sources": [
-"arbeitsagentur"
-],
-"links": {
-"arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/11956-3062801794783601-S"
-},
-"ba_ref": "11956-3062801794783601-S",
-"categories": [
-"bi",
-"data_analyst"
-],
-"id": "a3a421bc3dff",
-"first_seen": "2026-11-16",
-"jd_lang": "de",
-"jd_lang_basis": "jd",
-"german": "required",
-"exp_min": 3,
-"level": "associate",
-"has_jd": true,
-"enriched": 1,
-"last_seen": "2026-11-23"
-},
-{
-"title": "Bereichsassistenz Energiedatenmanagement",
-"company": "E.ON Grid Solutions GmbH",
-"city": "Hamburg",
-"region": "Hamburg",
-"posted": "2026-11-16",
-"remote": false,
-"sources": [
-"arbeitsagentur"
-],
-"links": {
-"arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12728-1131-1-S"
-},
-"ba_ref": "12728-1131-1-S",
-"categories": [
-"energy"
-],
-"id": "6dd1373d3999",
-"first_seen": "2026-11-16",
-"jd_lang": "de",
-"jd_lang_basis": "jd",
-"german": "required",
-"exp_min": 0,
-"level": "entry",
-"has_jd": true,
-"enriched": 1,
-"last_seen": "2026-11-23"
-},
-{
-"title": "Senior Consultant Energiedatenmanagement",
-"company": "INTENSE AG",
-"city": "Würzburg",
-"region": "Bayern",
-"posted": "2026-11-16",
-"remote": false,
-"sources": [
-"arbeitsagentur"
-],
-"links": {
-"arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/13635-71f9a3d4_JB5296702-S"
-},
-"ba_ref": "13635-71f9a3d4_JB5296702-S",
-"categories": [
-"energy"
-],
-"id": "9d667dd37120",
-"first_seen": "2026-11-16",
-"jd_lang": "de",
-"jd_lang_basis": "jd",
-"german": "required",
-"exp_min": 3,
-"level": "senior",
-"has_jd": true,
-"enriched": 1,
-"last_seen": "2026-11-23"
-},
-{
-"title": "Bereichsassistenz Energiedatenmanagement",
-"company": "EON Grid Solutions GmbH",
-"city": "Hamburg",
-"region": "Hamburg",
-"posted": "2026-11-16",
-"remote": false,
-"sources": [
-"arbeitsagentur"
-],
-"links": {
-"arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12951-aefb236e-cc70-41ad--S"
-},
-"ba_ref": "12951-aefb236e-cc70-41ad--S",
-"categories": [
-"energy"
-],
-"id": "e9c5de4fc4cf",
-"first_seen": "2026-11-16",
-"jd_lang": "de",
-"jd_lang_basis": "jd",
-"german": "required",
-"exp_min": 0,
-"level": "entry",
-"has_jd": true,
-"enriched": 1,
-"last_seen": "2026-11-23"
-},
-{
-"title": "759/B - Interner Produktmanager für Reporting-Services",
-"company": "Finanz Informatik GmbH & Co. KG",
-"city": "Hannover",
-"region": "Niedersachsen",
-"posted": "2026-11-16",
-"remote": false,
-"sources": [
-"arbeitsagentur"
-],
-"links": {
-"arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/20079-FQP8nOCv-S"
-},
-"ba_ref": "20079-FQP8nOCv-S",
-"categories": [
-"bi"
-],
-"id": "8e9723070285",
-"first_seen": "2026-11-16",
-"jd_lang": "de",
-"jd_lang_basis": "jd",
-"german": "required",
-"exp_min": 3,
-"level": "associate",
-"has_jd": true,
-"enriched": 1,
-"last_seen": "2026-11-23"
-},
-{
 "title": "Data Engineer",
 "company": "ELA Container GmbH",
 "city": "Haren (Ems)",
@@ -4616,33 +5960,5 @@
 "has_jd": true,
 "enriched": 1,
 "last_seen": "2026-11-24"
-},
-{
-"title": "BI Developer",
-"company": "Deutsche Prüfservice GmbH",
-"city": "Erkrath",
-"region": "Nordrhein-Westfalen",
-"posted": "2026-11-16",
-"remote": false,
-"sources": [
-"arbeitsagentur"
-],
-"links": {
-"arbeitsagentur": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12982-SM-SAM44400206-S"
-},
-"ba_ref": "12982-SM-SAM44400206-S",
-"categories": [
-"bi"
-],
-"id": "b3a1d7c99ea7",
-"first_seen": "2026-10-20",
-"jd_lang": "de",
-"jd_lang_basis": "jd",
-"german": "required",
-"exp_min": 1,
-"level": "entry",
-"has_jd": true,
-"enriched": 1,
-"last_seen": "2026-11-23"
 }
 ]
